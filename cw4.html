@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Assignment #4: Extraction of subject–verb–object triples</title>
+    </head>
+    <body>
+        <!--<h1>Assignment #4: Extraction of subject-verb-object triples</h1>-->
+        <!--<p>Preliminary</p>-->
+        <h2>Objectives</h2>
+        <p>The objectives of this assignment are to:</p>
+        <ul>
+            <li>Extract the subject–verb pairs from a parsed corpus</li>
+            <li>Extend the extraction to subject–verb–object triples</li>
+            <li>Understand how dependency parsing can help create a knowledge base</li>
+            <li>Write a short report of 1 to 2 pages on the assignment</li>
+        </ul>
+        <h2>Organization and location</h2>
+        <p>The fourth lab session will take place on</p>
+        <ul>
+            <li>Group 1: Tuesday, October 2 from 8:15 to 10:00 in the Alpha room</li>
+            <li>Group 2: Tuesday, October 2 from 8:15 to 10:00 in the Beta room</li>
+            <li>Group 3: Tuesday, October 2 from 13:15 to 15:00 in the Beta room</li>
+            <li>Group 4: Tuesday, October 2 from 15:15 to 17:00 in the Beta room</li>
+        </ul>
+        <p>You can work alone or collaborate with another student.</p>
+        <p>Each group will have to:</p>
+        <ul>
+            <li>Extract all the subject–verb pairs and subject–verb–object triples from a parsed corpus</li>
+            <li>Rank the pairs and triples by frequency</li>
+            <li>Optionally, create a simple coreference solver for the Swedish <i>som</i> ‘who’ pronoun
+            </li>
+        </ul>
+        <h2>Programming</h2>
+        <p>This assignment is inspired by the Prismatic knowledge base used in the IBM Watson system. See <a
+                href="http://www.aclweb.org/anthology/W/W10/W10-0915.pdf">this paper
+        </a> for details.
+        </p>
+        <p>In this session, you will first use a parsed corpus of Swedish to extract the pairs and triples, and then
+            apply it to other languages.
+        </p>
+        <h3>Choosing a parsed corpus</h3>
+        <ol>
+            <li>In this part, you will use the CONLL-X Swedish corpus. Download the tar archives containing the training
+                and test sets for Swedish and uncompress them: [<a href="http://ilk.uvt.nl/conll/free_data.html">data
+                    sets</a>]. Local copies: [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conllx/sv/swedish_talbanken05_train.conll">
+                    training set</a>] [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conllx/sv/swedish_talbanken05_test_blind.conll">
+                    test set</a>] [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conllx/sv/swedish_talbanken05_test.conll">
+                    test set with answers</a>]. You will use the training set only.
+            </li>
+            <li>Draw a graphical representation of the two first sentences of the training set.</li>
+            <li>Download <a href="http://code.google.com/p/whatswrong/">What's wrong with my NLP</a> and use it to check
+                your representations.
+            </li>
+            <li>Apply the dependency parser for Swedish of the <a href="http://vilde.cs.lth.se:9000/">Langforia
+                pipelines
+            </a> to these sentences. Link to Lanforia pipelines:
+                <a href="http://vilde.cs.lth.se:9000/">http://vilde.cs.lth.se:9000/</a>
+            </li>
+        </ol>
+        <h3>Extracting the subject–verb pairs and subject–verb–object triples</h3>
+        <p>You will extract all the subject–verb pairs and the subject–verb–object
+            triples from the training corpus. To start the program,
+            you can use the CoNLL-X reader available <a
+                    href="https://raw.githubusercontent.com/pnugues/ilppp/master/programs/labs/relation_extraction/python/conll.py">
+                here</a>.
+            This program will enable you to read the other corpora.
+            You can also program a reader yourself starting from the one you used to read the
+            CoNLL 2000 format in
+            the third lab or from scratch. You will
+            find the description of the CoNLL-X format [<a href="http://ilk.uvt.nl/conll/#dataformat">here</a>]. Archive
+            <a href="https://web.archive.org/web/20161105025307/http://ilk.uvt.nl/conll/">here</a>.
+        </p>
+        <p>You can design the program as you want. However, here are some hints on the results:
+        </p>
+        <ul>
+            <li>You will need to use Python's dictionaries. Be sure you understand them and note that you can use tuples
+                as keys.
+            </li>
+            <li>Extract all the subject-verb pairs in the corpus. The subject function uses the <tt>SS</tt> code in the
+                Swedish corpus of CoNLL-X. In the extraction, do not check the part of speech of the verb in the pair.
+            </li>
+            <li>Compute the total number of pairs. You should find 18885 pairs.
+            </li>
+            <li>Sort your pairs by order of frequency and give the five most frequent pairs. Here are the frequencies
+                you should find:
+                <pre>
+                    537
+                    261
+                    211
+                    171
+                    161
+                </pre>
+            </li>
+            <li>Extract all the subject–verb–object triples of the corpus. The object function uses the <tt>OO</tt> code.
+                Compute the total number of triples. You should find 5844 triples.
+            </li>
+            <li>Sort your triples by order of frequency and give the five most frequent pairs. Here are the frequencies
+                you should find:
+                <pre>
+                    37
+                    36
+                    36
+                    19
+                    17
+                </pre>
+            </li>
+        </ul>
+        <h3>Multilingual Corpora</h3>
+        <p>Once your program is working on Swedish, you will apply it to all the other languages
+            from this repository: <a href="http://universaldependencies.org/">Universal Dependencies</a>.
+            The address to download the corpora is <a
+                    href="http://hdl.handle.net/11234/1-1983">here</a>.
+            You have a local version in the <tt>/usr/local/cs/EDAN20/</tt> folder.
+            You can read the training files from the folder using the CoNLL reader provided for the first part.
+            You will need to adapt your program to CoNLL-U. See <a href="http://universaldependencies.org/format.html">
+                here</a>.
+        </p>
+        <p>Here are suggestions to carry out this task:</p>
+        <ol>
+            <li>Some corpora expand some tokens into multiwords. This is the case in French, Spanish, and German.
+                The table below shows examples of such expansions.
+                <table style="width:100%">
+                    <tr>
+                        <th>French</th>
+                        <th>Spanish</th>
+                        <th>German</th>
+                    </tr>
+                    <tr>
+                        <td><i>du</i>: de le
+                        </td>
+                        <td><i>del</i>: de el
+                        </td>
+                        <td><i>zur</i>: zu der
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i>des</i>: de les
+                        </td>
+                        <td><i>vámonos</i>: vamos nos
+                        </td>
+                        <td><i>im</i>: in dem
+                        </td>
+                    </tr>
+                </table>
+                In the corpora, you have the original tokens as well as the multiwords as with <i>vámonos al mar</i>.
+                <pre>
+                    1-2 vámonos _
+                    1 vamos ir
+                    2 nos nosotros
+                    3-4 al _
+                    3 a a
+                    4 el el
+                    5 mar mar
+                </pre>Read the format description for the details: [<a
+                        href="http://universaldependencies.org/format.html">CoNLL-U format</a>].
+            </li>
+            <li>If you represent the sentences as lists, the item indexes are not reliable: In the format description,
+                the token at position 1 is <i>vamos</i> and not <i>vámonos</i>.
+                You have two ways to cope with this:
+                <ul>
+                    <li>Either remove all the lines that include a range in the id field.</li>
+                    <li>or encode the sentences as dictionaries (preferable), where the keys are the id numbers. Here
+                        are the results for the second sentence of the Swedish CoNLL X corpus:
+                        <pre>
+{'5': {'pdeprel': '_', 'lemma': '_', 'postag': 'NN', 'phead': '_', 'feats': '_', 'form':
+'dagens', 'id': '5', 'deprel': 'DT', 'cpostag': 'NN', 'head': '6'},
+'7': {'pdeprel': '_', 'lemma': '_', 'postag': 'IP', 'phead': '_', 'feats': '_', 'form': '.',
+'id': '7', 'deprel': 'IP', 'cpostag': 'IP', 'head': '1'},
+'3': {'pdeprel': '_', 'lemma': '_', 'postag': 'TP', 'phead': '_', 'feats': '_', 'form':
+'berättigad', 'id': '3', 'deprel': 'SP', 'cpostag': 'TP', 'head': '1'},
+'1': {'pdeprel': '_', 'lemma': '_', 'postag': 'AV', 'phead': '_', 'feats': '_', 'form':
+'Är', 'id': '1', 'deprel': 'ROOT', 'cpostag': 'AV', 'head': '0'},
+'6': {'pdeprel': '_', 'lemma': '_', 'postag': 'NN', 'phead': '_', 'feats': '_', 'form':
+'samhälle', 'id': '6', 'deprel': 'PA', 'cpostag': 'NN', 'head': '4'},
+'2': {'pdeprel': '_', 'lemma': '_', 'postag': 'PO', 'phead': '_', 'feats': '_', 'form':
+'den', 'id': '2', 'deprel': 'SS', 'cpostag': 'PO', 'head': '1'},
+'0': {'pdeprel': 'ROOT', 'lemma': 'ROOT', 'postag': 'ROOT', 'phead': '0', 'feats': 'ROOT',
+'form': 'ROOT', 'id': '0', 'deprel': 'ROOT', 'cpostag': 'ROOT', 'head': '0'},
+ '4': {'pdeprel': '_', 'lemma': '_', 'postag': 'PR', 'phead': '_', 'feats': '_', 'form': 'i',
+'id': '4', 'deprel': 'RA', 'cpostag': 'PR', 'head': '1'}}
+                        </pre>
+                    </li>
+                </ul>
+            </li>
+            <li>Some corpora have sentence numbers. Here you solve it by discarding lines starting with a <tt>#</tt>.
+                This is already done in the CoNLL reader.
+            </li>
+            <li>All the corpora in the universal dependencies format use the same function names: <tt>nsubj</tt> and <tt>
+                obj
+            </tt> for the subject and direct object.
+            </li>
+            <li>Run your extractor on all the corpora and report the five most frequent pairs and triples you obtained in three languages. Preferably, languages
+                you can decipher so that you can check the tuples are relevant.
+                Otherwise, use Google Translate.
+            </li>
+        </ol>
+        <h3>Solving coreferences (Optional)</h3>
+        <p>In this part, you will resolve a simple anaphor involving the Swedish <i>som</i> ‘who’ pronoun.
+        </p>
+        <ul>
+            <li>Use <i>What's wrong with my NLP</i> to derive a simple rule to find the antecedent of
+                <i>som</i>
+            </li>
+            <li>Replace all the occurrences of <i>som</i> as a subject with its antecedent in your pairs and triples.
+            </li>
+        </ul>
+    </body>
+</html>
