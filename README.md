@@ -1,7 +1,7 @@
 # Welcome to the Class on Language Technology, EDAN20
 
 ## Coursework
-- Laboratory 0
+- [Laboratory 0](https://pnugues.github.io/edan20/cw0.xml)
 - [Laboratory 4](https://pnugues.github.io/edan20/cw4.html)
 
 You can use the [editor on GitHub](https://github.com/pnugues/edan20.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
