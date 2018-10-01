@@ -789,7 +789,7 @@
                     <li><a href="http://www.opencalais.com/">Calais</a>, an information extraction system
                     </li>
                     <li>Visualizing and monitoring events and disasters on a map at <a
-                            href="http://emm.newsbrief.eu/emmMap/?type=event&language=all">EMM labs</a>,
+                            href="http://emm.newsbrief.eu/emmMap/?type=event&amp;language=all">EMM labs</a>,
                         part of the Europe media monitor.
                         The information extraction part of the <a
                                 href="http://emm.newsbrief.eu/NewsBrief/eventedition/en/latest_en.html">event
