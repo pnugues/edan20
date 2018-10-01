@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Assignment #6: Dependency parsing using machine learning techniques</title>
+    </head>
+    <body>
+        <h1>Assignment #6: Dependency parsing using machine learning techniques</h1>
+        <h2>Objectives</h2>
+        <p>The objectives of this assignment are to:</p>
+        <ul>
+            <li>Extract feature vectors and train a classifier</li>
+            <li>Write a statistical dependency parser</li>
+            <li>Understand how to design parameter sets</li>
+            <li>Write a short report on your results</li>
+        </ul>
+        <h2>Organization and location</h2>
+        <p>The sixth lab session will take place on</p>
+        <ul>
+            <li>Group 1: Tuesday, October 16 from 8:15 to 10:00 in the Alpha room</li>
+            <li>Group 2: Tuesday, October 16 from 8:15 to 10:00 in the Beta room</li>
+            <li>Group 3: Tuesday, October 16 from 13:15 to 15:00 in the Beta room</li>
+            <li>Group 4: Tuesday, October 16 from 15:15 to 17:00 in the Beta room</li>
+        </ul>
+        <p>You can work alone or collaborate with another student.</p>
+        <p>Each group will have to:</p>
+        <ul>
+            <li>Write and train a machine learning program to parse dependencies</li>
+            <li>Use different parameter sets</li>
+            <li>Evaluate the results on a corpus and comment them briefly</li>
+        </ul>
+        <h2>Programming</h2>
+        <p>This assignment is inspired by the shared task of the Tenth conference
+            on computational natural language learning,
+            <a href="http://ilk.uvt.nl/conll/">CONLL-X</a>, and uses
+            similar data. The conference site contains a description of
+            multilingual dependency parsing, reference papers,
+            training and test sets for a variety of
+            languages, as well as evaluation programs. See also
+            <a href="http://depparse.uvt.nl/SharedTaskWebsite.html">CONLL 2007</a>,
+            on the same topic.
+        </p>
+        <p>Please note that the original CoNLL-X site is down. To access the pages, use the Archive.org site:
+            <a href="https://web.archive.org/web/20161105025307/http://ilk.uvt.nl/conll/">
+                https://web.archive.org/web/20161105025307/http://ilk.uvt.nl/conll/
+            </a>
+            and to download the data sets, use the local copies.
+        </p>
+        <p>In this session, you will implement and test a dependency parser for
+            Swedish using machine learning
+            techniques.
+        </p>
+        <h3>Choosing a training and a test sets</h3>
+        <ol>
+            <li>The CONLL-X annotated corpora and annotation scheme are available <a
+                    href="http://ilk.uvt.nl/conll/post_task_data.html">here</a>. The Swedish corpus called
+                <i>Talbanken</i>
+                was originally collected and annotated in Lund and modified by Joakim Nivre. Read details on the corpus
+                and references <a href="http://w3.msi.vxu.se/~nivre/research/talbanken.html">here</a>.
+            </li>
+            <li>In this assignment, you will use the CONLL-X Swedish corpus. Download the tar archives containing the
+                training and test sets for Swedish and uncompress them: [<a
+                        href="http://ilk.uvt.nl/conll/free_data.html">data sets</a>]. Local copies: [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conllx/sv/swedish_talbanken05_train.conll">
+                    training set</a>] [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conllx/sv/swedish_talbanken05_test_blind.conll">
+                    test set</a>] [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conllx/sv/swedish_talbanken05_test.conll">
+                    test set with answers</a>].
+            </li>
+        </ol>
+        <h3>Training the classifiers</h3>
+        <p>If you have not done it in the previous assignment, for each
+            data set you have generated, fit a corresponding model
+            using logistic regression (or another classifier if you want)
+            and save it.
+        </p>
+        <h3>Parsing the corpus and evaluating the results</h3>
+        <p>Once you have generated your models, you will embed them in Nivre's
+            parser and compute their respective
+            efficiencies.
+        </p>
+        <p>Your parser will proceed, sentence by sentence, and word by word.
+            For a certain state, it will
+            predict the next action using your classifier. You will then execute the
+            corresponding action: la, ra, re, or sh. If an action is not possible, you
+            will carry out a shift.
+        </p>
+        <p>You are free to implement it the way you want. Here are some suggestions:</p>
+        <ul>
+            <li>
+                The loop will basically have this structure:
+                <pre>
+while queue:
+    features.extract()
+    trans_nr = classifier.predict()
+    stack, queue, graph, trans = parse_ml(stack, queue, graph, trans)
+                </pre>
+            </li>
+            <li>The parsing function, <tt>parse_ml()</tt>, takes the
+                the stack, queue, graph, and the transition predicted by the classifier,
+                and carries out the transition. You can use this model and complete it:
+                <pre>
+def parse_ml(stack, queue, graph, trans):
+    if stack and trans[:2] == 'ra':
+        stack, queue, graph = transition.right_arc(stack, queue, graph, trans[3:])
+        return stack, queue, graph, 'ra'
+    ...
+                </pre>
+                where <tt>trans</tt> is either <tt>ra.deprel</tt>, <tt>la.deprel</tt>,
+                <tt>re</tt>, or <tt>sh</tt>.
+            </li>
+            <li>
+                You will then use the partial <tt>graph</tt> to write the values of the heads and
+                functions to the words.
+            </li>
+            <li>Finally, you will save the sentences in an output file.</li>
+            <li>Once you have parsed the test set, you will measure the accuracy of your parser using the CoNLL
+                evaluation script [<a href="http://ilk.uvt.nl/conll/software.html#eval">3</a>]. Local copy: [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conllx/eval.txt">eval.pl</a>]. You
+                will run this script using the command:<tt>perl eval.pl -g gold_standard_file -s system_output -q</tt>,
+                where
+                <tt>-q</tt>
+                stands for quiet.
+            </li>
+            <li>
+                You will run the parser with the three feature sets described
+                in the fifth assignment to carry out a
+                labelled dependency parsing.
+            </li>
+            <li>
+                You need to reach a labelled attachment score of 75 to pass this lab.
+            </li>
+        </ul>
+        <h2>Complement (Optional)</h2>
+        <p>Read the text
+            <i>Labeled Pseudo-Projective Dependency Parsing with Support Vector Machines</i>
+            by Joakim Nivre et al. (2006) [<a href="http://w3.msi.vxu.se/~nivre/papers/malt_shared.pdf">pdf</a>]. Read
+            the slides
+            <a href="http://ilk.uvt.nl/conll/slides/Nivre.pdf">here</a>.
+        </p>
+    </body>
+</html>
