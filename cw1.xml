@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Assignment #1: Building an Inverted Index</title>
+    </head>
+    <body>
+        <h1>Assignment #1: Building an Inverted Index</h1>
+        <h2>Objectives</h2>
+        <p>The objectives of this assignment are to:</p>
+        <ul>
+            <li>Write a program that collects all the words from a set of documents</li>
+            <li>Build an index from the words</li>
+            <li>Know what indexing is</li>
+            <li>Represent a document using the Tf.Idf value</li>
+            <li>Write a short report of 1 to 2 pages on the assignment</li>
+            <li>Read a short text on an industrial system</li>
+        </ul>
+
+        <h2>Organization and location</h2>
+        <p>The second lab session will take place on</p>
+        <ul>
+            <li>Group 1: Tuesday, September 11 from 8:15 to 10:00 in the Alpha room</li>
+            <li>Group 2: Tuesday, September 11 from 8:15 to 10:00 in the Beta room</li>
+            <li>Group 3: Tuesday, September 11 from 13:15 to 15:00 in the Beta room</li>
+            <li>Group 4: Tuesday, September 11 from 15:15 to 17:00 in the Falk room</li>
+        </ul>
+        <p>There can be last minute changes. Please always check the official times here:
+            <a href="https://cloud.timeedit.net/lu/web/lth1/ri13Q603200037QQ53ZZ555004yYW37776765604Q551.html">
+                https://se.timeedit.net/web/lu/db1/lth1/
+            </a>
+        </p>
+        <p>You can work alone or collaborate with another student.</p>
+        <p>Each group will have to:</p>
+        <ul>
+            <li>Write a Python program.</li>
+            <li>Check the results and comment them briefly</li>
+        </ul>
+        <h2>Preparation</h2>
+        <ol>
+            <li>Download the <a href="https://github.com/pnugues/ilppp/raw/master/programs/corpus/Selma.zip">Selma
+                folder
+            </a> and uncompress it. It contains novels by <a href="https://sv.wikipedia.org/wiki/Selma_Lagerl%C3%B6f">
+                Selma Lagerlöf</a>.
+            </li>
+            <li>Read the description of the tf-idf measure on Wikipedia
+                (<a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">https://en.wikipedia.org/wiki/Tf-idf</a>).
+            </li>
+        </ol>
+
+        <h2>Programming the Indexer</h2>
+        <p>Your program will take a corpus as input (here the Selma novels) and
+            produce an index of all the words with their positions. you should be able to run it this way:
+        </p>
+        <pre>$ python indexer.py folder_name</pre>
+        <p>Conceptually, the index will consist of rows with one word per row and
+            and the list of files and positions, where this word occurs. Such a row is
+            called a posting list.
+            You will encode the position of a word by the number of characters from the start of the file.
+        </p>
+        <pre>
+            word1: file_name pos1 pos2 pos3... file_name pos1 pos2 ...
+            word2: file_name pos1 pos2 pos3... file_name pos1 pos2 ...
+            ...
+        </pre>
+        <p>To make programming easier, you will split this exercise into three steps and you will use
+            dictionaries to represent the postings.
+        </p>
+        <h3>Indexing one file</h3>
+        <p>Write a program that reads one document <tt>file_name.txt</tt> and outputs an index file:
+            <tt>file_name.idx</tt>:
+        </p>
+        <ol>
+            <li>The index file will contain all the unique words in the document,
+                where each word is associated with the list of its positions in the document.
+            </li>
+            <li>You will represent this index as a dictionary where the keys will be the words and
+                the values, the lists of positions
+            </li>
+            <li>As words, you will consider all the strings of letters that you will set in lower case.
+                You will not index the rest (i.e. numbers or symbols).
+            </li>
+            <li>The word positions will correspond to the number of characters from the beginning of the file.
+                (The word offset from the beginning)
+            </li>
+            <li>You will use <tt>finditer()</tt> to find the positions of the words.
+                This will return you match objects,
+                where you will get the matches and the positions with
+                the <tt>group()</tt> and <tt>start()</tt> methods.
+            </li>
+            <li>You will use the pickle package to write your dictionary in an file,
+                see <a href="https://wiki.python.org/moin/UsingPickle">https://wiki.python.org/moin/UsingPickle</a>.
+            </li>
+        </ol>
+        <p>Below is an excerpt of the index of the bannlyst text for the words <i>gjord</i>, <i>uppklarnande</i>, and
+            <i>stjärnor</i>. The data is stored in a dictionary:
+        </p>
+        <pre>
+            {...
+            'gjord': [8551, 183692, 220875],
+            'uppklarnande': [8567],
+            'stjärnor': [8590], ...
+            }
+        </pre>
+        <p>The word <i>gjord</i> occurs three times in the text at positions 8551, 183692, and 220875, <i>uppklarnande</i>, once at
+            position 8567, and <i>stjärnor</i>, once at position 8590.
+        </p>
+        <h3>Reading the content of a folder</h3>
+        <p>Write a function that reads all the files in a folder with a specific suffix (txt). You will need the Python
+            os package,
+            see <a href="https://docs.python.org/3/library/os.html">https://docs.python.org/3/library/os.html</a>. You
+            will return the file names in a list.
+        </p>
+        <p>You can reuse this function:</p>
+        <pre>
+            def get_files(dir, suffix):
+            """
+            Returns all the files in a folder ending with suffix
+            :param dir:
+            :param suffix:
+            :return: the list of file names
+            """
+            files = []
+            for file in os.listdir(dir):
+            if file.endswith(suffix):
+            files.append(file)
+            return files
+        </pre>
+
+        <h3>Creating a master index</h3>
+        <p>Complete your program with the creation of master index, where you will associate each word
+            of the corpus with the files, where it occur and its positions. (a posting list)
+        </p>
+        <p>Below is an except of the master index with the words <i>samlar</i> and <i>ände</i>:
+        </p>
+        <pre>
+            'samlar':
+            {'nils.txt': [53499, 120336],
+            'gosta.txt': [317119, 414300, 543686],
+            'osynliga.txt': [410995, 871322]},
+            'ände':
+            {'nils.txt': [3991],
+            'kejsaren.txt': [51100],
+            'marbacka.txt': [374231],
+            'troll.txt': [39726],
+            'osynliga.txt': [742747]},
+        </pre>
+        <p>The word <i>samlar</i>, for instance, occurs three times in the gosta text at positions 317119, 414300, and
+            543686.
+        </p>
+
+        <h2>Representing Documents with tf-idf</h2>
+        <p>Once you have created the index, you will represent each document in your corpus as a word vector.
+            You will define the value of a word in a document with the tf-idf
+            metric. Tf will be the relative frequency of the term in the document and idf, the logarithm base 10 of the
+            inverse document
+            frequency.
+        </p>
+        <p>You have below the tf-idf values for a few words. In our example, the word <i>gås</i> has the value
+            0 in bannlyst.txt and the value 0.000101237 in nils.txt
+        </p>
+        <pre>
+            bannlyst.txt
+            känna 0.0
+            gås 0.0
+            nils 0.0
+            et 6.2846093167673765e-06
+            gosta.txt
+            känna 0.0
+            gås 0.0
+            nils 0.0
+            et 0.0
+            herrgard.txt
+            känna 0.0
+            gås 0.0
+            nils 0.0
+            et 0.0
+            jerusalem.txt
+            känna 0.0
+            gås 0.0
+            nils 4.778415355159037e-06
+            et 0.0
+            nils.txt
+            känna 0.0
+            gås 0.00010123719421964931
+            nils 9.801209641132888e-05
+            et 0.0
+        </pre>
+        <h2>Comparing Documents</h2>
+        <p>Using the cosine similarity, compare all the pairs of documents with their tfidf representation and present
+            your results in a matrix.
+        </p>
+        <p>What are the two novels that are the most similar?</p>
+        <h2>Complement</h2>
+        <p>Read the text
+            <i>Challenges in Building Large-Scale Information Retrieval Systems</i>
+            about the history of
+            <a href="https://research.google.com/people/jeff/WSDM09-keynote.pdf">Google indexing</a>
+            by
+            <a href="https://research.google.com/pubs/jeff.html">Jeff Dean</a>.
+            In your report, tell how your index encoding is related to what Google did.
+        </p>
+    </body>
+</html>
