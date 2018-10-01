@@ -1,5 +1,8 @@
 # Welcome to the Class on Language Technology, EDAN20
 
+## Lectures
+-[Detailed content and slides](https://pnugues.github.io/edan20/lectures.xml)
+
 ## Coursework
 - [Laboratory 0](https://pnugues.github.io/edan20/cw0.xml)
 - [Laboratory 1](https://pnugues.github.io/edan20/cw1.xml)
