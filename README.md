@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/pnugues/edan20.github.io/e
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-Test: [CW4](https://github.com/pnugues/edan20.github.io/edit/master/cw4.html).
+Test: [CW4](https://pnugues.github.io/edan20/cw4.html).
 
 ### Markdown
 
