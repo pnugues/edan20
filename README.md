@@ -7,7 +7,7 @@
 - [Laboratory 3](https://pnugues.github.io/edan20/cw3.xml)
 - [Laboratory 4](https://pnugues.github.io/edan20/cw4.xml)
 - [Laboratory 5](https://pnugues.github.io/edan20/cw5.xml)
-- [Laboratory 6](https://pnugues.github.io/edan20/cw6.html)
+- [Laboratory 6](https://pnugues.github.io/edan20/cw6.xml)
 
 You can use the [editor on GitHub](https://github.com/pnugues/edan20.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
