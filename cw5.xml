@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Assignment #5: Dependency parsing</title>
+    </head>
+    <body>
+        <h1>Assignment #5: Dependency parsing</h1>
+        <h2>Objectives</h2>
+        <p>The objectives of this assignment are to:</p>
+        <ul>
+            <li>Know what a dependency graph is</li>
+            <li>Understand the principles of Nivre's parsing mechanisms</li>
+            <li>Extend Nivre's parser with a guiding predicate that parses an annotated dependency graph</li>
+            <li>Extract features to learn parsing actions from an annotated corpus</li>
+            <li>Write a short report on your results</li>
+            <li>In this assignment, you will only generate the machine-learning models from the extracted features. You
+                will
+                complete the parser and apply it in the next assignment.
+            </li>
+        </ul>
+        <h2>Organization and location</h2>
+        <p>The fifth lab session will take place on</p>
+        <ul>
+            <li>Group 1: Tuesday, October 9 from 8:15 to 10:00 in the Alpha room</li>
+            <li>Group 2: Tuesday, October 9 from 8:15 to 10:00 in the Beta room</li>
+            <li>Group 3: Tuesday, October 9 from 13:15 to 15:00 in the Beta room</li>
+            <li>Group 4: Tuesday, October 9 from 15:15 to 17:00 in the Beta room</li>
+        </ul>
+        <p>You can work alone or collaborate with another student.</p>
+        <p>Each group will have to:</p>
+        <ul>
+            <li>Write a program that parses a sentence when the dependency graph is known</li>
+            <li>Extract features from the parsing actions.</li>
+        </ul>
+        <h2>Programming</h2>
+        <p>This assignment is inspired by the shared task of the Tenth conference on computational natural language
+            learning,<a href="http://ilk.uvt.nl/conll/">CONLL-X</a>, and uses a subset of their data. The conference
+            site contains a description of multilingual dependency parsing, reference papers, training and test sets for
+            a variety of languages, as well as evaluation programs. See also <a
+                    href="http://depparse.uvt.nl/SharedTaskWebsite.html">CONLL 2007</a>, on the same topic.
+        </p>
+        <p>Please note that the original CoNLL-X site is down. To access the pages, use the Archive.org site:
+            <a href="https://web.archive.org/web/20161105025307/http://ilk.uvt.nl/conll/">
+                https://web.archive.org/web/20161105025307/http://ilk.uvt.nl/conll/
+            </a>
+            and to download the data sets, use the local copies.
+        </p>
+        <p>In this session, you will implement a dependency parser for Swedish. Should you want to use another corpus,
+            please tell me in advance.
+        </p>
+        <h3>Choosing a training and a test sets</h3>
+        <p>The CONLL-X annotated corpora and annotation scheme are available <a
+                href="http://ilk.uvt.nl/conll/post_task_data.html">here</a>. The Swedish corpus called
+            <i>Talbanken</i>
+            was originally collected and annotated in Lund and modified by Joakim Nivre. You can read details on the
+            corpus and references <a href="http://stp.ling.uu.se/~nivre/swedish_treebank/">here</a>.
+        </p>
+        <ol>
+            <li>In this assignment, you will use the CONLL-X Swedish corpus. Download the tar archives containing the
+                training and test sets for Swedish and uncompress them: [<a
+                        href="http://ilk.uvt.nl/conll/free_data.html">data sets</a>]. Local copies: [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conllx/sv/swedish_talbanken05_train.conll">
+                    training set</a>] [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conllx/sv/swedish_talbanken05_test_blind.conll">
+                    test set</a>] [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conllx/sv/swedish_talbanken05_test.conll">
+                    test set with answers</a>].
+            </li>
+        </ol>
+        <h3>Nivre's parser</h3>
+        <p>For each sentence with a projective dependency graph, there is an
+            action sequence that enables Nivre's parser
+            to generate this graph. Gold standard parsing corresponds to the
+            sequence of parsing actions,
+            left-arc (<tt>la</tt>), right-arc (<tt>ra</tt>), shift (<tt>sh</tt>),
+            and reduce (<tt>re</tt>) that produces the
+            manually-obtained, gold standard, graph.
+        </p>
+        <p>Using an annotated corpus, we can derive all the action sequences producing
+            the manually-parsed sentences (provided that they are projective).
+            We can then train a classifier to
+            predict an action from a current parsing context.
+            To be able to predict the next action from a given parsing state,
+            gold standard parsing must also
+            extract feature vectors at each step of the parsing procedure.
+            The simplest parsing context corresponds to
+            words' part of speech on the top of the stack and head of the input list (the queue).
+        </p>
+        <p>Once the data collected, the training procedure will produce a 4-class classifier that you will embed in
+            Nivre's parser to choose the next action. During parsing, Nivre's parser will call the classifier to choose
+            the next action in the set {<tt>la</tt>, <tt>ra</tt>, <tt>sh</tt>, <tt>re</tt>} using the current context.
+        </p>
+        <ol>
+            <li>Run the <tt>dparser.py</tt> program [<a
+                    href="https://github.com/pnugues/ilppp/tree/master/programs/ch13/python">
+                1</a>]. You will have to edit the data paths
+                so that they fit your configurations.
+            </li>
+            <li>Understand from the slides and the program how
+                Nivre's parser is extended to carry out a gold standard parsing.
+                Given a manually-annotated
+                dependency graph, what are the conditions on the stack and the
+                current input list -- the queue -- to
+                execute left-arc, right-arc, shift, or reduce? Start with left-arc
+                and right-arc, which are the simplest ones.
+            </li>
+            <li>The parser can only deal with projective sentences. In the case of a nonprojective
+                one, the parsed graph and the manually-annotated sentence are
+                not equal. Examine one such sentence and explain why it is not
+                projective. Take a short one (the shortest).
+            </li>
+            <li>You will use three feature sets to build your models:
+                <ul>
+                    <li>The top of the stack and the first word of the input list (word forms and parts of speech);</li>
+                    <li>The two first words and POS on the top of the stack and
+                        the two first words and POS of the input list;
+                    </li>
+                    <li>A feature vector that you will design that will extend
+                        the previous one with at least two
+                        features. You can read
+                        <a href="http://www.aclweb.org/anthology/C/C10/C10-1093.pdf">this paper</a>
+                        (Table 6) to build your vector. In this paper, Sect. 4 contains the description of the
+                        feature codes: LEX, POS, fw, etc.
+                    </li>
+                </ul>
+            </li>
+            <li>Nivre's parser sets constraints to actions. Name a way to encode these constraints as features. Think of
+                Boolean features.
+            </li>
+        </ol>
+        <h3>Parsing functions</h3>
+        <p>
+            Using the actions in the set {<tt>la</tt>, <tt>ra</tt>, <tt>sh</tt>, <tt>re</tt>} produces an unlabelled
+            graph. It is easy to extend the parser so that it can label the graph with grammatical functions. In this
+            case, we must complement the actions
+            <tt>la</tt>
+            and
+            <tt>ra</tt>
+            with their function using this notation for example:<tt>la.++</tt>, <tt>la.+A</tt>, <tt>la.+F</tt>,
+            <tt>la.AA</tt>, <tt>la.AG</tt>, etc. where the prefix is the action and the suffix is the function.
+        </p>
+        <!--<p>Modify the program so that it produces a sequence of actions only (without the functions).</p>-->
+        <!--<p>Read the complete list of actions extracted from the Swedish corpus in CoNLL-X <a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conllx/sv/domain_functions.arff">here</a>.
+        </p>-->
+        <h3>Extracting features (I)</h3>
+        <p>The final goal is to parse the Swedish corpus in CoNLL-X and produce
+            a labelled dependency
+            graph. You will show the parsing results at the end of the 6th assignment.
+            In this assignment, you will only
+            generate the scikit-learn models.
+        </p>
+        <p>You will consider three feature sets and you will train the
+            corresponding logistic regression models
+            using scikit-learn:
+        </p>
+        <ol>
+            <li>The first set will use the word and the part of speech extracted from the
+                first element in the stack and the first in the queue,
+            </li>
+            <li>the second one will use two elements from the stack and two from
+                the input list.
+            </li>
+            <li>For the third model, you will extract at least two more features, one of them being the part of speech
+                and the word form of the word following the top of the stack in the sentence order.
+            </li>
+        </ol>
+        <p>These sets will include two additional Boolean parameters,
+            "can do left arc" and "can do reduce", which will
+            model constraints on the parser's actions. In total,
+            the feature sets will then have six, respectively ten
+            and 14, parameters.
+        </p>
+        <p>This means that the purpose of this assignment is to generate three
+            scikit-learn models for the labelled graphs.
+        </p>
+        <p>To carry this out:</p>
+        <ol>
+            <li>Create a Python module (program) named <tt>features.py</tt> with a
+                <pre>
+def extract(stack, queue, graph, feature_names, sentence):
+    ...
+    return features
+                </pre>
+                function that will return the features in a dictionary format compatible with
+                scikit-learn. You have a code example of feature encoding in this format
+                in the chunking program.
+            </li>
+            <li>
+                Parse the annotated corpus using the reference parser and collect the
+                features in a matrix (X) and the transitions in a vector (y).
+            </li>
+            <li>Generate the three scikit-learn models using the code models from the chunking labs.
+                You will evaluate the model
+                accuracies (not the parsing accuracy) using the classification report produced by
+                scikit-learn and the correctly classified instances
+            </li>
+        </ol>
+        <p>The first lines of your features for the 4 parameters (<b>x</b>) and labelled
+            actions (y) should look like the excerpt below, where the columns correspond to
+            stack0_POS, stack1_POS, stack0_word, stack1_word,
+            queue0_POS, queue1_POS, queue0_word, queue1_word, can-re, can-la, and the transition value:
+        </p>
+        <pre>
+x = ['nil', 'nil', 'nil', 'nil', 'ROOT', 'NN', 'ROOT', 'Äktenskapet', False, False], y = sh
+x = ['ROOT', 'nil', 'ROOT', 'nil', 'NN', '++', 'Äktenskapet', 'och', True, False], y = sh
+x = ['NN', 'ROOT', 'Äktenskapet', 'ROOT', '++', 'NN', 'och', 'familjen', False, True], y = sh
+x = ['++', 'NN', 'och', 'Äktenskapet', 'NN', 'AV', 'familjen', 'är', False, True], y = la.++
+x = ['NN', 'ROOT', 'Äktenskapet', 'ROOT', 'NN', 'AV', 'familjen', 'är', False, True], y = ra.CC
+x = ['NN', 'NN', 'familjen', 'Äktenskapet', 'AV', 'EN', 'är', 'en', True, False], y = re
+x = ['NN', 'ROOT', 'Äktenskapet', 'ROOT', 'AV', 'EN', 'är', 'en', False, True], y = la.SS
+x = ['ROOT', 'nil', 'ROOT', 'nil', 'AV', 'EN', 'är', 'en', True, False], y = ra.ROOTx = ['AV', 'ROOT', 'är', 'ROOT', 'EN', 'AJ', 'en', 'gammal', True, False], y = sh
+        </pre>
+        <h2>Complement (Optional)</h2>
+        <p>Read the text
+            <i>An Efficient Algorithm for Projective Dependency Parsing</i>
+            by Joakim Nivre (2003) [<a href="http://stp.lingfil.uu.se/~nivre/docs/iwpt03.pdf">pdf</a>]. You can find
+            additional references <a href="http://stp.lingfil.uu.se/~nivre/docs/cv_eng.html">here</a>.
+        </p>
+    </body>
+</html>
