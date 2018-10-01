@@ -16,10 +16,10 @@
                 <td>
                     <ul>
                         <li>
-                            <a href="./#ch01">Ch. 1: An overview of language processing</a>
+                            <a href="#ch01">Ch. 1: An overview of language processing</a>
                         </li>
                         <li>
-                            <a href="./#ch02">Ch. 2: Corpus processing tools</a>
+                            <a href="#ch02">Ch. 2: Corpus processing tools</a>
                         </li>
                         <li>
                             <a href="#ch03">Ch. 3: Encoding and annotation schemes</a>
