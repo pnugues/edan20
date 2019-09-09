@@ -5,10 +5,9 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Lab #0: Python and scikit-learn</title>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
     </head>
     <body>
-        <h1>Lab #0: Python and scikit-learn</h1>
+        <!--<h1>Lab #0: Python and scikit-learn</h1>-->
         <h2>Objectives</h2>
         <p>The objectives of this lab are to:</p>
         <ul>
@@ -18,20 +17,24 @@
             <li>Know of a few Unix tools to derive word statistics</li>
             <li>Know of the main functions of scikit-learn</li>
         </ul>
-        <p>Each student will have to run a short program at home on spelling correction and comment it.
-            This part is compulsory as well as handing in the report. This is to be sure that you have
-            the elementary Python programming skills we need for the course. See the last section of the page.
+        <p>The student's presence in the computer room is not compulsory for this initial session.
+            Its goal
+            is to be sure that all the students have the elementary Python programming skills they need for the course.
+            This means that if you know Python and scikit-learn (well enough), you can skip the lab.
+            However, each student will have to run a short program at home on spelling correction and comment it.
+            This last exercise is compulsory as well as handing in the report. See the last section of the page.
         </p>
         <h2>Organization and location</h2>
-        <p>The first lab session will take place on</p>
+        <p>The initial lab session will take place on</p>
         <ul>
-            <li>Group 1: Tuesday, September 4 from 8:15 to 10:00 in the Beta room</li>
-            <li>Group 2: Tuesday, September 4 from 13:15 to 15:00 in the Beta room</li>
-            <li>Group 3: Tuesday, September 4 from 15:15 to 16:00 in the Beta room</li>
+            <li>Group 1: Tuesday, September 3 from 10:15 to 12:00 in the Alpha room</li>
+            <li>Group 2/3: Tuesday, September 3 from 13:15 to 15:00 in the Alpha room</li>
+            <li>Group 4/5: Wednesday, September 4 from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 6: Wednesday, September 4 from 15:15 to 17:00 in the Falk room</li>
         </ul>
         <p>There can be last minute changes. Please always check the official times here:
-            <a href="https://cloud.timeedit.net/lu/web/lth1/ri13Q603200037QQ53ZZ555004yYW37776765604Q551.html">
-                https://se.timeedit.net/web/lu/db1/lth1/
+            <a href="https://cloud.timeedit.net/lu/web/lth1/ri14566340000YQQ45Z5577007y5Y3713gQ5g5X6Y55ZQ076.html">
+                https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
             </a>
         </p>
         <p>In this lab, we will review the Python syntax and some tools. Attendance is not compulsory,
@@ -41,7 +44,7 @@
         <h2>Outline</h2>
         <ol>
             <li>We will use Python 3 and the Anaconda distribution in the labs:
-                <a href="https://www.continuum.io/downloads">https://www.continuum.io/downloads</a>.
+                <a href="https://www.anaconda.com/distribution">https://www.anaconda.com/distribution</a>.
                 Anaconda has most packages we need for the course.
             </li>
             <li>Anaconda is available on the lab machines. You add it to your path by running:
@@ -65,7 +68,7 @@
                 <a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a>.
                 The community edition is free.
                 <br/>
-                PyCharm is not available on the lab computers. You will add the Python plugin to IntelliJ instead.
+                PyCharm should be available on the lab computers. If not, you will add the Python plugin to IntelliJ instead.
                 Run:
                 <br/>
                 <tt>$ intellij-idea-community</tt>
@@ -75,15 +78,17 @@
             <li>Instead of an IDE, you may prefer Jupyter notebooks to create cells that you can run interactively.
                 You start jupyter with:
                 <br/>
+                <tt>$ jupyter lab</tt><br/>
+                or<br/>
                 <tt>$ jupyter notebook</tt>
             </li>
             <li>
-                On LTH machines, the <tt>regex</tt> module is not available from PyCharm by default.
+                On the LTH machines, the <tt>regex</tt> module is not available from PyCharm by default.
                 You need first to configure your environment. To do so, in the File menu, select
                 Settings..., then Project and Project Interpreter. In the Project Interpreter box,
                 on the top of the right pane, add the new interpreter by pressing the cog icon, and Add...
                 Then select Anaconda Python:
-                <tt>/usr/local/anaconda/bin/python</tt>
+                <tt>/usr/local/anaconda3/bin/python</tt>
             </li>
         </ol>
         <h2>Course of the lab</h2>
@@ -92,18 +97,21 @@
             <li>run all the code in the chapter: A Tour of Python</li>
             <li>count the words of a text with Unix tools</li>
             <li>run the quick introduction to scikit-learn:
-                <a href="http://scikit-learn.org/stable/tutorial/basic/tutorial.html">
-                    http://scikit-learn.org/stable/tutorial/basic/tutorial.html
+                <a href="https://scikit-learn.org/stable/tutorial/basic/tutorial.html">
+                    https://scikit-learn.org/stable/tutorial/basic/tutorial.html
                 </a>
-                and understand <tt>fit()</tt> and <tt>predict()</tt>:
+                and understand <tt>fit()</tt> and <tt>predict()</tt>.
             </li>
         </ol>
         <h2>Compulsory part</h2>
         <ol>
             <li>Run the spell checker here: <a href="http://norvig.com/spell-correct.html">
-                http://norvig.com/spell-correct.html</a>. Use Python 3 and make sure you understand all the syntax;
+                http://norvig.com/spell-correct.html</a>. Use Python 3 and make sure you understand all the code and
+                Python syntax;
             </li>
-            <li>Hand in an individual comment of this program on one to two pages.</li>
+            <li>Hand in an individual comment of this program on one to two pages (not more). To
+            write this report, please use the overleaf site (<a href="https://www.overleaf.com/">www.overleaf.com</a>)
+                and Latex. Once you are done, please send the overleaf link to it (not the PDF) to the EDAN20 course address.</li>
         </ol>
     </body>
 </html>

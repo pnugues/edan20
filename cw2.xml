@@ -7,7 +7,7 @@
         <title>Assignment #2: Language Models</title>
     </head>
     <body>
-        <h1>Assignment #1: Language Models</h1>
+        <!--<h1>Assignment #1: Language Models</h1>-->
         <h2>Objectives</h2>
         <p>The objectives of this assignment are to:</p>
         <ul>
@@ -20,12 +20,19 @@
         </ul>
         <h2>Organization and location</h2>
         <p>The second lab session will take place on</p>
-                <ul>
-            <li>Group 1: Tuesday, September 18 from 8:15 to 10:00 in the Alpha room</li>
-            <li>Group 2: Tuesday, September 18 from 8:15 to 10:00 in the Beta room</li>
-            <li>Group 3: Tuesday, September 18 from 13:15 to 15:00 in the Beta room</li>
-            <li>Group 4: Tuesday, September 18 from 15:15 to 17:00 in the Venus room</li>
+        <ul>
+            <li>Group 1: Tuesday, September 17 from 8:15 to 10:00 in the Alpha room</li>
+            <li>Group 2: Tuesday, September 17 from 10:15 to 12:00 in the Alpha room</li>
+            <li>Group 3: Tuesday, September 17 from 13:15 to 15:00 in the Alpha room</li>
+            <li>Group 4: Tuesday, September 17 from 13:15 to 15:00 in the Beta room</li>
+            <li>Group 5: Wednesday, September 18 from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 6: Wednesday, September 18 from 15:15 to 17:00 in the Falk room</li>
         </ul>
+        <p>There can be last minute changes. Please always check the official times here:
+            <a href="https://cloud.timeedit.net/lu/web/lth1/ri14566340000YQQ45Z5577007y5Y3713gQ5g5X6Y55ZQ076.html">
+                https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
+            </a>
+        </p>
         <p>You can work alone or collaborate with another student:</p>
         <ul>
             <li>Each group will have to write Python programs to count unigrams, bigrams, and trigrams in a corpus of

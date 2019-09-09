@@ -7,7 +7,7 @@
         <title>Assignment #1: Building an Inverted Index</title>
     </head>
     <body>
-        <h1>Assignment #1: Building an Inverted Index</h1>
+        <!--<h1>Assignment #1: Building an Inverted Index</h1>-->
         <h2>Objectives</h2>
         <p>The objectives of this assignment are to:</p>
         <ul>
@@ -20,16 +20,18 @@
         </ul>
 
         <h2>Organization and location</h2>
-        <p>The second lab session will take place on</p>
+        <p>The first lab session will take place on</p>
         <ul>
-            <li>Group 1: Tuesday, September 11 from 8:15 to 10:00 in the Alpha room</li>
-            <li>Group 2: Tuesday, September 11 from 8:15 to 10:00 in the Beta room</li>
-            <li>Group 3: Tuesday, September 11 from 13:15 to 15:00 in the Beta room</li>
-            <li>Group 4: Tuesday, September 11 from 15:15 to 17:00 in the Falk room</li>
+            <li>Group 1: Tuesday, September 10 from 10:15 to 12:00 in the Alpha room</li>
+            <li>Group 2: Tuesday, September 10 from 13:15 to 15:00 in the Alpha room</li>
+            <li>Group 3: Wednesday, September 11 from 13:15 to 15:00 in the Val room</li>
+            <li>Group 4: Wednesday, September 11 from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 5: Wednesday, September 11 from 15:15 to 15:00 in the Val room</li>
+            <li>Group 6: Wednesday, September 11 from 15:15 to 17:00 in the Falk room</li>
         </ul>
         <p>There can be last minute changes. Please always check the official times here:
-            <a href="https://cloud.timeedit.net/lu/web/lth1/ri13Q603200037QQ53ZZ555004yYW37776765604Q551.html">
-                https://se.timeedit.net/web/lu/db1/lth1/
+            <a href="https://cloud.timeedit.net/lu/web/lth1/ri14566340000YQQ45Z5577007y5Y3713gQ5g5X6Y55ZQ076.html">
+                https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
             </a>
         </p>
         <p>You can work alone or collaborate with another student.</p>
@@ -81,6 +83,9 @@
             </li>
             <li>As words, you will consider all the strings of letters that you will set in lower case.
                 You will not index the rest (i.e. numbers or symbols).
+            </li>
+            <li>To extract the words, you will use Unicode regular expressions. Do not use <tt>\w+</tt>,
+                for instance, but the Unicode equivalent.
             </li>
             <li>The word positions will correspond to the number of characters from the beginning of the file.
                 (The word offset from the beginning)

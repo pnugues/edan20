@@ -7,7 +7,7 @@
         <title>Assignment #5: Dependency parsing</title>
     </head>
     <body>
-        <h1>Assignment #5: Dependency parsing</h1>
+        <!--<h1>Assignment #5: Dependency parsing</h1>-->
         <h2>Objectives</h2>
         <p>The objectives of this assignment are to:</p>
         <ul>
@@ -24,11 +24,18 @@
         <h2>Organization and location</h2>
         <p>The fifth lab session will take place on</p>
         <ul>
-            <li>Group 1: Tuesday, October 9 from 8:15 to 10:00 in the Alpha room</li>
-            <li>Group 2: Tuesday, October 9 from 8:15 to 10:00 in the Beta room</li>
-            <li>Group 3: Tuesday, October 9 from 13:15 to 15:00 in the Beta room</li>
-            <li>Group 4: Tuesday, October 9 from 15:15 to 17:00 in the Beta room</li>
+            <li>Group 1: Tuesday, October 8 from 8:15 to 10:00 in the Alpha room</li>
+            <li>Group 2: Tuesday, October 8 from 10:15 to 12:00 in the Alpha room</li>
+            <li>Group 3: Tuesday, October 8 from 13:15 to 15:00 in the Alpha room</li>
+            <li>Group 4: Tuesday, October 8 from 13:15 to 15:00 in the Beta room</li>
+            <li>Group 5: Wednesday, October 9 from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 6: Wednesday, October 9 from 15:15 to 17:00 in the Falk room</li>
         </ul>
+        <p>There can be last minute changes. Please always check the official times here:
+            <a href="https://cloud.timeedit.net/lu/web/lth1/ri14566340000YQQ45Z5577007y5Y3713gQ5g5X6Y55ZQ076.html">
+                https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
+            </a>
+        </p>
         <p>You can work alone or collaborate with another student.</p>
         <p>Each group will have to:</p>
         <ul>

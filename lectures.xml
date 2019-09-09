@@ -5,7 +5,7 @@
         <title>Lectures</title>
     </head>
     <body>
-        <h1>Lectures</h1>
+        <!--<h1>Lectures</h1>-->
         <p>
             <b>This page is provisional. It will be updated in due time.</b>
         </p>
@@ -16,10 +16,10 @@
                 <td>
                     <ul>
                         <li>
-                            <a href="#ch01">Ch. 1: An overview of language processing</a>
+                            <a href="./#ch01">Ch. 1: An overview of language processing</a>
                         </li>
                         <li>
-                            <a href="#ch02">Ch. 2: Corpus processing tools</a>
+                            <a href="./#ch02">Ch. 2: Corpus processing tools</a>
                         </li>
                         <li>
                             <a href="#ch03">Ch. 3: Encoding and annotation schemes</a>
@@ -82,7 +82,7 @@
         </table>
         <h2>
             <a href="#content">^</a>
-            <a name="ch01"></a>Chapter 1: An overview of language processing (03/09/2018) [<a
+            <a name="ch01"></a>Chapter 1: An overview of language processing (02/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_1.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_1.pdf">pdf</a>]
         </h2>
@@ -163,7 +163,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch02"></a>Chapter 2: Corpus processing tools (3/09/2018 and 6/09/2018) [<a
+            <a name="ch02"></a>Chapter 2: Corpus processing tools (2/09/2019 and 5/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_2.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_2.pdf">pdf</a>]
         </h2>
@@ -276,7 +276,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch03"></a>Chapter 3: Encoding and annotation schemes (6/09/2018) [<a
+            <a name="ch03"></a>Chapter 3: Encoding and annotation schemes (5/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_3.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_3.pdf">pdf</a>]
         </h2>
@@ -317,7 +317,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch04"></a>Chapter 4: Topics in information theory and machine learning (13/09/2018) [<a
+            <a name="ch04"></a>Chapter 4: Topics in information theory and machine learning (12/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_4.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_3.pdf">pdf</a>]
         </h2>
@@ -370,7 +370,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch05"></a>Chapter 5: Counting words (10/09/2018) [<a
+            <a name="ch05"></a>Chapter 5: Counting words (9/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_5.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_4.pdf">pdf</a>]
         </h2>
@@ -469,7 +469,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch06"></a>Chapter 6: Words, parts of speech, and morphology (13/09/2018) [<a
+            <a name="ch06"></a>Chapter 6: Words, parts of speech, and morphology (12/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_6.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_5.pdf">pdf</a>]
         </h2>
@@ -556,7 +556,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch07"></a>Chapter 7: Part-of-speech tagging using rules (20/09/2018) [<a
+            <a name="ch07"></a>Chapter 7: Part-of-speech tagging using rules (19/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_7.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_6.pdf">pdf</a>]
         </h2>
@@ -608,7 +608,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch08"></a>Chapter 8: Part-of-speech tagging using stochastic techniques (20/09/2018) [<a
+            <a name="ch08"></a>Chapter 8: Part-of-speech tagging using stochastic techniques (19/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_8.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_7.pdf">pdf</a>]
         </h2>
@@ -669,7 +669,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch09"></a>Chapter 9: Phrase-structure grammars in Prolog (24/09/2018) [<a
+            <a name="ch09"></a>Chapter 9: Phrase-structure grammars in Prolog (23/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_9.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_8.pdf">pdf</a>]
         </h2>
@@ -714,7 +714,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch10"></a>Chapter 10: Partial parsing (20/09/2018 and 24/09/2018) [<a
+            <a name="ch10"></a>Chapter 10: Partial parsing (19/09/2019 and 23/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_10.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_9.pdf">pdf</a>]
         </h2>
@@ -789,7 +789,7 @@
                     <li><a href="http://www.opencalais.com/">Calais</a>, an information extraction system
                     </li>
                     <li>Visualizing and monitoring events and disasters on a map at <a
-                            href="http://emm.newsbrief.eu/emmMap/?type=event&amp;language=all">EMM labs</a>,
+                            href="http://emm.newsbrief.eu/emmMap/?type=event&language=&language=all">EMM labs</a>,
                         part of the Europe media monitor.
                         The information extraction part of the <a
                                 href="http://emm.newsbrief.eu/NewsBrief/eventedition/en/latest_en.html">event
@@ -832,7 +832,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch11"></a>Chapter 11: Syntactic formalisms (24/09/2018) [<a
+            <a name="ch11"></a>Chapter 11: Syntactic formalisms (23/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_11.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_10.pdf">pdf</a>]
         </h2>
@@ -930,7 +930,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch12"></a>Chapter 12: Constituent parsing (27/09/2018) [<a
+            <a name="ch12"></a>Chapter 12: Constituent parsing (26/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_12.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_11.pdf">pdf</a>]
         </h2>
@@ -992,7 +992,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch13"></a>Chapter 13: Dependency parsing (27/09/2018) [<a
+            <a name="ch13"></a>Chapter 13: Dependency parsing (26/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_13.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_11.pdf">pdf</a>]
         </h2>
@@ -1097,7 +1097,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch14"></a>Chapter 14: Semantics and predicate logic (01/10/2018) [<a
+            <a name="ch14"></a>Chapter 14: Semantics and predicate logic (30/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_14.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_12.pdf">pdf</a>]
         </h2>
@@ -1166,7 +1166,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch15"></a>Chapter 15: Lexical semantics (01/10/2018) [<a
+            <a name="ch15"></a>Chapter 15: Lexical semantics (30/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_15.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_13.pdf">pdf</a>]
         </h2>
@@ -1284,7 +1284,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch16"></a>Chapter 16: Discourse (02/10/2017) [<a
+            <a name="ch16"></a>Chapter 16: Discourse (7 and 14/10/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_16.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_14.pdf">pdf</a>]
         </h2>
@@ -1366,7 +1366,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch17"></a>Chapter 17: Dialogue (02/10/2017) [<a
+            <a name="ch17"></a>Chapter 17: Dialogue (14/10/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_17.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_15.pdf">pdf</a>]
         </h2>
@@ -1433,7 +1433,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch_speech_synth"></a>Complement: Speech synthesis (09/10/2017)
+            <a name="ch_speech_synth"></a>Complement: Speech synthesis (14/10/2019)
         </h2>
         <!-- F 14 Cours 10-->
         <ul>
@@ -1480,7 +1480,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch_speech_rec"></a>Complement: Speech recognition (09/10/2017)
+            <a name="ch_speech_rec"></a>Complement: Speech recognition (14/10/2019)
         </h2>
         <!-- F 14 Cours 10-->
         <ul>
