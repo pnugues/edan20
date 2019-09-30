@@ -521,8 +521,8 @@
             </li>
             <li>Software:
                 <ul>
-                    <li><a href="http://www.sil.org/pckimmo/">PC-Kimmo</a>, a morphological parser from the
-                        <a href="http://www.sil.org/">Summer Institute of Linguistics</a>.
+                    <li><a href="https://software.sil.org/pc-kimmo/">PC-Kimmo</a>, a morphological parser from the
+                        <a href="https://www.sil.org/">Summer Institute of Linguistics</a>.
                     </li>
                     <li>The
                         <a href="http://www.ling.helsinki.fi/kieliteknologia/tutkimus/hfst/">Helsinki Finite-State
@@ -531,7 +531,7 @@
                         software, a toolkit to implement morphological parsers based on weighted and unweigted
                         finite-state transducers.
                     </li>
-                    <li><a href="http://www-igm.univ-mlv.fr/%7Eunitex/">Unitex</a>, a corpus processing system using
+                    <li><a href="https://unitexgramlab.org/">Unitex</a>, a corpus processing system using
                         automata and transducers from Universit&eacute; de Marne-la-Vall&eacute;e
                     </li>
                 </ul>
@@ -542,21 +542,20 @@
                         <a href="http://open.xerox.com/Services/fst-nlp-tools">multilingual content analysis</a>.
                     </li>
                     <li>The
-                        <a href="http://www.lingsoft.fi/?doc_id=107&amp;lang=en">Swedish morphological parser</a>
+                        <a href="http://www2.lingsoft.fi/demos.html">Swedish morphological parser</a>
                         from
                         <a href="http://www.lingsoft.fi/">Lingsoft</a>
                     </li>
                     <li>The
-                        <a href="http://www.canoo.net/">German morphological parser</a>
-                        from
-                        <a href="http://www.canoo.com/">Canoo</a>.
+                        <a href="http://www.canoonet.eu">German morphological parser</a>
+                        from Canoo</a>.
                     </li>
                 </ul>
             </li>
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch07"></a>Chapter 7: Part-of-speech tagging using rules (19/09/2019) [<a
+            <a name="ch07"></a>Chapter 7: Part-of-speech tagging using rules (16/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_7.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_6.pdf">pdf</a>]
         </h2>
@@ -608,7 +607,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch08"></a>Chapter 8: Part-of-speech tagging using stochastic techniques (19/09/2019) [<a
+            <a name="ch08"></a>Chapter 8: Part-of-speech tagging using stochastic techniques (16/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_8.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_7.pdf">pdf</a>]
         </h2>
@@ -669,7 +668,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch09"></a>Chapter 9: Phrase-structure grammars in Prolog (23/09/2019) [<a
+            <a name="ch09"></a>Chapter 9: Phrase-structure grammars in Prolog (19/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_9.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_8.pdf">pdf</a>]
         </h2>
@@ -714,7 +713,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch10"></a>Chapter 10: Partial parsing (19/09/2019 and 23/09/2019) [<a
+            <a name="ch10"></a>Chapter 10: Partial parsing (16/09/2019 and 19/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_10.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_9.pdf">pdf</a>]
         </h2>
@@ -832,7 +831,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch11"></a>Chapter 11: Syntactic formalisms (23/09/2019) [<a
+            <a name="ch11"></a>Chapter 11: Syntactic formalisms (19/09/2019) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_11.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_10.pdf">pdf</a>]
         </h2>

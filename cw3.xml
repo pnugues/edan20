@@ -19,11 +19,11 @@
         <h2>Organization and location</h2>
         <p>The third lab session will take place on</p>
         <ul>
-            <li>Group 1: Tuesday, September 24 from 8:15 to 10:00 in the Alpha room</li>
-            <li>Group 2: Tuesday, September 24 from 10:15 to 12:00 in the Alpha room</li>
-            <li>Group 3: Tuesday, September 24 from 13:15 to 15:00 in the Alpha room</li>
-            <li>Group 4: Tuesday, September 24 from 13:15 to 15:00 in the Beta room</li>
-            <li>Group 5: Wednesday, September 25 from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 1: Tuesday, September 24 from 10:15 to 12:00 in the Alpha room</li>
+            <li>Group 2: Tuesday, September 24 from 13:15 to 15:00 in the Alpha room</li>
+            <li>Group 3: Wednesday, September 25 from 13:15 to 15:00 in the Val room</li>
+            <li>Group 4: Wednesday, September 25 from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 5: Wednesday, September 25 from 15:15 to 15:00 in the Val room</li>
             <li>Group 6: Wednesday, September 25 from 15:15 to 17:00 in the Falk room</li>
         </ul>
         <p>There can be last minute changes. Please always check the official times here:
@@ -77,21 +77,21 @@
                         and
                         you will store the results in a dictionary. Below, you have an excerpt of the expected results:
                         <pre>
-                            {'JJR':
-                            {'I-ADVP': 17, 'I-ADJP': 45, 'I-NP': 204, 'B-ADVP': 63,
-                            'B-PP': 2, 'B-ADJP': 111, 'B-NP': 382, 'B-VP': 2,
-                            'I-VP': 11, 'O': 16},
-                            'CC':
-                            {'B-ADVP': 3, 'O': 3676, 'I-VP': 104, 'B-CONJP': 6,
-                            'I-ADVP': 30, 'I-UCP': 2, 'I-PP': 24, 'I-ADJP': 26,
-                            'I-NP': 1409, 'B-ADJP': 2, 'B-NP': 18, 'B-PP': 70,
-                            'I-PRT': 1, 'B-VP': 1},
-                            'NN':
-                            {'B-LST': 2, 'I-INTJ': 2, 'B-ADVP': 38, 'O': 37,
-                            'I-ADVP': 11, 'B-INTJ': 1, 'I-UCP': 2, 'B-UCP': 2,
-                            'I-VP': 77, 'B-PRT': 2, 'I-ADJP': 41, 'I-NP': 24456,
-                            'B-ADJP': 44, 'B-NP': 5160, 'B-PP': 15, 'B-VP': 257},
-                            ...
+{'JJR':
+{'I-ADVP': 17, 'I-ADJP': 45, 'I-NP': 204, 'B-ADVP': 63,
+'B-PP': 2, 'B-ADJP': 111, 'B-NP': 382, 'B-VP': 2,
+'I-VP': 11, 'O': 16},
+'CC':
+{'B-ADVP': 3, 'O': 3676, 'I-VP': 104, 'B-CONJP': 6,
+'I-ADVP': 30, 'I-UCP': 2, 'I-PP': 24, 'I-ADJP': 26,
+'I-NP': 1409, 'B-ADJP': 2, 'B-NP': 18, 'B-PP': 70,
+'I-PRT': 1, 'B-VP': 1},
+'NN':
+{'B-LST': 2, 'I-INTJ': 2, 'B-ADVP': 38, 'O': 37,
+'I-ADVP': 11, 'B-INTJ': 1, 'I-UCP': 2, 'B-UCP': 2,
+'I-VP': 77, 'B-PRT': 2, 'I-ADJP': 41, 'I-NP': 24456,
+'B-ADJP': 44, 'B-NP': 5160, 'B-PP': 15, 'B-VP': 257},
+...
                         </pre>
                     </li>
                     <li>For each part of speech, select the most frequent chunk. In the example above, you will
@@ -104,14 +104,14 @@
                         will append the predicted chunk as the 4th column. Your output file should look like
                         the excerpt below:
                         <pre>
-                            Rockwell NNP B-NP I-NP
-                            International NNP I-NP I-NP
-                            Corp. NNP I-NP I-NP
-                            's POS B-NP B-NP
-                            Tulsa NNP I-NP I-NP
-                            unit NN I-NP I-NP
-                            said VBD B-VP B-VP
-                            it PRP B-NP B-NP
+Rockwell NNP B-NP I-NP
+International NNP I-NP I-NP
+Corp. NNP I-NP I-NP
+'s POS B-NP B-NP
+Tulsa NNP I-NP I-NP
+unit NN I-NP I-NP
+said VBD B-VP B-VP
+it PRP B-NP B-NP
                         </pre>
                         The CoNLL 2000 evaluation script
                         will use these
@@ -139,7 +139,7 @@
                     <li>
                         Start it like this:
                         <pre>
-                            $ conlleval.txt &lt;out
+$ conlleval.txt &lt;out
                         </pre>
                         where the <tt>out</tt> file contains both the gold and predicted chunk tags. <tt>conlleval.txt
                     </tt> is
@@ -150,7 +150,7 @@
                         Make also sure that
                         you have the execution rights. Otherwise change them with:
                         <pre>
-                            $ chmod +x conlleval.txt
+$ chmod +x conlleval.txt
                         </pre>
                     </li>
                     <li>The <tt>conlleval.txt</tt> script expects the new lines to be <tt>\n</tt> as in Unix.
@@ -159,7 +159,7 @@
                         <tt>newline='\n’</tt>
                         like this:
                         <pre>
-                            f_out = open('out', ‘w’, newline='\n’)
+f_out = open('out', ‘w’, newline='\n’)
                         </pre>
                     </li>
                     <li>The complete description of the CoNLL 2000 evaluation script is available here:
@@ -179,7 +179,7 @@ $ eval.sh test.txt out
         </ol>
         <h3>Using Machine Learning</h3>
 
-        <p>In this exercise, you will apply and extend the
+        <p>In this exercise, you will apply and explore the
             <tt>ml_chunker.py</tt>
             program. You will start from the original
             program you downloaded and modify it so that you understand
@@ -281,14 +281,14 @@ $ eval.sh test.txt out
                 and <tt>predict</tt> functions.
                 <br/>
                 In his experiments, your teacher obtained a F1 score of
-                92.33 with a dual L2-regularized logistic regression;
+                92.65 with logistic regression and a lbfgs solver and automatic multiclass;
             </li>
             <li>
                 If you know what beam search is, apply it using the probability output of logistic
                 regression or
                 the score if you use support vector machines.
                 <br/>
-                With the same classifier and a beam diameter of 5, your teacher obtained 92.56.
+                With the same classifier and a beam diameter of 5, your teacher obtained 92.87.
             </li>
         </ol>
         <p>
@@ -300,6 +300,12 @@ $ eval.sh test.txt out
         </p>
         <p>You need to reach a global F1 score of 92 to pass this laboratory.
         </p>
-
+        <h3>Reading</h3>
+        <p>You will read the article, <a href="https://www.aclweb.org/anthology/C18-1139"><i>Contextual String
+            Embeddings for Sequence Labeling</i></a> by Akbik et al. (2018)
+            and you will outline the main differences between their system and yours. A LSTM is a type of
+            recurrent neural network, while CRF is a sort of beam search. You will tell the performance
+            they reach on the corpus you used in this laboratory.
+        </p>
     </body>
 </html>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Examination</title>
+    </head>
+    <body>
+        <!--<h1> Examination </h1>-->
+        <p>
+            <b>This page is provisional. It will be updated in due time.</b>
+        </p>
+        <h2>Organization</h2>
+        <ul>
+            <li>The examination will take place on Monday, October 29, 2018 from 08:00 to 13:00 in the MA:9F room.
+                Always check the official calender for last minute changes: <a
+                        href="https://se.timeedit.net/web/lu/db1/lth1/ri1X50gQ3560YfQQ15Z5778Y0Zy7007335Y57Q545.html">
+                    timeedit</a>.
+            </li>
+            <li>You must register to the examination as you do for the other examinations. <!--The registration is open
+                from
+                October 3 to October 17.-->
+            </li>
+            <li>The examination will consist of two parts:
+                <ol>
+                    <li>Examination questions, where the candidate will have to explain or define terms relevant to the
+                        course. In this part, no document will be allowed except bilingual dictionaries, for instance
+                        Chinese-English or Swedish-English.
+                    </li>
+                    <li>A series of exercises. Some exercises will include programming, where the candidate will use
+                        Python
+                        or a java-like algorithmic language. In this part, the textbook, copies of the slides, copies of
+                        the
+                        lab programs, a Python handbook, a Java handbook, and a Perl handbook will be allowed.
+                    </li>
+                </ol>
+            </li>
+        </ul>
+        <h2>Reading list</h2>
+        <!--<p>This reading list is not updated for 2018 yet</p>-->
+        <p>The reading list comprises the parts of the textbook and the slides we have reviewed during the course. As a
+            general rule, all the Prolog code is excluded from the reading list. The slides more or less summarize the
+            textbook.
+            I used the second edition of the textbook, <a href="http://dx.doi.org/10.1007/978-3-642-41464-0">Language
+                Processing with Perl and Prolog</a>. I no longer refer to the first edition.
+        </p>
+        <ul>
+            <li>Chapter 1:
+                <ul>
+                    <li>Textbook and slides, all the pages.</li>
+                </ul>
+            </li>
+            <li>Chapter 2:
+                <ul>
+                    <li>Textbook, 2nd edition, pages 23--29, 35--55, 57--64 (without sect. 2.6.4)</li>
+                    <li>Slides, all the slides, except the Prolog code</li>
+                </ul>
+            </li>
+            <li>Chapter 3:
+                <ul>
+                    <li>Textbook, 2nd edition, pages 65--80</li>
+                    <li>All the slides</li>
+                </ul>
+            </li>
+            <li>Chapter 4:
+                <ul>
+                    <li>This part is not in the textbooks. Use the slides instead</li>
+                    <li>Slides, all</li>
+                </ul>
+            </li>
+            <li>Chapter 5:
+                <ul>
+                    <li>Textbook, 2nd edition, pages 123--167 (except Sect. 5.3.4, 5.5.3, 5.7.3)</li>
+                    <li>Slides, all</li>
+                </ul>
+            </li>
+            <li>Chapter 6:
+                <ul>
+                    <li>Textbook, pages 169-177, Sect. 6.3.1, 6.3.3, pages 186--189, 199-203</li>
+                    <li>Slides, 1--9</li>
+                </ul>
+            </li>
+            <li>Chapter 7:
+                <ul>
+                    <li>Textbook, pages 205--209, 212--222</li>
+                    <li>Slides, all</li>
+                </ul>
+            </li>
+            <li>Chapter 8:
+                <ul>
+                    <li>Textbook, pages 223--225</li>
+                    <li>Slides, 1--4, 16, 23</li>
+                </ul>
+            </li>
+            <li>Chapter 9: Not part of the examination
+            </li>
+            <li>Chapter 10:
+                <ul>
+                    <li>Textbook, 2nd edition, pages 281--282, 285--389, 291--295, 298--308, 313--319</li>
+                    <li>Slides, 1--4, 7--16, 24--46</li>
+                </ul>
+            </li>
+            <li>Chapter 11:
+                <ul>
+                    <li>Textbook, 2nd edition, pages 321--326, 330--332, 341--360, 364--369</li>
+                    <li>Slides, 1--11, 20--43</li>
+                </ul>
+            </li>
+            <li>Chapter 12:
+                <ul>
+                    <li>Textbook, 2nd edition, Sects. 12.1 and 12.2, pages 371--376</li>
+                    <li>Slides, 1--6</li>
+                </ul>
+            </li>
+            <li>Chapter 13:
+                <ul>
+                    <li>Textbook, 2nd edition, pages 403--407, 411--419</li>
+                    <li>Slides, all</li>
+                </ul>
+            </li>
+            <li>Chapter 14:
+                <ul>
+                    <li>Textbook, 2nd edition, pages 439--445, 462--466</li>
+                    <li>Slides, 1--7, 27--34</li>
+                </ul>
+            </li>
+            <li>Chapter 15:
+                <ul>
+                    <li>Textbook, 2nd edition, pages 469--486, 489--492, 494--506</li>
+                    <li>Slides, all</li>
+                </ul>
+            </li>
+            <li>Chapter 16:
+                <ul>
+                    <li>Textbook, 2nd edition, pages 511--523, 527--535</li>
+                    <li>Slides, 1--26</li>
+                </ul>
+            </li>
+            <li>Chapter 17:
+                <ul>
+                    <li>Textbook, 2nd edition, pages 553--558</li>
+                    <li>Slides, 1--9</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Past Examinations</h2>
+        <p>The text of the past examinations:</p>
+        <ul>
+            <li>2018: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/examens/2018/ExamenEDAN20.pdf">pdf</a>]
+            </li>
+            <li>2017: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/examens/2017/ExamenEDAN20.pdf">pdf</a>]
+            </li>
+            <li>2016: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/examens/2016/ExamenEDAN20.pdf">pdf</a>]
+            </li>
+            <li>2015: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/examens/2015/ExamenEDAN20.pdf">pdf</a>]
+            </li>
+            <li>2014: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/examens/2014/ExamenEDAN20.pdf">pdf</a>]
+            </li>
+            <li>2013: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/examens/2013/ExamenEDAN20.pdf">pdf</a>]
+            </li>
+            <li>2012: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/examens/2012/ExamenEDAN20.pdf">pdf</a>]
+            </li>
+            <li>2011: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/examens/2011/ExamenEDAN20.pdf">pdf</a>]
+            </li>
+            <li>2010: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/examens/2010/ExamenEDAN20.pdf">pdf</a>]
+            </li>
+        </ul>
+    </body>
+</html>

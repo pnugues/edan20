@@ -120,7 +120,7 @@
         </p>
         <p>You can reuse this function:</p>
         <pre>
-            def get_files(dir, suffix):
+        def get_files(dir, suffix):
             """
             Returns all the files in a folder ending with suffix
             :param dir:
@@ -129,8 +129,8 @@
             """
             files = []
             for file in os.listdir(dir):
-            if file.endswith(suffix):
-            files.append(file)
+                if file.endswith(suffix):
+                    files.append(file)
             return files
         </pre>
 
@@ -141,11 +141,11 @@
         <p>Below is an except of the master index with the words <i>samlar</i> and <i>ände</i>:
         </p>
         <pre>
-            'samlar':
+        'samlar':
             {'nils.txt': [53499, 120336],
             'gosta.txt': [317119, 414300, 543686],
             'osynliga.txt': [410995, 871322]},
-            'ände':
+        'ände':
             {'nils.txt': [3991],
             'kejsaren.txt': [51100],
             'marbacka.txt': [374231],
@@ -167,27 +167,27 @@
             0 in bannlyst.txt and the value 0.000101237 in nils.txt
         </p>
         <pre>
-            bannlyst.txt
+        bannlyst.txt
             känna 0.0
             gås 0.0
             nils 0.0
             et 6.2846093167673765e-06
-            gosta.txt
+        gosta.txt
             känna 0.0
             gås 0.0
             nils 0.0
             et 0.0
-            herrgard.txt
+        herrgard.txt
             känna 0.0
             gås 0.0
             nils 0.0
             et 0.0
-            jerusalem.txt
+        jerusalem.txt
             känna 0.0
             gås 0.0
             nils 4.778415355159037e-06
             et 0.0
-            nils.txt
+        nils.txt
             känna 0.0
             gås 0.00010123719421964931
             nils 9.801209641132888e-05
@@ -195,17 +195,19 @@
         </pre>
         <h2>Comparing Documents</h2>
         <p>Using the cosine similarity, compare all the pairs of documents with their tfidf representation and present
-            your results in a matrix.
+            your results in a matrix. You will include this matrix in your report.
         </p>
-        <p>What are the two novels that are the most similar?</p>
-        <h2>Complement</h2>
-        <p>Read the text
+        <p>Give the name of the two novels that are the most similar.</p>
+        <h2>Reading</h2>
+        <p>Read the text:
             <i>Challenges in Building Large-Scale Information Retrieval Systems</i>
             about the history of
             <a href="https://research.google.com/people/jeff/WSDM09-keynote.pdf">Google indexing</a>
             by
             <a href="https://research.google.com/pubs/jeff.html">Jeff Dean</a>.
             In your report, tell how your index encoding is related to what Google did.
+            You must identify the slide where you have the most similar indexing technique and write the
+            slide number in your report.
         </p>
     </body>
 </html>

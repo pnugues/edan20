@@ -21,11 +21,11 @@
         <h2>Organization and location</h2>
         <p>The second lab session will take place on</p>
         <ul>
-            <li>Group 1: Tuesday, September 17 from 8:15 to 10:00 in the Alpha room</li>
-            <li>Group 2: Tuesday, September 17 from 10:15 to 12:00 in the Alpha room</li>
-            <li>Group 3: Tuesday, September 17 from 13:15 to 15:00 in the Alpha room</li>
-            <li>Group 4: Tuesday, September 17 from 13:15 to 15:00 in the Beta room</li>
-            <li>Group 5: Wednesday, September 18 from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 1: Tuesday, September 17 from 10:15 to 12:00 in the Alpha room</li>
+            <li>Group 2: Tuesday, September 17 from 13:15 to 15:00 in the Alpha room</li>
+            <li>Group 3: Wednesday, September 18 from 13:15 to 15:00 in the Val room</li>
+            <li>Group 4: Wednesday, September 18 from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 5: Wednesday, September 18 from 15:15 to 15:00 in the Val room</li>
             <li>Group 6: Wednesday, September 18 from 15:15 to 17:00 in the Falk room</li>
         </ul>
         <p>There can be last minute changes. Please always check the official times here:
@@ -158,8 +158,14 @@ Perplexity: 73.10957919390972
         <h2>Reading</h2>
         <p>As an application of n-grams, execute the Jupyter notebook by Peter Norvig <a
                 href="http://nbviewer.jupyter.org/url/norvig.com/ipython/How%20to%20Do%20Things%20with%20Words.ipynb">
-            here
-        </a> (just run all the cells). You will find the data <a href="http://norvig.com/ngrams/">here</a>.
+            here</a>. Just run all the cells and be sure that you understand the code.
+            You will find the data <a href="http://norvig.com/ngrams/">here</a>.</p>
+        <p>In your report, you will also describe one experiment with a long string of words
+            your will create yourself or copy from a text you like. You will remove all the punctuation and
+            white spaces from this string. Set this string in lowercase letters.</p>
+        <p>You will just add a cell at the end of Sect. 7 in Norvig's notebook, where you will use your string and
+            run the notebook cell with the <tt>segment()</tt> and <tt>segment2()</tt> functions. </p>
+        <p>You will comment the segmentation results you obtain with unigram and bigram models.
         </p>
         <h2>Complement</h2>
         <p>As a complement, you can read a paper by <a

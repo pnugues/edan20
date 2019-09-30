@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Coursework</title>
+    </head>
+    <body>
+        <!--<h1>Coursework</h1>-->
+        <p>
+            <b>This page is provisional. It will be updated in due time.</b>
+            <b>There can be last minute changes in the timetable that do not show on this page. Please always check the
+                official times here:
+                <a href="https://cloud.timeedit.net/lu/web/lth1/ri14566340000YQQ45Z5577007y5Y3713gQ5g5X6Y55ZQ076.html">
+                    https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
+                </a>
+            </b>
+        </p>
+        <h2>Organization</h2>
+        <ul>
+            <li>Typically, each assignment is done by a group of two students. The programming results of it are shown
+                to the instructor who validates it during a laboratory session. You can register to a laboratory group here: <a
+                        href="https://sam.cs.lth.se/LabsSelectSession?occasionId=594">
+                    https://sam.cs.lth.se/LabsSelectSession?occasionId=594</a>.
+            </li>
+            <li>After the lab, each and every student writes a report of one to two pages to describe how s/he carried
+                out the assignment, her/his results, and gives a conclusion. You need both to validate your program and
+                hand in a short report to complete your assignment. You must use <a href="https://overleaf.com">
+                    overleaf
+                </a> to write this report.
+            </li>
+            <li>Attendance to the laboratory sessions is compulsory. If you are unable to attend, you must report it to
+                your instructor.
+            </li>
+            <li>We will use Python and scikit-learn in the assignments. The laboratory session of week 1 (lab 0) is
+                intended to review some basic features of Python as well as scikit-learn.
+                <br/>Group 1, September 3, 2019, 08:15 to 10:00, in the Alpha room,
+                group 2, September 3, 2019, 10:15 to 12:00, in the Alpha room,
+                group 3/4, September 3, 2019, 13:15 to 15:00, in the Alpha and Beta rooms,
+                group 5, September 4, 2019, 13:15 to 15:00, in the Falk room,
+                group 6, September 4, 2019, 15:15 to 17:00, in the Falk room.
+            </li>
+            <li>
+                <a href="https://www.anaconda.com/download/">Anaconda</a>
+                and <a href="https://www.jetbrains.com/pycharm/">Pycharm</a> are the recommended programming
+                environments. Both are free.
+            </li>
+        </ul>
+        <h2>Assignments</h2>
+        <ul>
+            <li><a href="http://cs.lth.se/edan20/coursework/laboratory-0/">Lab zero</a>:
+                In this lab, we will review Python and scikit-learn.
+                Attending this lab is not compulsory, but you need to run the
+                <a href="http://norvig.com/spell-correct.html">spell checker</a>
+                by Peter Norvig to make sure you understand Python. You also have to hand in a short individual report
+                describing the program. The report length should be of one to two pages.
+            </li>
+            <li>First assignment:
+                <a href="http://cs.lth.se/edan20/coursework/assignment-1/">Building an inverted index</a>
+                <br/>September 10 and 11, 2019.
+            </li>
+            <li>Second assignment:
+                <a href="http://cs.lth.se/edan20/coursework/assignment-2/">Language models</a>
+                <br/>September 17 and 18, 2019.
+            </li>
+            <li>Third assignment: <a href="http://cs.lth.se/edan20/coursework/assignment-3/">Extracting noun groups
+                using machine learning techniques
+            </a> (statistical chunking)
+                <br/>September 24 and 25, 2019.
+            </li>
+            <li>Fourth assignment:
+                <a href="http://cs.lth.se/edan20/coursework/assignment-4/">Extraction of subject—verb—object triples</a>
+                <br/>October 1st and 2nd, 2019.
+            </li>
+            <li>Fifth assignment:
+                <a href="http://cs.lth.se/edan20/coursework/assignment-5/">Dependency parsing</a>
+                <br/>October 8 and 9, 2019.
+            </li>
+            <li>Sixth assignment: <a href="http://cs.lth.se/edan20/coursework/assignment-6/">Dependency parsing using
+                machine learning techniques
+            </a> (statistical parsing)
+                <br/>October 15 and 16, 2019.
+            </li>
+        </ul>
+        <h2>Programming resources</h2>
+        <ul>
+            <li>
+                <a href="http://www.python.org/">Python</a>
+            </li>
+            <li>
+                <a href="https://www.anaconda.com/download/">Anaconda</a>
+            </li>
+            <li>
+                <a href="http://scikit-learn.org/">scikit-learn</a>
+            </li>
+            <li>
+                <a href="https://keras.io/">Keras</a>
+            </li>
+            <li>
+                <a href="https://www.tensorflow.org/">TensorFlow</a>
+            </li>
+        </ul>
+    </body>
+</html>

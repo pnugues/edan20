@@ -20,11 +20,11 @@
         <h2>Organization and location</h2>
         <p>The fourth lab session will take place on</p>
         <ul>
-            <li>Group 1: Tuesday, October 1st from 8:15 to 10:00 in the Alpha room</li>
-            <li>Group 2: Tuesday, October 1st from 10:15 to 12:00 in the Alpha room</li>
-            <li>Group 3: Tuesday, October 1st from 13:15 to 15:00 in the Alpha room</li>
-            <li>Group 4: Tuesday, October 1st from 13:15 to 15:00 in the Beta room</li>
-            <li>Group 5: Wednesday, October 2nd from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 1: Tuesday, October 1st from 10:15 to 12:00 in the Alpha room</li>
+            <li>Group 2: Tuesday, October 1st from 13:15 to 15:00 in the Alpha room</li>
+            <li>Group 3: Wednesday, October 2nd from 13:15 to 15:00 in the Val room</li>
+            <li>Group 4: Wednesday, October 2nd from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 5: Wednesday, October 2nd from 15:15 to 15:00 in the Val room</li>
             <li>Group 6: Wednesday, October 2nd from 15:15 to 17:00 in the Falk room</li>
         </ul>
         <p>There can be last minute changes. Please always check the official times here:
@@ -74,7 +74,7 @@
         <p>You will extract all the subject–verb pairs and the subject–verb–object
             triples from the training corpus. To start the program,
             you can use the CoNLL-X reader available <a
-                    href="https://raw.githubusercontent.com/pnugues/ilppp/master/programs/labs/relation_extraction/python/conll.py">
+                    href="https://github.com/pnugues/ilppp/blob/master/programs/labs/relation_extraction/python/conll.py">
                 here</a>.
             This program will enable you to read the other corpora.
             You can also program a reader yourself starting from the one you used to read the
@@ -96,33 +96,33 @@
             </li>
             <li>Sort your pairs by order of frequency and give the five most frequent pairs. Here are the frequencies
                 you should find:
-                <pre>
-                    537
-                    261
-                    211
-                    171
-                    161
-                </pre>
+<pre>
+    537
+    261
+    211
+    171
+    161
+</pre>
             </li>
             <li>Extract all the subject–verb–object triples of the corpus. The object function uses the <tt>OO</tt> code.
                 Compute the total number of triples. You should find 5844 triples.
             </li>
             <li>Sort your triples by order of frequency and give the five most frequent pairs. Here are the frequencies
                 you should find:
-                <pre>
-                    37
-                    36
-                    36
-                    19
-                    17
-                </pre>
+<pre>
+    37
+    36
+    36
+    19
+    17
+</pre>
             </li>
         </ul>
         <h3>Multilingual Corpora</h3>
         <p>Once your program is working on Swedish, you will apply it to all the other languages
             from this repository: <a href="http://universaldependencies.org/">Universal Dependencies</a>.
             The address to download the corpora is <a
-                    href="http://hdl.handle.net/11234/1-1983">here</a>.
+                    href="http://hdl.handle.net/11234/1-2988">here</a>.
             You have a local version in the <tt>/usr/local/cs/EDAN20/</tt> folder.
             You can read the training files from the folder using the CoNLL reader provided for the first part.
             You will need to adapt your program to CoNLL-U. See <a href="http://universaldependencies.org/format.html">
@@ -157,13 +157,13 @@
                 </table>
                 In the corpora, you have the original tokens as well as the multiwords as with <i>vámonos al mar</i>.
                 <pre>
-                    1-2 vámonos _
-                    1 vamos ir
-                    2 nos nosotros
-                    3-4 al _
-                    3 a a
-                    4 el el
-                    5 mar mar
+1-2 vámonos _
+1 vamos ir
+2 nos nosotros
+3-4 al _
+3 a a
+4 el el
+5 mar mar
                 </pre>Read the format description for the details: [<a
                         href="http://universaldependencies.org/format.html">CoNLL-U format</a>].
             </li>
@@ -207,6 +207,10 @@
                 Otherwise, use Google Translate.
             </li>
         </ol>
+        <h3>Reading</h3>
+        <p>Read the article: <i>PRISMATIC: Inducing Knowledge from a Large Scale Lexicalized Relation Resource</i>
+        by Fan and al. (2010) [<a
+                href="http://www.aclweb.org/anthology/W/W10/W10-0915.pdf">pdf</a>] and write in a few sentences how it relates to your work in this assignment.</p>
         <h3>Solving coreferences (Optional)</h3>
         <p>In this part, you will resolve a simple anaphor involving the Swedish <i>som</i> ‘who’ pronoun.
         </p>

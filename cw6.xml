@@ -19,11 +19,11 @@
         <h2>Organization and location</h2>
         <p>The sixth lab session will take place on</p>
         <ul>
-            <li>Group 1: Tuesday, October 15 from 8:15 to 10:00 in the Alpha room</li>
-            <li>Group 2: Tuesday, October 15 from 10:15 to 12:00 in the Alpha room</li>
-            <li>Group 3: Tuesday, October 15 from 13:15 to 15:00 in the Alpha room</li>
-            <li>Group 4: Tuesday, October 15 from 13:15 to 15:00 in the Beta room</li>
-            <li>Group 5: Wednesday, October 16 from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 1: Tuesday, October 15 from 10:15 to 12:00 in the Alpha room</li>
+            <li>Group 2: Tuesday, October 15 from 13:15 to 15:00 in the Alpha room</li>
+            <li>Group 3: Wednesday, October 16 from 13:15 to 15:00 in the Val room</li>
+            <li>Group 4: Wednesday, October 16 from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 5: Wednesday, October 16 from 15:15 to 15:00 in the Val room</li>
             <li>Group 6: Wednesday, October 16 from 15:15 to 17:00 in the Falk room</li>
         </ul>
         <p>There can be last minute changes. Please always check the official times here:
@@ -141,12 +141,10 @@ def parse_ml(stack, queue, graph, trans):
                 You need to reach a labelled attachment score of 75 to pass this lab.
             </li>
         </ul>
-        <h2>Complement (Optional)</h2>
-        <p>Read the text
-            <i>Labeled Pseudo-Projective Dependency Parsing with Support Vector Machines</i>
-            by Joakim Nivre et al. (2006) [<a href="http://w3.msi.vxu.se/~nivre/papers/malt_shared.pdf">pdf</a>]. Read
-            the slides
-            <a href="http://ilk.uvt.nl/conll/slides/Nivre.pdf">here</a>.
-        </p>
+        <h2>Reading</h2>
+        <p>Read the article: <i>Globally Normalized Transition-Based Neural Networks</i>
+        by Andor and al. (2016) [<a
+                href="https://www.aclweb.org/anthology/P16-1231">pdf</a>] and write in a few sentences how
+            it relates to your work in this assignment.</p>
     </body>
 </html>

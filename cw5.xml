@@ -24,11 +24,11 @@
         <h2>Organization and location</h2>
         <p>The fifth lab session will take place on</p>
         <ul>
-            <li>Group 1: Tuesday, October 8 from 8:15 to 10:00 in the Alpha room</li>
-            <li>Group 2: Tuesday, October 8 from 10:15 to 12:00 in the Alpha room</li>
-            <li>Group 3: Tuesday, October 8 from 13:15 to 15:00 in the Alpha room</li>
-            <li>Group 4: Tuesday, October 8 from 13:15 to 15:00 in the Beta room</li>
-            <li>Group 5: Wednesday, October 9 from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 1: Tuesday, October 8 from 10:15 to 12:00 in the Alpha room</li>
+            <li>Group 2: Tuesday, October 8 from 13:15 to 15:00 in the Alpha room</li>
+            <li>Group 3: Wednesday, October 9 from 13:15 to 15:00 in the Val room</li>
+            <li>Group 4: Wednesday, October 9 from 13:15 to 15:00 in the Falk room</li>
+            <li>Group 5: Wednesday, October 9 from 15:15 to 15:00 in the Val room</li>
             <li>Group 6: Wednesday, October 9 from 15:15 to 17:00 in the Falk room</li>
         </ul>
         <p>There can be last minute changes. Please always check the official times here:
@@ -222,10 +222,9 @@ x = ['NN', 'ROOT', 'Äktenskapet', 'ROOT', 'AV', 'EN', 'är', 'en', False, True]
 x = ['ROOT', 'nil', 'ROOT', 'nil', 'AV', 'EN', 'är', 'en', True, False], y = ra.ROOTx = ['AV', 'ROOT', 'är', 'ROOT', 'EN', 'AJ', 'en', 'gammal', True, False], y = sh
         </pre>
         <h2>Complement (Optional)</h2>
-        <p>Read the text
+        <p>You can read an historical source to transition-based parsing:
             <i>An Efficient Algorithm for Projective Dependency Parsing</i>
-            by Joakim Nivre (2003) [<a href="http://stp.lingfil.uu.se/~nivre/docs/iwpt03.pdf">pdf</a>]. You can find
-            additional references <a href="http://stp.lingfil.uu.se/~nivre/docs/cv_eng.html">here</a>.
+            by Joakim Nivre (2003) [<a href="http://stp.lingfil.uu.se/~nivre/docs/iwpt03.pdf">pdf</a>].
         </p>
     </body>
 </html>
