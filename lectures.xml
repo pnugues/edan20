@@ -1357,8 +1357,13 @@
                     </li>
                     <li>Coreference solving using Stanford <a href="http://nlp.stanford.edu:8080/corenlp/">CoreNLP</a>.
                     </li>
+                    <li>
+                        <a href="http://vilde.cs.lth.se:9000/#/">HERD</a>: Entity disambiguation for Swedish
+                    </li>
                     <li>A <a href="http://wing.comp.nus.edu.sg/~linzihen/parser/">parser for discourse relations</a> using
                         the Penn Discourse Treebank annotations.
+                    </li>
+                    <li><a href="https://corpling.uis.georgetown.edu/rstweb/info/">rstWeb</a>, an annotation platform
                     </li>
                 </ul>
             </li>

@@ -8,12 +8,12 @@
     </head>
     <body>
         <!--<h1> Examination </h1>-->
-        <p>
-            <b>This page is provisional. It will be updated in due time.</b>
-        </p>
+        <!--<p>
+            <!++<b>This page is provisional. It will be updated in due time.</b>
+        </p>-->
         <h2>Organization</h2>
         <ul>
-            <li>The examination will take place on Monday, October 29, 2018 from 08:00 to 13:00 in the MA:9F room.
+            <li>The examination will take place on Tuesday, October 29, 2018 from 14:00 to 19:00 in the MA 10E MA 10F rooms.
                 Always check the official calender for last minute changes: <a
                         href="https://se.timeedit.net/web/lu/db1/lth1/ri1X50gQ3560YfQQ15Z5778Y0Zy7007335Y57Q545.html">
                     timeedit</a>.
@@ -26,9 +26,11 @@
                 <ol>
                     <li>Examination questions, where the candidate will have to explain or define terms relevant to the
                         course. In this part, no document will be allowed except bilingual dictionaries, for instance
-                        Chinese-English or Swedish-English.
+                        Chinese-English or Swedish-English. Scientific calculators are also allowed.
                     </li>
-                    <li>A series of exercises. Some exercises will include programming, where the candidate will use
+                    <li>In the second part, you will have to reimplement a natural language processing
+                        system from
+                        a scientific article. This will include programming, where the candidate will use
                         Python
                         or a java-like algorithmic language. In this part, the textbook, copies of the slides, copies of
                         the
@@ -90,7 +92,7 @@
             <li>Chapter 8:
                 <ul>
                     <li>Textbook, pages 223--225</li>
-                    <li>Slides, 1--4, 16, 23</li>
+                    <li>Slides, 1--4, 15-17, 23</li>
                 </ul>
             </li>
             <li>Chapter 9: Not part of the examination
@@ -98,13 +100,13 @@
             <li>Chapter 10:
                 <ul>
                     <li>Textbook, 2nd edition, pages 281--282, 285--389, 291--295, 298--308, 313--319</li>
-                    <li>Slides, 1--4, 7--16, 24--46</li>
+                    <li>Slides, 1--18, 26--48</li>
                 </ul>
             </li>
             <li>Chapter 11:
                 <ul>
                     <li>Textbook, 2nd edition, pages 321--326, 330--332, 341--360, 364--369</li>
-                    <li>Slides, 1--11, 20--43</li>
+                    <li>Slides, 1--11, 20--44</li>
                 </ul>
             </li>
             <li>Chapter 12:
@@ -122,7 +124,7 @@
             <li>Chapter 14:
                 <ul>
                     <li>Textbook, 2nd edition, pages 439--445, 462--466</li>
-                    <li>Slides, 1--7, 27--34</li>
+                    <li>Slides, 1--7, 27--35</li>
                 </ul>
             </li>
             <li>Chapter 15:
@@ -140,7 +142,7 @@
             <li>Chapter 17:
                 <ul>
                     <li>Textbook, 2nd edition, pages 553--558</li>
-                    <li>Slides, 1--9</li>
+                    <li>Slides, 1--7</li>
                 </ul>
             </li>
         </ul>

@@ -203,7 +203,7 @@ def extract(stack, queue, graph, feature_names, sentence):
             <li>Generate the three scikit-learn models using the code models from the chunking labs.
                 You will evaluate the model
                 accuracies (not the parsing accuracy) using the classification report produced by
-                scikit-learn and the correctly classified instances
+                scikit-learn and the correctly classified instances. This is done with the training set.
             </li>
         </ol>
         <p>The first lines of your features for the 4 parameters (<b>x</b>) and labelled
@@ -219,7 +219,8 @@ x = ['++', 'NN', 'och', 'Äktenskapet', 'NN', 'AV', 'familjen', 'är', False, Tr
 x = ['NN', 'ROOT', 'Äktenskapet', 'ROOT', 'NN', 'AV', 'familjen', 'är', False, True], y = ra.CC
 x = ['NN', 'NN', 'familjen', 'Äktenskapet', 'AV', 'EN', 'är', 'en', True, False], y = re
 x = ['NN', 'ROOT', 'Äktenskapet', 'ROOT', 'AV', 'EN', 'är', 'en', False, True], y = la.SS
-x = ['ROOT', 'nil', 'ROOT', 'nil', 'AV', 'EN', 'är', 'en', True, False], y = ra.ROOTx = ['AV', 'ROOT', 'är', 'ROOT', 'EN', 'AJ', 'en', 'gammal', True, False], y = sh
+x = ['ROOT', 'nil', 'ROOT', 'nil', 'AV', 'EN', 'är', 'en', True, False], y = ra.ROOT
+x = ['AV', 'ROOT', 'är', 'ROOT', 'EN', 'AJ', 'en', 'gammal', True, False], y = sh
         </pre>
         <h2>Complement (Optional)</h2>
         <p>You can read an historical source to transition-based parsing:
