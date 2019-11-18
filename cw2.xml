@@ -47,14 +47,13 @@
         <h2>Programming</h2>
         <h3>Collecting a corpus</h3>
         <ol>
-            <li>Collect a corpus of at least 750,000 words. You will check the number of words using the Unix
-                command <tt>wc -w</tt>.
+            <li>Retrieve a corpus of novels by Selma Lagerl&ouml;f from this URL:
+                <a href="https://github.com/pnugues/ilppp/blob/master/programs/corpus/Selma.txt">
+                    <tt>https://github.com/pnugues/ilppp/blob/master/programs/corpus/Selma.txt</tt>
+                </a>.
             </li>
-            <li>Alternatively, you can retrieve a corpus of novels by Selma Lagerl&ouml;f from this URL:
-                <a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/Selma.txt">
-                    <tt>http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/Selma.txt</tt>
-                </a>
-                .
+            <li>Alternatively, you can collect a corpus of at least 750,000 words. You will check the number of words using the Unix
+                command <tt>wc -w</tt>.
             </li>
             <li>Run the <a href="https://github.com/pnugues/ilppp/tree/master/programs/ch02/python">concordance
                 program
@@ -78,7 +77,7 @@
             <li>The five last lines of the text should look like this:
                 <pre>
 &lt;s&gt; hon hade fått större kärlek av sina föräldrar än någon annan han visste och sådan kärlek måste vändas i välsignelse &lt;/s&gt;
-&lt;s&gt; när prästen sa detta kom alla människor att se bort mot klara gulla och de förundrade sig över vad de såg &lt;/s&gt;
+&lt;s&gt; då prästen sade detta kom alla människor att se bort mot klara gulla och de förundrade sig över vad de såg &lt;/s&gt;
 &lt;s&gt; prästens ord tycktes redan ha gått i uppfyllelse &lt;/s&gt;
 &lt;s&gt; där stod klara fina gulleborg ifrån skrolycka hon som var uppkallad efter själva solen vid sina föräldrars grav och lyste som en förklarad &lt;/s&gt;
 &lt;s&gt; hon var likaså vacker som den söndagen då hon gick till kyrkan i den röda klänningen om inte vackrare &lt;/s&gt;
@@ -111,47 +110,46 @@
             <li>Select five sentences in your test set and run your programs on them.</li>
             <li>Tabulate your results as in the examples below with the sentence <i>Det var en gång en katt som hette
                 Nils</i>:
-                <pre>
+<pre>
 Unigram model
 =====================================================
-wi C(wi) #words P(wi)
+wi 	 C(wi) 	 #words 	 P(wi)
 =====================================================
-det 22086 1086836 0.02032137323386417
-var 12852 1086836 0.011825151172762036
-en 13921 1086836 0.012808740233117047
-gång 1332 1086836 0.0012255758918548888
-en 13921 1086836 0.012808740233117047
-katt 15 1086836 1.3801530313681181e-05
-som 16790 1086836 0.015448512931113802
-hette 107 1086836 9.845091623759242e-05
-nils 84 1086836 7.728856975661462e-05
-&lt;/s&gt; 62283 1086836 0.057306714168467
+det 	 21108 	 1041631 	 0.0202643738521607
+var 	 12090 	 1041631 	 0.01160679741674355
+en 	 13514 	 1041631 	 0.01297388422579589
+gång 	 1332 	 1041631 	 0.001278763784871994
+en 	 13514 	 1041631 	 0.01297388422579589
+katt 	 16 	 1041631 	 1.5360525944408337e-05
+som 	 16288 	 1041631 	 0.015637015411407686
+hette 	 97 	 1041631 	 9.312318853797554e-05
+nils 	 87 	 1041631 	 8.352285982272032e-05
+&lt;/s&gt; 	 59047 	 1041631 	 0.056687060964967444
 =====================================================
-Prob. unigrams:	 4.4922846219128876e-27
-Geometric mean prob.: 0.0023187115559242404
-Entropy rate:	 8.752460922513437
-Perplexity:	 431.2739967353978
-
+Prob. unigrams:	 5.361459667285409e-27
+Geometric mean prob.: 0.0023600885848765307
+Entropy rate:	 8.726943273141258
+Perplexity:	 423.71290908655254
 
 Bigram model
 =====================================================
-wi wi+1 Ci,i+1 C(i) P(wi+1|wi)
+wi 	 wi+1 	 Ci,i+1 	 C(i) 	 P(wi+1|wi)
 =====================================================
-&lt;s&gt; det 5913 62283 0.09493762342854391
-det var 4023 22086 0.1821515892420538
-var en 753 12852 0.05859010270774977
-en gång 695 13921 0.04992457438402414
-gång en 23 1332 0.017267267267267267
-en katt 5 13921 0.0003591695998850657
-katt som 2 15 0.13333333333333333
-som hette 50 16790 0.0029779630732578916
-hette nils 0 107 0.0 *backoff: 7.728856975661462e-05
-nils &lt;/s&gt; 2 84 0.023809523809523808
+&lt;s&gt;	 det 	 5672 	 59047 	 0.09605907158704083
+det 	 var 	 3839 	 21108 	 0.1818741709304529
+var 	 en 	 712 	 12090 	 0.058891645988420185
+en 	 gång 	 706 	 13514 	 0.052242119283705785
+gång 	 en 	 20 	 1332 	 0.015015015015015015
+en 	 katt 	 6 	 13514 	 0.0004439840165754033
+katt 	 som 	 2 	 16 	 0.125
+som 	 hette 	 45 	 16288 	 0.002762770137524558
+hette 	 nils 	 0 	 97 	 0.0 	 *backoff: 	 8.352285982272032e-05
+nils 	 &lt;/s&gt; 	 2 	 87 	 0.022988505747126436
 =====================================================
-Prob. bigrams: 2.292224542392586e-19
-Geometric mean prob.: 0.013678098151101147
-Entropy rate: 6.191988542790593
-Perplexity: 73.10957919390972
+Prob. bigrams:	 2.376007803503683e-19
+Geometric mean prob.: 0.013727289294133601
+Entropy rate:	 6.186809422848149
+Perplexity:	 72.84759420254609
                 </pre>
             </li>
         </ol>
