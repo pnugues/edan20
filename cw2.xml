@@ -50,7 +50,9 @@
             <li>Retrieve a corpus of novels by Selma Lagerl&ouml;f from this URL:
                 <a href="https://github.com/pnugues/ilppp/blob/master/programs/corpus/Selma.txt">
                     <tt>https://github.com/pnugues/ilppp/blob/master/programs/corpus/Selma.txt</tt>
-                </a>.
+                </a>. The text of these novels was extracted
+                from <a href="https://litteraturbanken.se/forfattare/LagerlofS/titlar">Lagerlöf arkivet</a> at
+                <a href="https://litteraturbanken.se/">Litteraturbanken</a>.
             </li>
             <li>Alternatively, you can collect a corpus of at least 750,000 words. You will check the number of words using the Unix
                 command <tt>wc -w</tt>.

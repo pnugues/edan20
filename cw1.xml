@@ -43,9 +43,10 @@
         <h2>Preparation</h2>
         <ol>
             <li>Download the <a href="https://github.com/pnugues/ilppp/raw/master/programs/corpus/Selma.zip">Selma
-                folder
-            </a> and uncompress it. It contains novels by <a href="https://sv.wikipedia.org/wiki/Selma_Lagerl%C3%B6f">
-                Selma Lagerlöf</a>.
+                folder</a> and uncompress it. It contains novels by <a href="https://sv.wikipedia.org/wiki/Selma_Lagerl%C3%B6f">
+                Selma Lagerlöf</a>. The text of these novels was extracted
+                from <a href="https://litteraturbanken.se/forfattare/LagerlofS/titlar">Lagerlöf arkivet</a> at
+                <a href="https://litteraturbanken.se/">Litteraturbanken</a>.
             </li>
             <li>Read the description of the tf-idf measure on Wikipedia
                 (<a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">https://en.wikipedia.org/wiki/Tf-idf</a>).
@@ -63,9 +64,9 @@
             You will encode the position of a word by the number of characters from the start of the file.
         </p>
         <pre>
-            word1: file_name pos1 pos2 pos3... file_name pos1 pos2 ...
-            word2: file_name pos1 pos2 pos3... file_name pos1 pos2 ...
-            ...
+word1: file_name pos1 pos2 pos3... file_name pos1 pos2 ...
+word2: file_name pos1 pos2 pos3... file_name pos1 pos2 ...
+...
         </pre>
         <p>To make programming easier, you will split this exercise into three steps and you will use
             dictionaries to represent the postings.
@@ -82,7 +83,7 @@
                 the values, the lists of positions
             </li>
             <li>As words, you will consider all the strings of letters that you will set in lower case.
-                You will not index the rest (i.e. numbers or symbols).
+                You will not index the rest (i.e. numbers, punctuations, or symbols).
             </li>
             <li>To extract the words, you will use Unicode regular expressions. Do not use <tt>\w+</tt>,
                 for instance, but the Unicode equivalent.
@@ -103,14 +104,14 @@
             <i>stjärnor</i>. The data is stored in a dictionary:
         </p>
         <pre>
-            {...
-            'gjord': [8551, 183692, 220875],
-            'uppklarnande': [8567],
-            'stjärnor': [8590], ...
-            }
+{...
+'gjord': [8600, 183039, 220445],
+'uppklarnande': [8617],
+'stjärnor': [8641], ...
+}
         </pre>
-        <p>The word <i>gjord</i> occurs three times in the text at positions 8551, 183692, and 220875, <i>uppklarnande</i>, once at
-            position 8567, and <i>stjärnor</i>, once at position 8590.
+        <p>The word <i>gjord</i> occurs three times in the text at positions 8600, 183039, and 220445, <i>uppklarnande</i>, once at
+            position 8617, and <i>stjärnor</i>, once at position 8641.
         </p>
         <h3>Reading the content of a folder</h3>
         <p>Write a function that reads all the files in a folder with a specific suffix (txt). You will need the Python
@@ -141,21 +142,21 @@
         <p>Below is an except of the master index with the words <i>samlar</i> and <i>ände</i>:
         </p>
         <pre>
-        'samlar':
-            {'nils.txt': [53499, 120336],
-            'gosta.txt': [317119, 414300, 543686],
-            'osynliga.txt': [410995, 871322]},
-        'ände':
-            {'nils.txt': [3991],
-            'kejsaren.txt': [51100],
-            'marbacka.txt': [374231],
-            'troll.txt': [39726],
-            'osynliga.txt': [742747]},
+'samlar':
+            {'troll.txt': [641880, 654233],
+            'nils.txt': [51805, 118943],
+            'osynliga.txt': [399121],
+            'gosta.txt': [313784, 409998, 538165]}
+'ände':
+            {'troll.txt': [39562, 650112],
+            'kejsaren.txt': [50171],
+            'marbacka.txt': [370324],
+            'nils.txt': [1794],
+            'osynliga.txt': [272144]}
         </pre>
-        <p>The word <i>samlar</i>, for instance, occurs three times in the gosta text at positions 317119, 414300, and
-            543686.
+        <p>The word <i>samlar</i>, for instance, occurs three times in the gosta text at positions
+            313784, 409998, and 538165.
         </p>
-
         <h2>Representing Documents with tf-idf</h2>
         <p>Once you have created the index, you will represent each document in your corpus as a word vector.
             You will define the value of a word in a document with the tf-idf
@@ -164,34 +165,54 @@
             frequency.
         </p>
         <p>You have below the tf-idf values for a few words. In our example, the word <i>gås</i> has the value
-            0 in bannlyst.txt and the value 0.000101237 in nils.txt
+            0 in bannlyst.txt and the value 0.000101001964 in nils.txt
         </p>
         <pre>
-        bannlyst.txt
-            känna 0.0
-            gås 0.0
-            nils 0.0
-            et 6.2846093167673765e-06
-        gosta.txt
-            känna 0.0
-            gås 0.0
-            nils 0.0
-            et 0.0
-        herrgard.txt
-            känna 0.0
-            gås 0.0
-            nils 0.0
-            et 0.0
-        jerusalem.txt
-            känna 0.0
-            gås 0.0
-            nils 4.778415355159037e-06
-            et 0.0
-        nils.txt
-            känna 0.0
-            gås 0.00010123719421964931
-            nils 9.801209641132888e-05
-            et 0.0
+troll.txt
+	känna	 0.0
+	gås	 0.0
+	nils	 2.148161748868631e-06
+	et	 0.0
+kejsaren.txt
+	känna	 0.0
+	gås	 0.0
+	nils	 8.08284798629935e-06
+	et	 8.273225429362848e-05
+marbacka.txt
+	känna	 0.0
+	gås	 0.0
+	nils	 7.582276564686669e-06
+	et	 9.70107989686256e-06
+herrgard.txt
+	känna	 0.0
+	gås	 0.0
+	nils	 0.0
+	et	 0.0
+nils.txt
+	känna	 0.0
+	gås	 0.00010100196417506702
+	nils	 0.00010164426900380124
+	et	 0.0
+osynliga.txt
+	känna	 0.0
+	gås	 0.0
+	nils	 0.0
+	et	 0.0
+jerusalem.txt
+	känna	 0.0
+	gås	 0.0
+	nils	 4.968292117670952e-06
+	et	 0.0
+bannlyst.txt
+	känna	 0.0
+	gås	 0.0
+	nils	 0.0
+	et	 0.0
+gosta.txt
+	känna	 0.0
+	gås	 0.0
+	nils	 0.0
+	et	 0.0
         </pre>
         <h2>Comparing Documents</h2>
         <p>Using the cosine similarity, compare all the pairs of documents with their tfidf representation and present
