@@ -8,8 +8,11 @@
     </head>
     <body>
         <!--<h1>EDAN20 – Language Technology</h1>-->
-        <p>The schedule for September/October 2019 is available here: <a
-                href="https://cloud.timeedit.net/lu/web/lth1/ri14566340000YQQ45Z5577007y5Y3713gQ5g5X6Y55ZQ076.html">
+        <p><b>This page is provisional is is being constantly updated</b></p>
+        <p>This year, we will have no physical lecture classes or labs. We will be using Zoom
+            for the whole course.</p>
+        <p>The schedule for August/September/October 2020 is available here: <a
+                href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ5560YfQQ15Z5772Y0Zy7007335Y67Q565.html">
             https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html</a>. Use the
             <i>course schedule</i>
             or <i>lässchema</i> links and enter EDAN20 to view the course schedule.
@@ -29,16 +32,16 @@
         </p>
         <!--		<p>Due to a meeting in Gothenburg on September 13, 2011, the class is cancelled for this date (13/09/2011). It will be replaced by a lecture on September 23, room E:B.
                 </p>-->
-        <p>The first lecture will be held on September 2, 2019, 15-17. The lecture room is
-            <b>MH:Gårdingsalen</b>
+        <p>The first lecture will be held on August 31, 2019, 15-17. We will use Zoom. Please install it before the
+            the lecture starts.
         </p>
         <p>The course takes place in the HT1 “study period.”
         </p>
         <p>
             You can register to a laboratory group here:
             <a
-                    href="https://sam.cs.lth.se/LabsSelectSession?occasionId=594">
-                hhttps://sam.cs.lth.se/LabsSelectSession?occasionId=594
+                    href="https://sam.cs.lth.se/LabsSelectSession?occasionId=656">
+                https://sam.cs.lth.se/LabsSelectSession?occasionId=656
             </a>
         </p>
         <h2>Objectives</h2>
@@ -79,6 +82,13 @@
                     href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0.pdf">pdf</a>], or in a paper
             version
             [<a href="http://www.springer.com/computer/ai/book/978-3-642-41463-3">html</a>].
+        </p>
+        <p>I started to write a 3rd edition with Python instead of Perl. Unfortunately, on August 15, 2016,
+            I had a work accident at LTH: Workers demolished the window of my office
+            while I was working and without warning me.
+            Since then, I have a very debilitating tinnitus (ringing hears).
+            This new edition will be considerably delayed (if I can ever publish it).
+            I will nonetheless hand out a draft of the chapters I have written.
         </p>
         <p>Students can also use the first edition from 2006,<i>An Introduction to Language Processing with Perl and
             Prolog</i>. The electronic version is available for free: [<a

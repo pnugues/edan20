@@ -17,7 +17,7 @@
             <li>Know of a few Unix tools to derive word statistics</li>
             <li>Know of the main functions of scikit-learn</li>
         </ul>
-        <p>The student's presence in the computer room is not compulsory for this initial session.
+        <p>The student's presence in the computer room through Zoom is not compulsory for this initial session.
             Its goal
             is to be sure that all the students have the elementary Python programming skills they need for the course.
             This means that if you know Python and scikit-learn (well enough), you can skip the lab.
@@ -26,14 +26,41 @@
         </p>
         <h2>Organization and location</h2>
         <p>The initial lab session will take place on</p>
-        <ul>
-            <li>Group 1: Tuesday, September 3 from 10:15 to 12:00 in the Alpha room</li>
-            <li>Group 2/3: Tuesday, September 3 from 13:15 to 15:00 in the Alpha room</li>
-            <li>Group 4/5: Wednesday, September 4 from 13:15 to 15:00 in the Falk room</li>
-            <li>Group 6: Wednesday, September 4 from 15:15 to 17:00 in the Falk room</li>
-        </ul>
+        <ol>
+            <li>Group 1, September 1, 2020, 10:15 to 12:00, in the Alpha room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 2, September 1, 2020, 13:15 to 15:00, in the Alpha room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 3, September 2, 2020, 13:15 to 15:00, in the Val room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 4, September 2, 2020, 13:15 to 15:00, in the Falk rooms,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 5, September 2, 2020, 15:15 to 17:00, in the Val room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 6, September 2, 2020, 15:15 to 17:00, in the Falk room.
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+        </ol>
         <p>There can be last minute changes. Please always check the official times here:
-            <a href="https://cloud.timeedit.net/lu/web/lth1/ri14566340000YQQ45Z5577007y5Y3713gQ5g5X6Y55ZQ076.html">
+            <a
+                    href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ5560YfQQ15Z5772Y0Zy7007335Y67Q565.html">
                 https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
             </a>
         </p>
@@ -47,7 +74,7 @@
                 <a href="https://www.anaconda.com/distribution">https://www.anaconda.com/distribution</a>.
                 Anaconda has most packages we need for the course.
             </li>
-            <li>Anaconda is available on the lab machines. You add it to your path by running:
+            <li>Anaconda is available on the LTH lab machines. You add it to your path by running:
                 <br/>
                 <tt>$ initcs</tt>
                 <br/>
@@ -64,23 +91,27 @@
                 <br/>
                 <tt>python -m pip install --upgrade regex</tt>
             </li>
-            <li>As programming environment (IDE), we recommend PyCharm:
+            <li>You will carry out the labs with Jupyter notebooks. We will write code
+                snippets (cells) that you will run interactively.
+                You start jupyter with:
+                <br/>
+                <tt>$ jupyter lab</tt>
+                <br/>
+                or
+                <br/>
+                <tt>$ jupyter notebook</tt>
+            </li>
+            <li>Instead of an IDE, you may prefer a programming environment (IDE). I recommend PyCharm:
                 <a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a>.
                 The community edition is free.
                 <br/>
-                PyCharm should be available on the lab computers. If not, you will add the Python plugin to IntelliJ instead.
+                PyCharm should be available on the lab computers. If not, you will add the Python plugin to IntelliJ
+                instead.
                 Run:
                 <br/>
                 <tt>$ intellij-idea-community</tt>
                 <br/>
                 then Configure and add Python
-            </li>
-            <li>Instead of an IDE, you may prefer Jupyter notebooks to create cells that you can run interactively.
-                You start jupyter with:
-                <br/>
-                <tt>$ jupyter lab</tt><br/>
-                or<br/>
-                <tt>$ jupyter notebook</tt>
             </li>
             <li>
                 On the LTH machines, the <tt>regex</tt> module is not available from PyCharm by default.
@@ -94,7 +125,11 @@
         <h2>Course of the lab</h2>
         <p>In the lab session, your instructors will walk you through Python, Unix, and scikit-learn. You will:</p>
         <ol>
-            <li>run all the code in the chapter: A Tour of Python</li>
+            <li>run all the code in the chapter: A Tour of Python available here
+                <a href="https://github.com/pnugues/ilppp/tree/master/programs/appB/python">
+                    https://github.com/pnugues/ilppp/tree/master/programs/appB/python
+                </a>
+            </li>
             <li>count the words of a text with Unix tools</li>
             <li>run the quick introduction to scikit-learn:
                 <a href="https://scikit-learn.org/stable/tutorial/basic/tutorial.html">
@@ -110,8 +145,12 @@
                 Python syntax;
             </li>
             <li>Hand in an individual comment of this program on one to two pages (not more). To
-            write this report, please use the overleaf site (<a href="https://www.overleaf.com/">www.overleaf.com</a>)
-                and Latex. Once you are done, please send the overleaf link to it (not the PDF) to the EDAN20 course address.</li>
+                write this report, please use the overleaf site (<a href="https://www.overleaf.com/">
+                    www.overleaf.com</a>)
+                and Latex. Once you are done, please send the overleaf link to it (not the PDF) to the EDAN20 course
+                address.
+                Please check your document with a spell checker before you send it.
+            </li>
         </ol>
     </body>
 </html>

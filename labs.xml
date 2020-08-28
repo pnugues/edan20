@@ -12,7 +12,7 @@
             <b>This page is provisional. It will be updated in due time.</b>
             <b>There can be last minute changes in the timetable that do not show on this page. Please always check the
                 official times here:
-                <a href="https://cloud.timeedit.net/lu/web/lth1/ri14566340000YQQ45Z5577007y5Y3713gQ5g5X6Y55ZQ076.html">
+                <a href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ5560YfQQ15Z5772Y0Zy7007335Y67Q565.html">
                     https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
                 </a>
             </b>
@@ -20,9 +20,10 @@
         <h2>Organization</h2>
         <ul>
             <li>Typically, each assignment is done by a group of two students. The programming results of it are shown
-                to the instructor who validates it during a laboratory session. You can register to a laboratory group here: <a
-                        href="https://sam.cs.lth.se/LabsSelectSession?occasionId=594">
-                    https://sam.cs.lth.se/LabsSelectSession?occasionId=594</a>.
+                to the instructor who validates it during a laboratory session. You can register to a laboratory group
+                here: <a
+                        href="https://sam.cs.lth.se/LabsSelectSession?occasionId=656">
+                    https://sam.cs.lth.se/LabsSelectSession?occasionId=656</a>.
             </li>
             <li>After the lab, each and every student writes a report of one to two pages to describe how s/he carried
                 out the assignment, her/his results, and gives a conclusion. You need both to validate your program and
@@ -35,11 +36,53 @@
             </li>
             <li>We will use Python and scikit-learn in the assignments. The laboratory session of week 1 (lab 0) is
                 intended to review some basic features of Python as well as scikit-learn.
-                <br/>Group 1, September 3, 2019, 08:15 to 10:00, in the Alpha room,
-                group 2, September 3, 2019, 10:15 to 12:00, in the Alpha room,
-                group 3/4, September 3, 2019, 13:15 to 15:00, in the Alpha and Beta rooms,
-                group 5, September 4, 2019, 13:15 to 15:00, in the Falk room,
-                group 6, September 4, 2019, 15:15 to 17:00, in the Falk room.
+                <br/>
+                <ol>
+                    <li>Group 1, September 1, 2020, 10:15 to 12:00, in the Alpha room,<br/>
+                        Discord link: https://discord.gg/83wWpF7<br/>
+                    </li>
+                    <li>group 2, September 1, 2020, 13:15 to 15:00, in the Alpha room,<br/>
+                        Discord link: https://discord.gg/83wWpF7<br/>
+                    </li>
+                    <li>group 3, September 2, 2020, 13:15 to 15:00, in the Val room,<br/>
+                        Discord link: https://discord.gg/83wWpF7<br/>
+                    </li>
+                    <li>group 4, September 2, 2020, 13:15 to 15:00, in the Falk rooms,<br/>
+                        Discord link: https://discord.gg/83wWpF7<br/>
+                    </li>
+                    <li>group 5, September 2, 2020, 15:15 to 17:00, in the Val room,<br/>
+                        Discord link: https://discord.gg/83wWpF7<br/>
+                    </li>
+                    <li>group 6, September 2, 2020, 15:15 to 17:00, in the Falk room.<br/>
+                        Discord link: https://discord.gg/83wWpF7<br/>
+                    </li>
+                </ol>
+                <!--<ol>
+                    <li>Group 1, September 1, 2020, 10:15 to 12:00, in the Alpha room,<br/>
+                        Zoom link: https://lu-se.zoom.us/j/67703444531?pwd=eC9JUW02UEZOSGl2bEtFMGJiTWJ1QT09<br/>
+                        Password: 2000
+                    </li>
+                    <li>group 2, September 1, 2020, 13:15 to 15:00, in the Alpha room,<br/>
+                        Zoom link: https://lu-se.zoom.us/j/66377905976?pwd=eCt1YWlMZUM2dXhLQUxhUkg5c1FEUT09<br/>
+                        Password: 2000
+                    </li>
+                    <li>group 3, September 2, 2020, 13:15 to 15:00, in the Val room,<br/>
+                        Zoom link: https://lu-se.zoom.us/j/67990604142?pwd=WFYvSkdRZTNnVE5qd3Btem5WdnRUUT09<br/>
+                        Password: 2000
+                    </li>
+                    <li>group 4, September 2, 2020, 13:15 to 15:00, in the Falk rooms,<br/>
+                        Zoom link: https://lu-se.zoom.us/j/63523083603?pwd=cHhyWmloTzRwNzlEZW9LdFZ4VWtmQT09<br/>
+                        Password: 2000
+                    </li>
+                    <li>group 5, September 2, 2020, 15:15 to 17:00, in the Val room,<br/>
+                        Zoom link: https://lu-se.zoom.us/j/61447321407?pwd=NzlaVms0MkRSZVRFT0t1dXAyaDJUdz09<br/>
+                        Password: 2000
+                    </li>
+                    <li>group 6, September 2, 2020, 15:15 to 17:00, in the Falk room.<br/>
+                        Zoom link: https://lu-se.zoom.us/j/63997448495?pwd=S3FpZVhZRkovQUVYME1SVXNiVDdXZz09<br/>
+                        Password: 2000
+                    </li>
+                </ol>-->
             </li>
             <li>
                 <a href="https://www.anaconda.com/download/">Anaconda</a>

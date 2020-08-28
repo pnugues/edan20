@@ -9,6 +9,19 @@
         <p>
             <b>This page is provisional. It will be updated in due time.</b>
         </p>
+        <p>
+            I will live stream the lectures. The Zoom link is:
+            <br/>
+            https://lu-se.zoom.us/j/66662595523?pwd=R0orQkh4QWhLbVA4c3BYY1k1RlpnUT09
+            <br/>Enter the password: 75012
+        </p>
+        <p>I opened a chat room so that students can discuss topics regarding the course of the labs.
+            The link is:
+            <br/>
+            https://lu-se.zoom.us/j/64335139506?pwd=WDJaeUtBcnJsQ2c2K2tMVG9jcUJ1UT09
+            <br/>Enter the password: 75019
+            <br/>It is only open to Lund University registered students
+        </p>
         <h2><a name="content"></a>Contents
         </h2>
         <table>
@@ -82,7 +95,7 @@
         </table>
         <h2>
             <a href="#content">^</a>
-            <a name="ch01"></a>Chapter 1: An overview of language processing (02/09/2019) [<a
+            <a name="ch01"></a>Chapter 1: An overview of language processing (31/08/2020) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_1.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_1.pdf">pdf</a>]
         </h2>
@@ -163,7 +176,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch02"></a>Chapter 2: Corpus processing tools (2/09/2019 and 5/09/2019) [<a
+            <a name="ch02"></a>Chapter 2: Corpus processing tools (31/08/2020 and 3/09/2020) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_2.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_2.pdf">pdf</a>]
         </h2>
@@ -276,7 +289,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch03"></a>Chapter 3: Encoding and annotation schemes (5/09/2019) [<a
+            <a name="ch03"></a>Chapter 3: Encoding and annotation schemes (3/09/2020) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_3.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_3.pdf">pdf</a>]
         </h2>
@@ -538,1028 +551,1030 @@
             </li>
             <li>Demonstrations:
                 <ul>
-                    <li>The Xerox site on
-                        <a href="http://open.xerox.com/Services/fst-nlp-tools">multilingual content analysis</a>.
-                    </li>
-                    <li>The
-                        <a href="http://www2.lingsoft.fi/demos.html">Swedish morphological parser</a>
-                        from
-                        <a href="http://www.lingsoft.fi/">Lingsoft</a>
-                    </li>
-                    <li>The
-                        <a href="http://www.canoonet.eu">German morphological parser</a>
-                        from Canoo</a>.
-                    </li>
-                </ul>
+                <li>The Xerox site on
+                    <a href="http://open.xerox.com/Services/fst-nlp-tools">multilingual content analysis</a>.
+                </li>
+                <li>The
+                    <a href="http://www2.lingsoft.fi/demos.html">Swedish morphological parser</a>
+                    from
+                    <a href="http://www.lingsoft.fi/">Lingsoft</a>
+                </li>
+                <li>The
+                    <a href="http://www.canoonet.eu">German morphological parser</a>
+                    from Canoo
+                </a>
+                .
             </li>
         </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch07"></a>Chapter 7: Part-of-speech tagging using rules (16/09/2019) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_7.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_6.pdf">pdf</a>]
-        </h2>
+    </li>
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch07"></a>Chapter 7: Part-of-speech tagging using rules (16/09/2019) [<a
+        href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_7.pdf">pdf</a>] [first ed. <a
+        href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_6.pdf">pdf</a>]
+</h2>
         <!--F 6 Cours 4-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>Part-of-speech tagging with symbolic rules</li>
-                    <li>Annotation standards for parts of speech (tagsets)</li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch07.pdf">pdf</a>].
-            </li>
-            <li>Annotation manuals and corpora:
-                <ul>
-                    <li>
-                        <a href="http://www.cis.upenn.edu/%7Etreebank/">Manuals</a>
-                        used by the Penn treebanks
-                    </li>
-                    <li><a href="http://www.natcorp.ox.ac.uk/">BNC</a>, the British national corpus, an annotated corpus
-                        in English following the text encoding initiative (TEI).
-                    </li>
-                    <li><a href="https://spraakbanken.gu.se/eng/resources/suc">SUC</a>, the Stockholm-Ume&aring; corpus,
-                        an annotated corpus in Swedish
-                    </li>
-                    <li><a href="http://www.coli.uni-saarland.de/projects/sfb378/negra-corpus/negra-corpus.html">
-                        Negra</a>, an annotated corpus in German
-                    </li>
-                    <li>An
-                        <a href="http://www.stanford.edu/dept/linguistics/corpora/inventory.html">inventory</a>
-                        of available corpora compiled by a group at Stanford.
-                    </li>
-                </ul>
-            </li>
-            <li>Software:
-                <ul>
-                    <li>The
-                        <a href="http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/parsing/taggers/brill/0.html">
-                            historical Brill's tagger
-                        </a>
-                        in Lisp.
-                    </li>
-                    <li>An
-                        <a href="http://www.cs.jhu.edu/%7Erflorian/fntbl/">implementation of Brill's tagger</a>
-                        in C++ by Radu Florian.
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch08"></a>Chapter 8: Part-of-speech tagging using stochastic techniques (16/09/2019) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_8.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_7.pdf">pdf</a>]
-        </h2>
+<ul>
+<li>Contents:
+    <ul>
+        <li>Part-of-speech tagging with symbolic rules</li>
+        <li>Annotation standards for parts of speech (tagsets)</li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch07.pdf">pdf</a>].
+</li>
+<li>Annotation manuals and corpora:
+    <ul>
+        <li>
+            <a href="http://www.cis.upenn.edu/%7Etreebank/">Manuals</a>
+            used by the Penn treebanks
+        </li>
+        <li><a href="http://www.natcorp.ox.ac.uk/">BNC</a>, the British national corpus, an annotated corpus
+            in English following the text encoding initiative (TEI).
+        </li>
+        <li><a href="https://spraakbanken.gu.se/eng/resources/suc">SUC</a>, the Stockholm-Ume&aring; corpus,
+            an annotated corpus in Swedish
+        </li>
+        <li><a href="http://www.coli.uni-saarland.de/projects/sfb378/negra-corpus/negra-corpus.html">
+            Negra</a>, an annotated corpus in German
+        </li>
+        <li>An
+            <a href="http://www.stanford.edu/dept/linguistics/corpora/inventory.html">inventory</a>
+            of available corpora compiled by a group at Stanford.
+        </li>
+    </ul>
+</li>
+<li>Software:
+    <ul>
+        <li>The
+            <a href="http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/parsing/taggers/brill/0.html">
+                historical Brill's tagger
+            </a>
+            in Lisp.
+        </li>
+        <li>An
+            <a href="http://www.cs.jhu.edu/%7Erflorian/fntbl/">implementation of Brill's tagger</a>
+            in C++ by Radu Florian.
+        </li>
+    </ul>
+</li>
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch08"></a>Chapter 8: Part-of-speech tagging using stochastic techniques (16/09/2019) [<a
+        href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_8.pdf">pdf</a>] [first ed. <a
+        href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_7.pdf">pdf</a>]
+</h2>
         <!--F 6 Cours 6-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>Stochastic tagging</li>
-                    <li>Markov models</li>
-                    <li>Tagging with decision trees</li>
-                    <li>Application: Language models for machine translation</li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch08.pdf">pdf</a>].
-            </li>
-            <li>Demonstrations:
-                <ul>
-                    <li>The Xerox site on
-                        <a href="http://open.xerox.com/Services/fst-nlp-tools">multilingual content analysis.</a>
-                    </li>
-                    <li>
-                        <a href="http://www.lsi.upc.edu/~nlp/SVMTool/demo.php">Demonstrations</a>
-                        from Universitat polit&egrave;cnica de Catalunya.
-                    </li>
-                    <li>
-                        <a href="http://skrutten.nada.kth.se/grim/">GRIM</a>
-                        from the KTH.
-                    </li>
-                </ul>
-            </li>
-            <li>Software:
-                <ul>
-                    <li>The
-                        <a href="ftp://parcftp.xerox.com/pub/tagger/">historical Xerox tagger</a>
-                        based on hidden Markov models in Lisp.
-                    </li>
-                    <li><a href="http://www.ims.uni-stuttgart.de/projekte/corplex/TreeTagger/DecisionTreeTagger.html">
-                        TreeTagger</a>, a multiligual tagger using decision trees from Helmut Schmid.
-                    </li>
-                    <li><a href="ftp://ftp.cis.upenn.edu/pub/adwait/jmx/jmx.tar.gz">MXPOST</a>, an efficient tagger from
-                        <a href="http://sites.google.com/site/adwaitratnaparkhi/">Adwait Ratnaparkhi</a>.
-                    </li>
-                    <li><a href="http://www.lsi.upc.es/%7Enlp/SVMTool/">SVMTool</a>, a tagger using support vector
-                        machines from Universitat polit&egrave;cnica de Catalunya.
-                    </li>
-                    <li>A <a href="http://www.csc.kth.se/tcs/humanlang/tools.html">part-of-speech tagger</a> and other
-                        tools for Swedish from KTH.
-                    </li>
-                    <li>Stagger: another <a href="http://www.ling.su.se/english/nlp/tools/stagger">part-of-speech
-                        tagger
-                    </a> for Swedish.
-                    </li>
-                    <li><a href="http://www.fjoch.com/">GIZA++</a>, a software to train translation models from Franz
-                        Josef Och.
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch09"></a>Chapter 9: Phrase-structure grammars in Prolog (19/09/2019) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_9.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_8.pdf">pdf</a>]
-        </h2>
+<ul>
+<li>Contents:
+    <ul>
+        <li>Stochastic tagging</li>
+        <li>Markov models</li>
+        <li>Tagging with decision trees</li>
+        <li>Application: Language models for machine translation</li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch08.pdf">pdf</a>].
+</li>
+<li>Demonstrations:
+    <ul>
+        <li>The Xerox site on
+            <a href="http://open.xerox.com/Services/fst-nlp-tools">multilingual content analysis.</a>
+        </li>
+        <li>
+            <a href="http://www.lsi.upc.edu/~nlp/SVMTool/demo.php">Demonstrations</a>
+            from Universitat polit&egrave;cnica de Catalunya.
+        </li>
+        <li>
+            <a href="http://skrutten.nada.kth.se/grim/">GRIM</a>
+            from the KTH.
+        </li>
+    </ul>
+</li>
+<li>Software:
+    <ul>
+        <li>The
+            <a href="ftp://parcftp.xerox.com/pub/tagger/">historical Xerox tagger</a>
+            based on hidden Markov models in Lisp.
+        </li>
+        <li><a href="http://www.ims.uni-stuttgart.de/projekte/corplex/TreeTagger/DecisionTreeTagger.html">
+            TreeTagger</a>, a multiligual tagger using decision trees from Helmut Schmid.
+        </li>
+        <li><a href="ftp://ftp.cis.upenn.edu/pub/adwait/jmx/jmx.tar.gz">MXPOST</a>, an efficient tagger from
+            <a href="http://sites.google.com/site/adwaitratnaparkhi/">Adwait Ratnaparkhi</a>.
+        </li>
+        <li><a href="http://www.lsi.upc.es/%7Enlp/SVMTool/">SVMTool</a>, a tagger using support vector
+            machines from Universitat polit&egrave;cnica de Catalunya.
+        </li>
+        <li>A <a href="http://www.csc.kth.se/tcs/humanlang/tools.html">part-of-speech tagger</a> and other
+            tools for Swedish from KTH.
+        </li>
+        <li>Stagger: another <a href="http://www.ling.su.se/english/nlp/tools/stagger">part-of-speech
+            tagger
+        </a> for Swedish.
+        </li>
+        <li><a href="http://www.fjoch.com/">GIZA++</a>, a software to train translation models from Franz
+            Josef Och.
+        </li>
+    </ul>
+</li>
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch09"></a>Chapter 9: Phrase-structure grammars in Prolog (19/09/2019) [<a
+        href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_9.pdf">pdf</a>] [first ed. <a
+        href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_8.pdf">pdf</a>]
+</h2>
         <!--F 5 6 Cours 4-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>Constituents, trees</li>
-                    <li>Using Prolog to do natural language analysis, DCG rules, variables</li>
-                    <li>Getting the syntactic structure</li>
-                    <li>Compositional analysis to get the semantic structure</li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch09.pdf">pdf</a>]
-            </li>
-            <li>Prolog programs:
-                <ul>
-                    <li>Two small DCG grammars [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch08/ch8.pl">1</a>] [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch08/ch88.pl">2</a>]
-                    </li>
-                    <li>A tokenizer using Prolog clauses [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch04/tokenize.pl">3</a>] and
-                        another one using DCG rules [<a
-                                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch04/tokenize_dcg.pl">
-                            4</a>].
-                    </li>
-                    <li>A small interpreter of regular expressions in Prolog by Robert Cameron [<a
-                            href="http://www.cs.sfu.ca/%7Ecameron/Teaching/384/99-3/regexp-plg.html">5</a>].
-                    </li>
-                </ul>
-            </li>
-            <li>Application examples:
-                <ul>
-                    <li>The grammar checker in MS Word whose parser uses phrase-structure rules.</li>
-                    <li>The
-                        <a href="http://research.microsoft.com/nlp/">natural language group</a>
-                        at Microsoft Research.
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch10"></a>Chapter 10: Partial parsing (16/09/2019 and 19/09/2019) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_10.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_9.pdf">pdf</a>]
-        </h2>
+<ul>
+<li>Contents:
+    <ul>
+        <li>Constituents, trees</li>
+        <li>Using Prolog to do natural language analysis, DCG rules, variables</li>
+        <li>Getting the syntactic structure</li>
+        <li>Compositional analysis to get the semantic structure</li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch09.pdf">pdf</a>]
+</li>
+<li>Prolog programs:
+    <ul>
+        <li>Two small DCG grammars [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch08/ch8.pl">1</a>] [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch08/ch88.pl">2</a>]
+        </li>
+        <li>A tokenizer using Prolog clauses [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch04/tokenize.pl">3</a>] and
+            another one using DCG rules [<a
+                    href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch04/tokenize_dcg.pl">
+                4</a>].
+        </li>
+        <li>A small interpreter of regular expressions in Prolog by Robert Cameron [<a
+                href="http://www.cs.sfu.ca/%7Ecameron/Teaching/384/99-3/regexp-plg.html">5</a>].
+        </li>
+    </ul>
+</li>
+<li>Application examples:
+    <ul>
+        <li>The grammar checker in MS Word whose parser uses phrase-structure rules.</li>
+        <li>The
+            <a href="http://research.microsoft.com/nlp/">natural language group</a>
+            at Microsoft Research.
+        </li>
+    </ul>
+</li>
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch10"></a>Chapter 10: Partial parsing (16/09/2019 and 19/09/2019) [<a
+        href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_10.pdf">pdf</a>] [first ed. <a
+        href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_9.pdf">pdf</a>]
+</h2>
         <!--F 6 Cours 5-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>ELIZA: word spotting and pattern matching</li>
-                    <li>Multiwords and named entities</li>
-                    <li>Noun groups and verb groups</li>
-                    <li>Partial parsing: multiword and group detection in Prolog</li>
-                    <li>Partial parsing: statistical techniques</li>
-                    <li>Information extraction</li>
-                    <li>Precision, recall, and
-                        <em>F</em>-measure (harmonic mean)
-                    </li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch10.pdf">pdf</a>]
-            </li>
-            <li>Prolog programs:
-                <ul>
-                    <li>Prolog predicates to write local DCG grammars with simple noun group and verb group rules [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch09/ch90.pl">1</a>].
-                    </li>
-                </ul>
-            </li>
-            <li>Documents:
-                <ul>
-                    <li>Many
-                        <a href="http://www.vinartus.net/spa/publications.html">interesting papers</a>
-                        on partial parsing by
-                        <a href="http://www.vinartus.net/spa/">Steven Abney</a>;
-                    </li>
-                    <li>An application example of information extraction: the
-                        <a href="http://www.ai.sri.com/natural-language/">FASTUS</a>
-                        system from SRI.
-                    </li>
-                    <li><a href="http://nlp.cs.lth.se/">Carsim</a>, a system to generate animated 3D scenes from text
-                        that uses information extraction techniques.
-                    </li>
-                </ul>
-            </li>
-            <li>Annotated corpora and evaluation resources:
-                <ul>
-                    <li>
-                        <a href="https://www.clips.uantwerpen.be/conll2002/ner/">CoNLL-2002</a>
-                        and <a href="https://www.clips.uantwerpen.be/conll2003/ner/">CoNLL-2003</a> on
-                        language-independent
-                        named entity recognition: Spanish, Dutch, English, and German.
-                    </li>
-                    <li>
-                        <a href="https://www.clips.uantwerpen.be/conll2000/chunking/">CoNLL-2000</a>
-                        on chunking and <a href="http://www.clips.uantwerpen.be/conll99/npb/">CoNLL-1999</a> on noun
-                        phrase
-                        chunking
-                    </li>
-                    <li>
-                        <a href="http://www.clips.uantwerpen.be/conll2001/clauses/">CoNLL-2001</a>
-                        on clause identification
-                    </li>
-                </ul>
-            </li>
-            <li>Demonstrations:
-                <ul>
-                    <li><a href="http://www.languagecomputer.com/index.php?page=labs">CiceroLite</a>, a system to
-                        extract named entities
-                    </li>
-                    <li><a href="http://www.alchemyapi.com/api/demo.html">AlchemyAPI</a>, a system to identify people,
-                        organizations, locations, and categorize text
-                    </li>
-                    <li><a href="http://www.opencalais.com/">Calais</a>, an information extraction system
-                    </li>
-                    <li>Visualizing and monitoring events and disasters on a map at <a
-                            href="http://emm.newsbrief.eu/emmMap/?type=event&language=&language=all">EMM labs</a>,
-                        part of the Europe media monitor.
-                        The information extraction part of the <a
-                                href="http://emm.newsbrief.eu/NewsBrief/eventedition/en/latest_en.html">event
-                            detector</a>. A key to the
-                        symbols used is available from <a href="http://press.jrc.it/aboutrtevents.html">this page</a>.
-                        See also their <a href="http://emm.newsexplorer.eu/NewsExplorer/entities/en/1510.html">name
-                            explorer</a>.
-                    </li>
-                </ul>
-            </li>
-            <li>Software:
-                <ul>
-                    <li><a href="http://chasen.org/%7Etaku/software/yamcha/">Yamcha</a>, an efficient chunker
-                    </li>
-                    <li>The <a href="http://nlp.stanford.edu/software/CRF-NER.shtml">Stanford named entity recognizer
-                    </a> from Stanford University
-                    </li>
-                    <li>The <a href="http://cogcomp.cs.illinois.edu/page/demos/">Illinois named entity tagger</a> from
-                        the University of Illinois
-                    </li>
-                    <li>The <a href="http://vilde.cs.lth.se:9000/#/">Langforia multilingual pipelines</a> from
-                        Lund University
-                    </li>
-                </ul>
-            </li>
-            <li>Annotation resources:
-                <ul>
-                    <li>The
-                        <a href="http://www.itl.nist.gov/iaui/894.02/related_projects/muc/index.html">MUC</a>
-                        site;
-                    </li>
-                    <li><a href="http://www.limsi.fr/Individu/anne/Guide/PEAS_reference_annotations_v2.2.html">PEAS</a>,
-                        a group annotation scheme for French
-                    </li>
-                    <li><a href="http://www.sfs.uni-tuebingen.de/en/ascl/resources/corpora/tuepp-dz.html">
-                        T&uuml;PP-D/Z</a>, T&uuml;bingen Partially Parsed Corpus of Written German
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch11"></a>Chapter 11: Syntactic formalisms (19/09/2019) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_11.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_10.pdf">pdf</a>]
-        </h2>
+<ul>
+<li>Contents:
+    <ul>
+        <li>ELIZA: word spotting and pattern matching</li>
+        <li>Multiwords and named entities</li>
+        <li>Noun groups and verb groups</li>
+        <li>Partial parsing: multiword and group detection in Prolog</li>
+        <li>Partial parsing: statistical techniques</li>
+        <li>Information extraction</li>
+        <li>Precision, recall, and
+            <em>F</em>-measure (harmonic mean)
+        </li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch10.pdf">pdf</a>]
+</li>
+<li>Prolog programs:
+    <ul>
+        <li>Prolog predicates to write local DCG grammars with simple noun group and verb group rules [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch09/ch90.pl">1</a>].
+        </li>
+    </ul>
+</li>
+<li>Documents:
+    <ul>
+        <li>Many
+            <a href="http://www.vinartus.net/spa/publications.html">interesting papers</a>
+            on partial parsing by
+            <a href="http://www.vinartus.net/spa/">Steven Abney</a>;
+        </li>
+        <li>An application example of information extraction: the
+            <a href="http://www.ai.sri.com/natural-language/">FASTUS</a>
+            system from SRI.
+        </li>
+        <li><a href="http://nlp.cs.lth.se/">Carsim</a>, a system to generate animated 3D scenes from text
+            that uses information extraction techniques.
+        </li>
+    </ul>
+</li>
+<li>Annotated corpora and evaluation resources:
+    <ul>
+        <li>
+            <a href="https://www.clips.uantwerpen.be/conll2002/ner/">CoNLL-2002</a>
+            and <a href="https://www.clips.uantwerpen.be/conll2003/ner/">CoNLL-2003</a> on
+            language-independent
+            named entity recognition: Spanish, Dutch, English, and German.
+        </li>
+        <li>
+            <a href="https://www.clips.uantwerpen.be/conll2000/chunking/">CoNLL-2000</a>
+            on chunking and <a href="http://www.clips.uantwerpen.be/conll99/npb/">CoNLL-1999</a> on noun
+            phrase
+            chunking
+        </li>
+        <li>
+            <a href="http://www.clips.uantwerpen.be/conll2001/clauses/">CoNLL-2001</a>
+            on clause identification
+        </li>
+    </ul>
+</li>
+<li>Demonstrations:
+    <ul>
+        <li><a href="http://www.languagecomputer.com/index.php?page=labs">CiceroLite</a>, a system to
+            extract named entities
+        </li>
+        <li><a href="http://www.alchemyapi.com/api/demo.html">AlchemyAPI</a>, a system to identify people,
+            organizations, locations, and categorize text
+        </li>
+        <li><a href="http://www.opencalais.com/">Calais</a>, an information extraction system
+        </li>
+        <li>Visualizing and monitoring events and disasters on a map at <a
+                href="http://emm.newsbrief.eu/emmMap/?type=event&language=&language=all">EMM labs</a>,
+            part of the Europe media monitor.
+            The information extraction part of the <a
+                    href="http://emm.newsbrief.eu/NewsBrief/eventedition/en/latest_en.html">event
+                detector</a>. A key to the
+            symbols used is available from <a href="http://press.jrc.it/aboutrtevents.html">this page</a>.
+            See also their <a href="http://emm.newsexplorer.eu/NewsExplorer/entities/en/1510.html">name
+                explorer</a>.
+        </li>
+    </ul>
+</li>
+<li>Software:
+    <ul>
+        <li><a href="http://chasen.org/%7Etaku/software/yamcha/">Yamcha</a>, an efficient chunker
+        </li>
+        <li>The <a href="http://nlp.stanford.edu/software/CRF-NER.shtml">Stanford named entity recognizer
+        </a> from Stanford University
+        </li>
+        <li>The <a href="http://cogcomp.cs.illinois.edu/page/demos/">Illinois named entity tagger</a> from
+            the University of Illinois
+        </li>
+        <li>The <a href="http://vilde.cs.lth.se:9000/#/">Langforia multilingual pipelines</a> from
+            Lund University
+        </li>
+    </ul>
+</li>
+<li>Annotation resources:
+    <ul>
+        <li>The
+            <a href="http://www.itl.nist.gov/iaui/894.02/related_projects/muc/index.html">MUC</a>
+            site;
+        </li>
+        <li><a href="http://www.limsi.fr/Individu/anne/Guide/PEAS_reference_annotations_v2.2.html">PEAS</a>,
+            a group annotation scheme for French
+        </li>
+        <li><a href="http://www.sfs.uni-tuebingen.de/en/ascl/resources/corpora/tuepp-dz.html">
+            T&uuml;PP-D/Z</a>, T&uuml;bingen Partially Parsed Corpus of Written German
+        </li>
+    </ul>
+</li>
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch11"></a>Chapter 11: Syntactic formalisms (19/09/2019) [<a
+        href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_11.pdf">pdf</a>] [first ed. <a
+        href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_10.pdf">pdf</a>]
+</h2>
         <!--F 8 Cours 7-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>Constituency and dependency</li>
-                    <li>Phrase categories</li>
-                    <li>Unification-based grammars</li>
-                    <li>Dependency grammars</li>
-                    <li>Valence and subcategorization frames</li>
-                    <li>Functions</li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch11.pdf">pdf</a>]
-            </li>
-            <li>Prolog programs:
-                <ul>
-                    <li>Some simple DCG rules for German noun phrases [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/ch71.pl">1</a>]
-                    </li>
-                    <li>The generalized unification [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/ch72.pl">2</a>].
-                    </li>
-                    <li>Detection of nonprojective links in a dependency tree [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/nonprojective_links.pl">
-                        3</a>] and examples of graphs [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/dgraph_examples.pl">4</a>].
-                    </li>
-                    <li>A program to convert the CONLL-X file format into a Prolog clause [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/convert_conll_clause.pl">
-                        5</a>]. Useful with the nonprojectivity detection.
-                    </li>
-                </ul>
-            </li>
-            <li>Corpus and programming resources:
-                <ul>
-                    <li>
-                        More than 60 annotated corpora in multiple languages from the
-                        <a href="http://universaldependencies.org/">Universal dependencies</a>
-                        site.
-                    </li>
-                    <li>Four freely available annotated dependency corpora, Danish, Dutch, Portuguese, and Swedish, and
-                        links to seven others from the
-                        <a href="http://nextens.uvt.nl/%7Econll/post_task_data.html">CONLL-X shared task</a>.
-                    </li>
-                    <li>The
-                        <a href="http://www.grsampson.net/Resources.html">Susanne corpus</a>, a free treebank for
-                        English.
-                    </li>
-                    <li>A
-                        <a href="http://www.llf.cnrs.fr/fr/Gens/Abeille/French-Treebank-fr.php">French treebank</a>
-                        from Universit&eacute; Paris VII (Available with a license).
-                    </li>
-                    <li>
-                        <em>
-                            <a href="http://infolingu.univ-mlv.fr/DonneesLinguistiques/Lexiques-Grammaires/Visualisation.html">
-                                Tables lexique-grammaire
-                            </a>
-                        </em>
-                        , subcategorization frames in French available from Universit&eacute; de Marne-la-Vall&eacute;e.
-                    </li>
-                    <li>The
-                        <a href="http://nlp.cs.lth.se/software/treebank_converter/">LTH converter</a>
-                        to convert constituent trees using the Penn Treebank annotation into dependency graphs.
-                    </li>
-                </ul>
-            </li>
-            <li>Lexical and grammar resources:
-                <ul>
-                    <li>The <a href="http://www.oxfordadvancedlearnersdictionary.com/">Oxford Advanced Learner's
-                        Dictionary</a>, a dictionary listing valence patterns of English verbs.
-                    </li>
-                </ul>
-            </li>
-            <li>Annotation resources:
-                <ul>
-                    <li>A
-                        <a href="http://stp.lingfil.uu.se/~nivre/swedish_treebank/">dependency annotated corpus</a>
-                        in Swedish from
-                        <a href="http://stp.lingfil.uu.se/%7Enivre/">Joakim Nivre</a>
-                    </li>
-                    <li><a href="http://code.google.com/p/whatswrong/">What's wrong with my NLP</a>, a visualizer of
-                        dependency graphs using the CoNLL formats.
-                    </li>
-                    <li>A
-                        <a href="http://mbkromann.github.io/copenhagen-dependency-treebank/">guide to annotate
-                            dependencies
-                        </a>
-                        for Danish from Handelsh&oslash;jskolen i K&oslash;benhavn, (Copenhagen Business School).
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch12"></a>Chapter 12: Constituent parsing (26/09/2019) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_12.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_11.pdf">pdf</a>]
-        </h2>
+<ul>
+<li>Contents:
+    <ul>
+        <li>Constituency and dependency</li>
+        <li>Phrase categories</li>
+        <li>Unification-based grammars</li>
+        <li>Dependency grammars</li>
+        <li>Valence and subcategorization frames</li>
+        <li>Functions</li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch11.pdf">pdf</a>]
+</li>
+<li>Prolog programs:
+    <ul>
+        <li>Some simple DCG rules for German noun phrases [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/ch71.pl">1</a>]
+        </li>
+        <li>The generalized unification [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/ch72.pl">2</a>].
+        </li>
+        <li>Detection of nonprojective links in a dependency tree [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/nonprojective_links.pl">
+            3</a>] and examples of graphs [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/dgraph_examples.pl">4</a>].
+        </li>
+        <li>A program to convert the CONLL-X file format into a Prolog clause [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/convert_conll_clause.pl">
+            5</a>]. Useful with the nonprojectivity detection.
+        </li>
+    </ul>
+</li>
+<li>Corpus and programming resources:
+    <ul>
+        <li>
+            More than 60 annotated corpora in multiple languages from the
+            <a href="http://universaldependencies.org/">Universal dependencies</a>
+            site.
+        </li>
+        <li>Four freely available annotated dependency corpora, Danish, Dutch, Portuguese, and Swedish, and
+            links to seven others from the
+            <a href="http://nextens.uvt.nl/%7Econll/post_task_data.html">CONLL-X shared task</a>.
+        </li>
+        <li>The
+            <a href="http://www.grsampson.net/Resources.html">Susanne corpus</a>, a free treebank for
+            English.
+        </li>
+        <li>A
+            <a href="http://www.llf.cnrs.fr/fr/Gens/Abeille/French-Treebank-fr.php">French treebank</a>
+            from Universit&eacute; Paris VII (Available with a license).
+        </li>
+        <li>
+            <em>
+                <a href="http://infolingu.univ-mlv.fr/DonneesLinguistiques/Lexiques-Grammaires/Visualisation.html">
+                    Tables lexique-grammaire
+                </a>
+            </em>
+            , subcategorization frames in French available from Universit&eacute; de Marne-la-Vall&eacute;e.
+        </li>
+        <li>The
+            <a href="http://nlp.cs.lth.se/software/treebank_converter/">LTH converter</a>
+            to convert constituent trees using the Penn Treebank annotation into dependency graphs.
+        </li>
+    </ul>
+</li>
+<li>Lexical and grammar resources:
+    <ul>
+        <li>The <a href="http://www.oxfordadvancedlearnersdictionary.com/">Oxford Advanced Learner's
+            Dictionary</a>, a dictionary listing valence patterns of English verbs.
+        </li>
+    </ul>
+</li>
+<li>Annotation resources:
+    <ul>
+        <li>A
+            <a href="http://stp.lingfil.uu.se/~nivre/swedish_treebank/">dependency annotated corpus</a>
+            in Swedish from
+            <a href="http://stp.lingfil.uu.se/%7Enivre/">Joakim Nivre</a>
+        </li>
+        <li><a href="http://code.google.com/p/whatswrong/">What's wrong with my NLP</a>, a visualizer of
+            dependency graphs using the CoNLL formats.
+        </li>
+        <li>A
+            <a href="http://mbkromann.github.io/copenhagen-dependency-treebank/">guide to annotate
+                dependencies
+            </a>
+            for Danish from Handelsh&oslash;jskolen i K&oslash;benhavn, (Copenhagen Business School).
+        </li>
+    </ul>
+</li>
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch12"></a>Chapter 12: Constituent parsing (26/09/2019) [<a
+        href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_12.pdf">pdf</a>] [first ed. <a
+        href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_11.pdf">pdf</a>]
+</h2>
         <!--F 9 10 Cours 7 Cours 8-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>Top-down and bottom-up strategies</li>
-                    <li>The shift-reduce algorithm</li>
-                    <li>Earley's algorithm</li>
-                    <li>Statistical parsing and PCFG</li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch12.pdf">pdf</a>]
-            </li>
-            <li>Prolog programs:
-                <ul>
-                    <li>A shift-reduce parser [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/shift-reduce.pl">1</a>]
-                    </li>
-                    <li>Earley's parser [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/earley.pl">2</a>]
-                    </li>
-                </ul>
-            </li>
-            <li>Corpus resources:
-                <ul>
-                    <li>The
-                        <a href="http://www.grsampson.net/Resources.html">Susanne corpus</a>, a free treebank for
-                        English
-                    </li>
-                    <li>A
-                        <a href="http://www.llf.cnrs.fr/fr/Gens/Abeille/French-Treebank-fr.php">French treebank</a>
-                        from Universit&eacute; Paris VII (Available with a license)
-                    </li>
-                </ul>
-            </li>
-            <li>Parsers resources:
-                <ul>
-                    <li>The Charniak parser (From
-                        <a href="http://www.cs.brown.edu/%7Eec/#software">Eugene Charniak</a>'s web page)
-                    </li>
-                    <li>The Collins parser (<a href="http://www.cs.columbia.edu/~mcollins/">Michael Collins</a>' web
-                        page)
-                    </li>
+<ul>
+<li>Contents:
+    <ul>
+        <li>Top-down and bottom-up strategies</li>
+        <li>The shift-reduce algorithm</li>
+        <li>Earley's algorithm</li>
+        <li>Statistical parsing and PCFG</li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch12.pdf">pdf</a>]
+</li>
+<li>Prolog programs:
+    <ul>
+        <li>A shift-reduce parser [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/shift-reduce.pl">1</a>]
+        </li>
+        <li>Earley's parser [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/earley.pl">2</a>]
+        </li>
+    </ul>
+</li>
+<li>Corpus resources:
+    <ul>
+        <li>The
+            <a href="http://www.grsampson.net/Resources.html">Susanne corpus</a>, a free treebank for
+            English
+        </li>
+        <li>A
+            <a href="http://www.llf.cnrs.fr/fr/Gens/Abeille/French-Treebank-fr.php">French treebank</a>
+            from Universit&eacute; Paris VII (Available with a license)
+        </li>
+    </ul>
+</li>
+<li>Parsers resources:
+    <ul>
+        <li>The Charniak parser (From
+            <a href="http://www.cs.brown.edu/%7Eec/#software">Eugene Charniak</a>'s web page)
+        </li>
+        <li>The Collins parser (<a href="http://www.cs.columbia.edu/~mcollins/">Michael Collins</a>' web
+            page)
+        </li>
 
-                </ul>
-            </li>
-            <li>On-line parsers:
-                <ul>
-                    <li>The
-                        <a href="http://nlp.cs.berkeley.edu/software.shtml">Berkeley parser</a>
-                    </li>
-                    <li>
-                        <a href="http://nlp.stanford.edu:8080/parser/">Stanford parser</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch13"></a>Chapter 13: Dependency parsing (26/09/2019) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_13.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_11.pdf">pdf</a>]
-        </h2>
+    </ul>
+</li>
+<li>On-line parsers:
+    <ul>
+        <li>The
+            <a href="http://nlp.cs.berkeley.edu/software.shtml">Berkeley parser</a>
+        </li>
+        <li>
+            <a href="http://nlp.stanford.edu:8080/parser/">Stanford parser</a>
+        </li>
+    </ul>
+</li>
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch13"></a>Chapter 13: Dependency parsing (26/09/2019) [<a
+        href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_13.pdf">pdf</a>] [first ed. <a
+        href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_11.pdf">pdf</a>]
+</h2>
         <!--F 9 10 Cours 7 Cours 8-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>Dependency parsing</li>
-                    <li>Nivre's parser</li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch13.pdf">pdf</a>]
-            </li>
-            <li>Prolog programs:
-                <ul>
-                    <li>Joakim Nivre's dependency parser [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/nivre.pl">3</a>].
-                    </li>
-                    <li>Updates to the book:
-                        <ul>
-                            <li>Nivre's parser to parse an annotated corpus (gold standard parsing) [<a
-                                    href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/nivre_ref.pl">
-                                4</a>] and an improved version of Nivre's parser [<a
-                                    href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/nivre2.pl">5</a>].
-                            </li>
-                            <li>Utilities to parse a CoNLL 2006 or 2007 corpus [<a
-                                    href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/process_corpus.pl">
-                                6</a>] [<a
-                                    href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/nonprojective_links.pl">
-                                7</a>] [<a
-                                    href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/dgraph_examples.pl">
-                                8</a>].
-                            </li>
-                            <li>The Swedish corpus used in CoNLL 2006 and formatted as a Prolog clause. Training set [<a
-                                    href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/talbanken05.pl">
-                                9</a>] and test set [<a
-                                    href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/talbanken05_test.pl">
-                                10</a>].
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>Corpus resources:
-                <ul>
-                    <li>
-                        More than 60 annotated corpora in multiple languages from the
-                        <a href="http://universaldependencies.org/">Universal dependencies</a>
-                        site.
-                    </li>
-                    <li>Four freely available annotated dependency corpora, Danish, Dutch, Portuguese, and Swedish, and
-                        links to 7 others from the
-                        <a href="http://nextens.uvt.nl/%7Econll/post_task_data.html">CoNLL-X shared task</a>. Seven
-                        other corpora with the same annotation, Basque, Catalan, Chinese, Greek, Hungarian, Italian, and
-                        Turkish, from the
-                        <a href="http://nextens.uvt.nl/depparse-wiki/DataDownload">CoNLL 2007 shared task</a>.
-                    </li>
-                </ul>
-            </li>
-            <li>Parsers resources:
-                <ul>
-                    <li><a href="http://stp.lingfil.uu.se/%7Enivre/">Joakim Nivre</a>'s web page and the
-                        <a href="http://maltparser.org/">Malt parser</a>
-                    </li>
-                    <li>
-                        Google's parser: <a
-                            href="https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html">Parsey
-                        McParseface</a>, the most accurate in the world according to Google.
-                    </li>
-                    <li><a href="http://ryanmcd.googlepages.com/">Ryan McDonald</a>'s web page
-                    </li>
-                    <li>The
-                        <a href="http://nextens.uvt.nl/%7Econll/">CONLL-X</a>
-                        and
-                        <a href="http://depparse.uvt.nl/depparse-wiki/SharedTaskWebsite">CONLL-2007</a>
-                        shared tasks on dependency parsing covering a total of 19 languages.
-                    </li>
-                </ul>
-            </li>
-            <li>On-line parsers:
-                <ul>
-                    <li>
-                        <a href="http://www.connexor.com/">Connexor</a>
-                    </li>
-                    <li>
-                        <a href="http://www.lingsoft.fi/">Lingsoft</a>
-                    </li>
-                    <li>
-                        <a href="http://www.link.cs.cmu.edu/link/">Link grammar</a>
-                    </li>
-                    <li>
-                        <a href="http://nlp.stanford.edu:8080/corenlp/">Stanford coreNLP</a>
-                        or here:
-                        <a href="http://corenlp.run/">corenlp run</a>
-                    </li>
-                    <li>
-                        <a href="http://vilde.cs.lth.se:9000/#/">Multilingual parsers</a>
-                        from Lund
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch14"></a>Chapter 14: Semantics and predicate logic (30/09/2019) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_14.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_12.pdf">pdf</a>]
-        </h2>
+<ul>
+<li>Contents:
+    <ul>
+        <li>Dependency parsing</li>
+        <li>Nivre's parser</li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch13.pdf">pdf</a>]
+</li>
+<li>Prolog programs:
+    <ul>
+        <li>Joakim Nivre's dependency parser [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/nivre.pl">3</a>].
+        </li>
+        <li>Updates to the book:
+            <ul>
+                <li>Nivre's parser to parse an annotated corpus (gold standard parsing) [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/nivre_ref.pl">
+                    4</a>] and an improved version of Nivre's parser [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/nivre2.pl">5</a>].
+                </li>
+                <li>Utilities to parse a CoNLL 2006 or 2007 corpus [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/process_corpus.pl">
+                    6</a>] [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/nonprojective_links.pl">
+                    7</a>] [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch10/dgraph_examples.pl">
+                    8</a>].
+                </li>
+                <li>The Swedish corpus used in CoNLL 2006 and formatted as a Prolog clause. Training set [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/talbanken05.pl">
+                    9</a>] and test set [<a
+                        href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/talbanken05_test.pl">
+                    10</a>].
+                </li>
+            </ul>
+        </li>
+    </ul>
+</li>
+<li>Corpus resources:
+    <ul>
+        <li>
+            More than 60 annotated corpora in multiple languages from the
+            <a href="http://universaldependencies.org/">Universal dependencies</a>
+            site.
+        </li>
+        <li>Four freely available annotated dependency corpora, Danish, Dutch, Portuguese, and Swedish, and
+            links to 7 others from the
+            <a href="http://nextens.uvt.nl/%7Econll/post_task_data.html">CoNLL-X shared task</a>. Seven
+            other corpora with the same annotation, Basque, Catalan, Chinese, Greek, Hungarian, Italian, and
+            Turkish, from the
+            <a href="http://nextens.uvt.nl/depparse-wiki/DataDownload">CoNLL 2007 shared task</a>.
+        </li>
+    </ul>
+</li>
+<li>Parsers resources:
+    <ul>
+        <li><a href="http://stp.lingfil.uu.se/%7Enivre/">Joakim Nivre</a>'s web page and the
+            <a href="http://maltparser.org/">Malt parser</a>
+        </li>
+        <li>
+            Google's parser: <a
+                href="https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html">Parsey
+            McParseface</a>, the most accurate in the world according to Google.
+        </li>
+        <li><a href="http://ryanmcd.googlepages.com/">Ryan McDonald</a>'s web page
+        </li>
+        <li>The
+            <a href="http://nextens.uvt.nl/%7Econll/">CONLL-X</a>
+            and
+            <a href="http://depparse.uvt.nl/depparse-wiki/SharedTaskWebsite">CONLL-2007</a>
+            shared tasks on dependency parsing covering a total of 19 languages.
+        </li>
+    </ul>
+</li>
+<li>On-line parsers:
+    <ul>
+        <li>
+            <a href="http://www.connexor.com/">Connexor</a>
+        </li>
+        <li>
+            <a href="http://www.lingsoft.fi/">Lingsoft</a>
+        </li>
+        <li>
+            <a href="http://www.link.cs.cmu.edu/link/">Link grammar</a>
+        </li>
+        <li>
+            <a href="http://nlp.stanford.edu:8080/corenlp/">Stanford coreNLP</a>
+            or here:
+            <a href="http://corenlp.run/">corenlp run</a>
+        </li>
+        <li>
+            <a href="http://vilde.cs.lth.se:9000/#/">Multilingual parsers</a>
+            from Lund
+        </li>
+    </ul>
+</li>
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch14"></a>Chapter 14: Semantics and predicate logic (30/09/2019) [<a
+        href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_14.pdf">pdf</a>] [first ed. <a
+        href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_12.pdf">pdf</a>]
+</h2>
         <!--F 10 Cours 8-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>Formal semantics</li>
-                    <li>&#955;-calculus</li>
-                    <li>Compositionality: nouns, verbs, determiners</li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch14.pdf">pdf</a>]
-            </li>
-            <li>Prolog programs:
-                <ul>
-                    <li>A small grammar embedding compositionality [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch12/ch10.pl">1</a>]
-                    </li>
-                </ul>
-            </li>
-            <li>Corpus resources:
-                <ul>
-                    <!-- <li>A freely available
-                        <a href="http://www.senseval.org/senseval3/data.html">logical form corpus</a> available from the
-                        <a href="http://www.senseval.org/">Senseval</a> 3 evaluation task (task no. 14)
-                    </li> -->
-                    <li>A
-                        <a href="http://research.microsoft.com/en-us/groups/nlp/rte.aspx">corpus of logical forms</a>
-                        from the natural language group at
-                        <a href="http://www.research.microsoft.com/nlp/">Microsoft research</a>
-                    </li>
-                </ul>
-            </li>
-            <li>Application examples:
-                <ul>
-                    <li>
-                        <a href="http://en.wikipedia.org/wiki/Semantic_Interpretation_for_Speech_Recognition">Semantic
-                            interpretation for speech recognition
-                        </a>
-                        (SISR): A W3C recommendation to embed semantic annotation into grammar rules.
-                    </li>
-                    <!-- <li>A
-                         <a href="http://www.sics.se/humle/projects/slt.html">system</a> using parsing and compositionality: The
-                         <a href="http://www.sics.se/libabstracts.html#R94-03">Spoken Language Translator</a> from the SICS, Kista, and SRI, Cambridge.
-                     </li>
-                     <li><a href="http://www.nrl.navy.mil/aic/iss/aas/IntelligentHumanRobotInteractions.php">Nautilus</a> from the US Navy (see additional papers
-                         <a href="http://www.aic.nrl.navy.mil/papers/">here</a>)
-                     </li> -->
-                    <li>
-                        <a href="http://research.microsoft.com/en-us/projects/mt/default.aspx">Translation projects</a>
-                        by the natural language group at Microsoft Research.
-                    </li>
-                    <li>SPARQL endpoints:
-                        <ul>
-                            <li>
-                                <a href="http://dbpedia.org/sparql">http://dbpedia.org/sparql</a>
-                            </li>
-                            <li>
-                                <a href="https://query.wikidata.org">https://query.wikidata.org</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch15"></a>Chapter 15: Lexical semantics (30/09/2019) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_15.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_13.pdf">pdf</a>]
-        </h2>
+<ul>
+<li>Contents:
+    <ul>
+        <li>Formal semantics</li>
+        <li>&#955;-calculus</li>
+        <li>Compositionality: nouns, verbs, determiners</li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch14.pdf">pdf</a>]
+</li>
+<li>Prolog programs:
+    <ul>
+        <li>A small grammar embedding compositionality [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch12/ch10.pl">1</a>]
+        </li>
+    </ul>
+</li>
+<li>Corpus resources:
+    <ul>
+        <!-- <li>A freely available
+            <a href="http://www.senseval.org/senseval3/data.html">logical form corpus</a> available from the
+            <a href="http://www.senseval.org/">Senseval</a> 3 evaluation task (task no. 14)
+        </li> -->
+        <li>A
+            <a href="http://research.microsoft.com/en-us/groups/nlp/rte.aspx">corpus of logical forms</a>
+            from the natural language group at
+            <a href="http://www.research.microsoft.com/nlp/">Microsoft research</a>
+        </li>
+    </ul>
+</li>
+<li>Application examples:
+    <ul>
+        <li>
+            <a href="http://en.wikipedia.org/wiki/Semantic_Interpretation_for_Speech_Recognition">Semantic
+                interpretation for speech recognition
+            </a>
+            (SISR): A W3C recommendation to embed semantic annotation into grammar rules.
+        </li>
+        <!-- <li>A
+             <a href="http://www.sics.se/humle/projects/slt.html">system</a> using parsing and compositionality: The
+             <a href="http://www.sics.se/libabstracts.html#R94-03">Spoken Language Translator</a> from the SICS, Kista, and SRI, Cambridge.
+         </li>
+         <li><a href="http://www.nrl.navy.mil/aic/iss/aas/IntelligentHumanRobotInteractions.php">Nautilus</a> from the US Navy (see additional papers
+             <a href="http://www.aic.nrl.navy.mil/papers/">here</a>)
+         </li> -->
+        <li>
+            <a href="http://research.microsoft.com/en-us/projects/mt/default.aspx">Translation projects</a>
+            by the natural language group at Microsoft Research.
+        </li>
+        <li>SPARQL endpoints:
+            <ul>
+                <li>
+                    <a href="http://dbpedia.org/sparql">http://dbpedia.org/sparql</a>
+                </li>
+                <li>
+                    <a href="https://query.wikidata.org">https://query.wikidata.org</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</li>
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch15"></a>Chapter 15: Lexical semantics (30/09/2019) [<a
+        href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_15.pdf">pdf</a>] [first ed. <a
+        href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_13.pdf">pdf</a>]
+</h2>
         <!--F 11 Cours 9-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>Words and meaning</li>
-                    <li>Lexical semantics</li>
-                    <li>Lexical networks</li>
-                    <li>Word sense disambiguation</li>
-                    <li>Case grammars</li>
-                    <li>Frame semantics and semantic roles</li>
-                    <li>Semantic grammars</li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch15.pdf">pdf</a>].
-                Anders Bj&ouml;rkelund's presentation of his thesis on semantic role labeling [<a
-                        href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/Slides/srl.pdf">pdf</a>].
-            </li>
-            <li>Resources:
-                <ul>
-                    <li>Lexical databases:
-                        <ul>
-                            <li>
-                                <a href="http://wordnet.princeton.edu/">WordNet</a>
-                                from Princeton.
-                            </li>
-                            <li>
-                                <a href="http://www.sensagent.com/">Alexandria</a>
-                                from
-                                <a href="http://www.memodata.com/">Memodata</a>.
-                            </li>
-                        </ul>
-                    </li>
-                    <li>Sense identification:
-                        <ul>
-                            <!-- <li>Freely available
-                                 <a href="http://www.senseval.org/senseval3/data.html">sense tagged corpora</a> available from the
-                                <a href="http://www.senseval.org/">Senseval</a> 3 evaluation task (tasks 01-11)
-                            </li> -->
-                            <li><a href="http://web.eecs.umich.edu/~mihalcea/downloads.html">SemCor</a>, the Brown
-                                corpus tagged with Wordnet senses. This was originally done at Princeton with WordNet
-                                1.6. In the meantime, WordNet people reorganized the sense nomenclature. The different
-                                corpora are mappings according to WordNet sense versions
-                            </li>
-                        </ul>
-                    </li>
-                    <li>Semantic role labeling:
-                        <ul>
-                            <li>
-                                <a href="http://framenet.icsi.berkeley.edu/">FrameNet</a>
-                                from Berkeley.
-                            </li>
-                            <li>The ACE project and the Propbank annotation
-                                <a href="http://verbs.colorado.edu/%7Empalmer/projects/ace.html">guidelines</a>.
-                            </li>
-                            <li>The
-                                <a href="http://verbs.colorado.edu/verb-index/">Unified verb index</a>
-                                merging FrameNet, VerbNet, and PropBank from the University of Colorado.
-                            </li>
-                            <li>
-                                <a href="http://www.lsi.upc.edu/%7Esrlconll/st04/st04.html">CONLL-2004</a>
-                                and
-                                <a href="http://www.lsi.upc.edu/%7Esrlconll/st05/st05.html">CONLL-2005</a>
-                                on semantic role labeling.
-                            </li>
-                            <li>
-                                <a href="http://barcelona.research.yahoo.net/dokuwiki/doku.php?id=conll2008:start">
-                                    CONLL-2008
-                                </a>
-                                and <a href="http://ufal.mff.cuni.cz/conll2009-st/">CONLL-2009</a> on joint learning of
-                                syntactic and semantic dependencies.
-                            </li>
-                        </ul>
-                    </li>
-                    <li>Semantic role labeling software:
-                        <ul>
-                            <li>A demonstration of the <a href="http://barbar.cs.lth.se:8081/">LTH semantic parser</a> and
-                                its <a href="http://code.google.com/p/mate-tools/">source code</a>. (CoNLL 2009
-                                version).
-                            </li>
-                            <li>The
-                                <a href="http://nlp.cs.lth.se/software/semantic_parsing%3A_propbank_nombank_frames/">LTH
-                                    semantic parser
-                                </a>
-                                code with Propbank and Nombank predicates from Richard Johansson (CoNLL 2008 version).
-                            </li>
-                            <li>The
-                                <a href="http://nlp.cs.lth.se/software/semantic_parsing%3A_framenet_frames/">LTH
-                                    semantic parser
-                                </a>
-                                with the Framenet paradigm from Richard Johansson.
-                            </li>
-                            <li>The
-                                <a href="http://cemantix.org/software/assert.html">ASSERT</a>
-                                Automatic Statistical SEmantic Role Tagger from Sameer Pradhan.
-                            </li>
-                            <li>
-                                <a href="http://cogcomp.cs.illinois.edu/demo/srl/">Semantic role labeling</a>
-                                by the University of Illinois at Urbana-Champaign.
-                            </li>
-                            <li><a href="http://openie.cs.washington.edu/">Open information extraction</a>, a system to
-                                extract predicate--argument structures from web pages.
-                            </li>
-                            <li>The <a href="http://ml.nec-labs.com/senna/">Senna</a> semantic role-labeling tool from
-                                the NEC Laboratories America.
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <!--<li>Application examples: EVAR, <a href="http://www.nrl.navy.mil/aic/iss/aas/IntelligentHumanRobotInteractions.php">Nautilus</a>.
-            </li>-->
-        </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch16"></a>Chapter 16: Discourse (7 and 14/10/2019) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_16.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_14.pdf">pdf</a>]
-        </h2>
+<ul>
+<li>Contents:
+    <ul>
+        <li>Words and meaning</li>
+        <li>Lexical semantics</li>
+        <li>Lexical networks</li>
+        <li>Word sense disambiguation</li>
+        <li>Case grammars</li>
+        <li>Frame semantics and semantic roles</li>
+        <li>Semantic grammars</li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch15.pdf">pdf</a>].
+    Anders Bj&ouml;rkelund's presentation of his thesis on semantic role labeling [<a
+            href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/Slides/srl.pdf">pdf</a>].
+</li>
+<li>Resources:
+    <ul>
+        <li>Lexical databases:
+            <ul>
+                <li>
+                    <a href="http://wordnet.princeton.edu/">WordNet</a>
+                    from Princeton.
+                </li>
+                <li>
+                    <a href="http://www.sensagent.com/">Alexandria</a>
+                    from
+                    <a href="http://www.memodata.com/">Memodata</a>.
+                </li>
+            </ul>
+        </li>
+        <li>Sense identification:
+            <ul>
+                <!-- <li>Freely available
+                     <a href="http://www.senseval.org/senseval3/data.html">sense tagged corpora</a> available from the
+                    <a href="http://www.senseval.org/">Senseval</a> 3 evaluation task (tasks 01-11)
+                </li> -->
+                <li><a href="http://web.eecs.umich.edu/~mihalcea/downloads.html">SemCor</a>, the Brown
+                    corpus tagged with Wordnet senses. This was originally done at Princeton with WordNet
+                    1.6. In the meantime, WordNet people reorganized the sense nomenclature. The different
+                    corpora are mappings according to WordNet sense versions
+                </li>
+            </ul>
+        </li>
+        <li>Semantic role labeling:
+            <ul>
+                <li>
+                    <a href="http://framenet.icsi.berkeley.edu/">FrameNet</a>
+                    from Berkeley.
+                </li>
+                <li>The ACE project and the Propbank annotation
+                    <a href="http://verbs.colorado.edu/%7Empalmer/projects/ace.html">guidelines</a>.
+                </li>
+                <li>The
+                    <a href="http://verbs.colorado.edu/verb-index/">Unified verb index</a>
+                    merging FrameNet, VerbNet, and PropBank from the University of Colorado.
+                </li>
+                <li>
+                    <a href="http://www.lsi.upc.edu/%7Esrlconll/st04/st04.html">CONLL-2004</a>
+                    and
+                    <a href="http://www.lsi.upc.edu/%7Esrlconll/st05/st05.html">CONLL-2005</a>
+                    on semantic role labeling.
+                </li>
+                <li>
+                    <a href="http://barcelona.research.yahoo.net/dokuwiki/doku.php?id=conll2008:start">
+                        CONLL-2008
+                    </a>
+                    and <a href="http://ufal.mff.cuni.cz/conll2009-st/">CONLL-2009</a> on joint learning of
+                    syntactic and semantic dependencies.
+                </li>
+            </ul>
+        </li>
+        <li>Semantic role labeling software:
+            <ul>
+                <li>A demonstration of the <a href="http://barbar.cs.lth.se:8081/">LTH semantic parser</a> and
+                    its <a href="http://code.google.com/p/mate-tools/">source code</a>. (CoNLL 2009
+                    version).
+                </li>
+                <li>The
+                    <a href="http://nlp.cs.lth.se/software/semantic_parsing%3A_propbank_nombank_frames/">LTH
+                        semantic parser
+                    </a>
+                    code with Propbank and Nombank predicates from Richard Johansson (CoNLL 2008 version).
+                </li>
+                <li>The
+                    <a href="http://nlp.cs.lth.se/software/semantic_parsing%3A_framenet_frames/">LTH
+                        semantic parser
+                    </a>
+                    with the Framenet paradigm from Richard Johansson.
+                </li>
+                <li>The
+                    <a href="http://cemantix.org/software/assert.html">ASSERT</a>
+                    Automatic Statistical SEmantic Role Tagger from Sameer Pradhan.
+                </li>
+                <li>
+                    <a href="http://cogcomp.cs.illinois.edu/demo/srl/">Semantic role labeling</a>
+                    by the University of Illinois at Urbana-Champaign.
+                </li>
+                <li><a href="http://openie.cs.washington.edu/">Open information extraction</a>, a system to
+                    extract predicate--argument structures from web pages.
+                </li>
+                <li>The <a href="http://ml.nec-labs.com/senna/">Senna</a> semantic role-labeling tool from
+                    the NEC Laboratories America.
+                </li>
+            </ul>
+        </li>
+    </ul>
+</li>
+<!--<li>Application examples: EVAR, <a href="http://www.nrl.navy.mil/aic/iss/aas/IntelligentHumanRobotInteractions.php">Nautilus</a>.
+</li>-->
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch16"></a>Chapter 16: Discourse (7 and 14/10/2019) [<a
+        href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_16.pdf">pdf</a>] [first ed. <a
+        href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_14.pdf">pdf</a>]
+</h2>
         <!--F 13 Cours 9-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>Discourse definition,</li>
-                    <li>Discourse entities</li>
-                    <li>Reference and anaphora</li>
-                    <li>Rhetorical structure theory (RST)</li>
-                    <li>Parsing a text</li>
-                    <li>Machine learning to discover RST relations</li>
-                    <li>TimeML</li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch16.pdf">pdf</a>]
-            </li>
-            <li>Annotation and evaluation resources:
-                <ul>
-                    <li>The
-                        <a href="http://www.itl.nist.gov/iaui/894.02/related_projects/muc/proceedings/co_task.html">
-                            coreference annotation manual
-                        </a>
-                        used in MUC-7 by Hirschman and Chinchor.
-                    </li>
-                    <li>A
-                        <a href="http://acl.ldc.upenn.edu/M/M95/M95-1005.pdf">paper</a>
-                        on coreference evaluation by Vilain et al. (1995).
-                    </li>
-                    <li>An
-                        <a href="http://www.isi.edu/%7Emarcu/discourse/">annotation manual</a>
-                        for Rhetorical structure theory from the University of Southern California's Information
-                        Sciences Institute.
-                    </li>
-                    <li>Another
-                        <a href="http://www.seas.upenn.edu/~pdtb/">annotation manual</a>
-                        for the Penn Discourse Treebank.
-                    </li>
-                    <li><a href="http://www.timeml.org/">TimeML</a>, markup language for temporal and event expressions.
-                    </li>
-                </ul>
-            </li>
-            <li>Corpus resources:
-                <ul>
-                    <li>Entity databases: <a href="http://www.freebase.com/">Freebase</a>, <a
-                            href="http://dbpedia.org/">DBpedia</a>, and
-                        <a href="http://www.mpi-inf.mpg.de/yago-naga/yago/index.html">Yago</a>
-                    </li> <!-- Satori http://research.microsoft.com/en-us/projects/trinity/default.aspx-->
-                    <li>
-                        <a href="http://conll.cemantix.org/2011/">CONLL-2011</a>
-                        and <a href="http://conll.cemantix.org/2012/">CONLL-2012</a> on modeling unrestricted
-                        coreference in OntoNotes.
-                    </li>
-                    <!--<li>A
-                        <a href="http://clg.wlv.ac.uk//resources/index.php">coreference annotated corpus</a> in English from the University of Wolverhampton.
-                    </li>-->
-                    <li>A
-                        <a href="http://www.sfb632.uni-potsdam.de/~d1/">RST annotated corpus</a>
-                        in German from the University of Postdam. Available on request.
-                    </li>
-                    <li><a href="http://www.timeml.org/site/timebank/timebank.html">TimeBank</a>, a TimeML annotated
-                        corpus.
-                    </li>
-                </ul>
-            </li>
-            <li>Demonstrations:
-                <ul>
-                    <li>Entity disambiguation and linking with <a href="https://gate.d5.mpi-inf.mpg.de/webaida/">
-                        AIDA</a>.
-                    </li>
-                    <li>Coreference solving using Stanford <a href="http://nlp.stanford.edu:8080/corenlp/">CoreNLP</a>.
-                    </li>
-                    <li>
-                        <a href="http://vilde.cs.lth.se:9000/#/">HERD</a>: Entity disambiguation for Swedish
-                    </li>
-                    <li>A <a href="http://wing.comp.nus.edu.sg/~linzihen/parser/">parser for discourse relations</a> using
-                        the Penn Discourse Treebank annotations.
-                    </li>
-                    <li><a href="https://corpling.uis.georgetown.edu/rstweb/info/">rstWeb</a>, an annotation platform
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch17"></a>Chapter 17: Dialogue (14/10/2019) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_17.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_15.pdf">pdf</a>]
-        </h2>
+<ul>
+<li>Contents:
+    <ul>
+        <li>Discourse definition,</li>
+        <li>Discourse entities</li>
+        <li>Reference and anaphora</li>
+        <li>Rhetorical structure theory (RST)</li>
+        <li>Parsing a text</li>
+        <li>Machine learning to discover RST relations</li>
+        <li>TimeML</li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch16.pdf">pdf</a>]
+</li>
+<li>Annotation and evaluation resources:
+    <ul>
+        <li>The
+            <a href="http://www.itl.nist.gov/iaui/894.02/related_projects/muc/proceedings/co_task.html">
+                coreference annotation manual
+            </a>
+            used in MUC-7 by Hirschman and Chinchor.
+        </li>
+        <li>A
+            <a href="http://acl.ldc.upenn.edu/M/M95/M95-1005.pdf">paper</a>
+            on coreference evaluation by Vilain et al. (1995).
+        </li>
+        <li>An
+            <a href="http://www.isi.edu/%7Emarcu/discourse/">annotation manual</a>
+            for Rhetorical structure theory from the University of Southern California's Information
+            Sciences Institute.
+        </li>
+        <li>Another
+            <a href="http://www.seas.upenn.edu/~pdtb/">annotation manual</a>
+            for the Penn Discourse Treebank.
+        </li>
+        <li><a href="http://www.timeml.org/">TimeML</a>, markup language for temporal and event expressions.
+        </li>
+    </ul>
+</li>
+<li>Corpus resources:
+    <ul>
+        <li>Entity databases: <a href="http://www.freebase.com/">Freebase</a>, <a
+                href="http://dbpedia.org/">DBpedia</a>, and
+            <a href="http://www.mpi-inf.mpg.de/yago-naga/yago/index.html">Yago</a>
+        </li> <!-- Satori http://research.microsoft.com/en-us/projects/trinity/default.aspx-->
+        <li>
+            <a href="http://conll.cemantix.org/2011/">CONLL-2011</a>
+            and <a href="http://conll.cemantix.org/2012/">CONLL-2012</a> on modeling unrestricted
+            coreference in OntoNotes.
+        </li>
+        <!--<li>A
+            <a href="http://clg.wlv.ac.uk//resources/index.php">coreference annotated corpus</a> in English from the University of Wolverhampton.
+        </li>-->
+        <li>A
+            <a href="http://www.sfb632.uni-potsdam.de/~d1/">RST annotated corpus</a>
+            in German from the University of Postdam. Available on request.
+        </li>
+        <li><a href="http://www.timeml.org/site/timebank/timebank.html">TimeBank</a>, a TimeML annotated
+            corpus.
+        </li>
+    </ul>
+</li>
+<li>Demonstrations:
+    <ul>
+        <li>Entity disambiguation and linking with <a href="https://gate.d5.mpi-inf.mpg.de/webaida/">
+            AIDA</a>.
+        </li>
+        <li>Coreference solving using Stanford <a href="http://nlp.stanford.edu:8080/corenlp/">CoreNLP</a>.
+        </li>
+        <li>
+            <a href="http://vilde.cs.lth.se:9000/#/">HERD</a>: Entity disambiguation for Swedish
+        </li>
+        <li>A <a href="http://wing.comp.nus.edu.sg/~linzihen/parser/">parser for discourse relations</a> using
+            the Penn Discourse Treebank annotations.
+        </li>
+        <li><a href="https://corpling.uis.georgetown.edu/rstweb/info/">rstWeb</a>, an annotation platform
+        </li>
+    </ul>
+</li>
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch17"></a>Chapter 17: Dialogue (14/10/2019) [<a
+        href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_17.pdf">pdf</a>] [first ed. <a
+        href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_15.pdf">pdf</a>]
+</h2>
         <!--F 13 Cours 10-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>Dialogue automata</li>
-                    <li>Pairs</li>
-                    <li>Speech acts</li>
-                    <li>Speech act recognition</li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch17.pdf">pdf</a>]
-            </li>
-            <li>Resources:
-                <ul>
-                    <li><a href="http://www.cs.rochester.edu/research/speech/damsl/RevisedManual/">DAMSL</a>, Dialogue
-                        markup scheme from the University of Rochester.
-                    </li>
-                    <li>Dialogue acts in Verbmobil and Verbmobil-2 [<a
-                            href="http://verbmobil.dfki.de/dialog/publications/Jekatetal95.ps.gz">1</a>] [<a
-                            href="http://verbmobil.dfki.de/dialog/publications/Alexanderssonetal98.ps.gz">2</a>].
-                    </li>
-                    <li>The
-                        <a href="http://www.cs.rochester.edu/research/speech/trains.html">TRAINS corpus</a>
-                        and
-                        <a href="http://www.cs.rochester.edu/research/speech/monroe/annote.html">annotated files</a>
-                        from the University of Rochester.
-                    </li>
-                </ul>
-            </li>
-            <li>VoiceXML, a markup framework to develop dialogue applications:
-                <ul>
-                    <li>The
-                        <a href="http://www.voicexml.org/">VoiceXML</a>
-                        official page
-                    </li>
-                    <!--<li>A VoiceXML
-                        <a href="https://studio.tellme.com/vxml2/ovw/essentials.html">tutorial</a> available from
-                        <a href="http://www.tellme.com/">Tellme</a>.
-                    </li>-->
-                    <li><a href="http://jvoicexml.sourceforge.net/">Java VoiceXML</a>, an open source implementation of
-                        VoiceXML.
-                    </li>
-                </ul>
-            </li>
-            <li>Application examples:
-                <ul>
-                    <li>TRAINS,
-                        <a href="http://www.cs.rochester.edu/research/trips/">TRIPS</a>.
-                    </li>
-                    <li>A train information system in Swedish from
-                        <a href="http://www.sj.se/">SJ</a>. Call 0046 771-75-75-75.
-                    </li>
-                    <li>A
-                        <a href="http://www.ep.liu.se/ea/cis/1999/024/">paper</a>
-                        by Johan Boye, Mats Wir&eacute;n, Manny Rayner, Ian Lewin, David Carter, and Ralph Becket,
-                        &quot;Language-Processing Strategies and Mixed-Initiative Dialogues&quot;,
-                        <em>IJCAI-99 Workshop on Knowledge and Reasoning in Practical Dialogue Systems</em>, July 1999.
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch_speech_synth"></a>Complement: Speech synthesis (14/10/2019)
-        </h2>
+<ul>
+<li>Contents:
+    <ul>
+        <li>Dialogue automata</li>
+        <li>Pairs</li>
+        <li>Speech acts</li>
+        <li>Speech act recognition</li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch17.pdf">pdf</a>]
+</li>
+<li>Resources:
+    <ul>
+        <li><a href="http://www.cs.rochester.edu/research/speech/damsl/RevisedManual/">DAMSL</a>, Dialogue
+            markup scheme from the University of Rochester.
+        </li>
+        <li>Dialogue acts in Verbmobil and Verbmobil-2 [<a
+                href="http://verbmobil.dfki.de/dialog/publications/Jekatetal95.ps.gz">1</a>] [<a
+                href="http://verbmobil.dfki.de/dialog/publications/Alexanderssonetal98.ps.gz">2</a>].
+        </li>
+        <li>The
+            <a href="http://www.cs.rochester.edu/research/speech/trains.html">TRAINS corpus</a>
+            and
+            <a href="http://www.cs.rochester.edu/research/speech/monroe/annote.html">annotated files</a>
+            from the University of Rochester.
+        </li>
+    </ul>
+</li>
+<li>VoiceXML, a markup framework to develop dialogue applications:
+    <ul>
+        <li>The
+            <a href="http://www.voicexml.org/">VoiceXML</a>
+            official page
+        </li>
+        <!--<li>A VoiceXML
+            <a href="https://studio.tellme.com/vxml2/ovw/essentials.html">tutorial</a> available from
+            <a href="http://www.tellme.com/">Tellme</a>.
+        </li>-->
+        <li><a href="http://jvoicexml.sourceforge.net/">Java VoiceXML</a>, an open source implementation of
+            VoiceXML.
+        </li>
+    </ul>
+</li>
+<li>Application examples:
+    <ul>
+        <li>TRAINS,
+            <a href="http://www.cs.rochester.edu/research/trips/">TRIPS</a>.
+        </li>
+        <li>A train information system in Swedish from
+            <a href="http://www.sj.se/">SJ</a>. Call 0046 771-75-75-75.
+        </li>
+        <li>A
+            <a href="http://www.ep.liu.se/ea/cis/1999/024/">paper</a>
+            by Johan Boye, Mats Wir&eacute;n, Manny Rayner, Ian Lewin, David Carter, and Ralph Becket,
+            &quot;Language-Processing Strategies and Mixed-Initiative Dialogues&quot;,
+            <em>IJCAI-99 Workshop on Knowledge and Reasoning in Practical Dialogue Systems</em>, July 1999.
+        </li>
+    </ul>
+</li>
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch_speech_synth"></a>Complement: Speech synthesis (14/10/2019)
+</h2>
         <!-- F 14 Cours 10-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>Some concepts in signal processing</li>
-                    <li>Some basics in phonetics</li>
-                    <li>Speech synthesis</li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/Slides/EDAN20_ch18.pdf">pdf</a>].
-            </li>
-            <li>Software resources:
-                <ul>
-                    <li><a href="http://www.fon.hum.uva.nl/praat/">Praat</a>, a phonetics workbench to analyze and
-                        synthetize speech from the university of Amsterdam
-                    </li>
-                    <li><a href="http://www.cstr.ed.ac.uk/projects/festival/">Festival</a>, another speech synthesis
-                        system from the University of Edinburgh
-                    </li>
-                    <li>
-                        <a href="http://www.festvox.org/">FestVox</a>
-                        from Carnegie Mellon.
-                    </li>
-                </ul>
-            </li>
-            <li>Application examples:
-                <ul>
-                    <li>Multilingual <a href="http://demo.acapela-group.com/">speech synthesis</a> from
-                        <a href="http://www.acapela-group.com/">Acapela</a>,
-                    </li>
-                    <li>
-                        <a href="http://www.crisco.unicaen.fr/KaliDemo.html">CRISCO speech synthesis</a>
-                        in French,
-                    </li>
-                    <li>Other
-                        <a href="http://tcts.fpms.ac.be/synthesis/">links on synthesis</a>,
-                    </li>
-                    <li>ATT
-                        <a href="http://www.research.att.com/projects/Natural_Voices/">speech synthesis</a>.
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2>
-            <a href="#content">^</a>
-            <a name="ch_speech_rec"></a>Complement: Speech recognition (14/10/2019)
-        </h2>
+<ul>
+<li>Contents:
+    <ul>
+        <li>Some concepts in signal processing</li>
+        <li>Some basics in phonetics</li>
+        <li>Speech synthesis</li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/Slides/EDAN20_ch18.pdf">pdf</a>].
+</li>
+<li>Software resources:
+    <ul>
+        <li><a href="http://www.fon.hum.uva.nl/praat/">Praat</a>, a phonetics workbench to analyze and
+            synthetize speech from the university of Amsterdam
+        </li>
+        <li><a href="http://www.cstr.ed.ac.uk/projects/festival/">Festival</a>, another speech synthesis
+            system from the University of Edinburgh
+        </li>
+        <li>
+            <a href="http://www.festvox.org/">FestVox</a>
+            from Carnegie Mellon.
+        </li>
+    </ul>
+</li>
+<li>Application examples:
+    <ul>
+        <li>Multilingual <a href="http://demo.acapela-group.com/">speech synthesis</a> from
+            <a href="http://www.acapela-group.com/">Acapela</a>,
+        </li>
+        <li>
+            <a href="http://www.crisco.unicaen.fr/KaliDemo.html">CRISCO speech synthesis</a>
+            in French,
+        </li>
+        <li>Other
+            <a href="http://tcts.fpms.ac.be/synthesis/">links on synthesis</a>,
+        </li>
+        <li>ATT
+            <a href="http://www.research.att.com/projects/Natural_Voices/">speech synthesis</a>.
+        </li>
+    </ul>
+</li>
+</ul>
+<h2>
+<a href="#content">^</a>
+<a name="ch_speech_rec"></a>Complement: Speech recognition (14/10/2019)
+</h2>
         <!-- F 14 Cours 10-->
-        <ul>
-            <li>Contents:
-                <ul>
-                    <li>Markov models</li>
-                    <li>Speech recognition</li>
-                </ul>
-            </li>
-            <li>Lecture slides: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/Slides/EDAN20_ch19.pdf">pdf</a>].
-            </li>
-            <li>Prolog programs:
-                <ul>
-                    <li>A Markov chain [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch16/markov_chain.pl">1</a>]
-                    </li>
-                    <li>A hidden Markov model [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch16/hmm.pl">2</a>]
-                    </li>
-                    <li>A hidden Markov model with a Viterbi optimization [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch16/hmm_viterbi.pl">3</a>].
-                    </li>
-                </ul>
-            </li>
-            <li>Software resources:
-                <ul>
-                    <li>The
-                        <a href="http://htk.eng.cam.ac.uk/">HTK speech group</a>
-                        at Cambridge.
-                    </li>
-                    <li>Sphinx, a speech recognition program, and other open source resources from the
-                        <a href="http://www.speech.cs.cmu.edu/">speech group</a>
-                        at from Carnegie Mellon
-                    </li>
-                </ul>
-            </li>
-            <li>Evaluation:
-                <ul>
-                    <li>The
-                        <a href="http://nist.gov/itl/iad/mig/rt.cfm">NIST speech group</a>.
-                    </li>
-                    <li>The <a href="http://www.itl.nist.gov/iad/mig/publications/ASRhistory/">History of
-                        Automatic Speech Recognition Evaluations at NIST</a>.
-                    </li>
-                </ul>
-            </li>
-            <li>Application examples:
-                <ul>
-                    <li>LIMSI
-                        <a href="http://www.limsi.fr/Recherche/TLP/demos.html">speech recognition</a>
-                        and
-                        <a href="http://voxaleadnews.labs.exalead.com/">Voxalead</a>, an audio indexing and
-                        transcription application. See also <a href="http://www.quaero.org/">Quaero</a>.
-                    </li>
-                    <!-- <li>ATT
-                         <a href="http://www.research.att.com/projects/WATSONASR/">speech recognition</a>.
-                     </li>-->
-                    <li>An example of
-                        <a href="http://www.cs.nyu.edu/%7Emohri/asr.html">real-time speech recognition</a>.
-                    </li>
-                </ul>
-            </li>
-            <li>Commercial companies:
-                <ul>
-                    <li>
-                        <a href="http://www.nuance.com/">Nuance</a>
-                    </li>
-                    <li>
-                        <a href="http://www.vecsys.fr/">Vecsys</a>
-                    </li>
-                    <li>
-                        <a href="http://www.microsoft.com/speech/">Microsoft speech technologies</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </body>
-</html>
+<ul>
+<li>Contents:
+    <ul>
+        <li>Markov models</li>
+        <li>Speech recognition</li>
+    </ul>
+</li>
+<li>Lecture slides: [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/Slides/EDAN20_ch19.pdf">pdf</a>].
+</li>
+<li>Prolog programs:
+    <ul>
+        <li>A Markov chain [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch16/markov_chain.pl">1</a>]
+        </li>
+        <li>A hidden Markov model [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch16/hmm.pl">2</a>]
+        </li>
+        <li>A hidden Markov model with a Viterbi optimization [<a
+                href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch16/hmm_viterbi.pl">3</a>].
+        </li>
+    </ul>
+</li>
+<li>Software resources:
+    <ul>
+        <li>The
+            <a href="http://htk.eng.cam.ac.uk/">HTK speech group</a>
+            at Cambridge.
+        </li>
+        <li>Sphinx, a speech recognition program, and other open source resources from the
+            <a href="http://www.speech.cs.cmu.edu/">speech group</a>
+            at from Carnegie Mellon
+        </li>
+    </ul>
+</li>
+<li>Evaluation:
+    <ul>
+        <li>The
+            <a href="http://nist.gov/itl/iad/mig/rt.cfm">NIST speech group</a>.
+        </li>
+        <li>The <a href="http://www.itl.nist.gov/iad/mig/publications/ASRhistory/">History of
+            Automatic Speech Recognition Evaluations at NIST</a>.
+        </li>
+    </ul>
+</li>
+<li>Application examples:
+    <ul>
+        <li>LIMSI
+            <a href="http://www.limsi.fr/Recherche/TLP/demos.html">speech recognition</a>
+            and
+            <a href="http://voxaleadnews.labs.exalead.com/">Voxalead</a>, an audio indexing and
+            transcription application. See also <a href="http://www.quaero.org/">Quaero</a>.
+        </li>
+        <!-- <li>ATT
+             <a href="http://www.research.att.com/projects/WATSONASR/">speech recognition</a>.
+         </li>-->
+        <li>An example of
+            <a href="http://www.cs.nyu.edu/%7Emohri/asr.html">real-time speech recognition</a>.
+        </li>
+    </ul>
+</li>
+<li>Commercial companies:
+    <ul>
+        <li>
+            <a href="http://www.nuance.com/">Nuance</a>
+        </li>
+        <li>
+            <a href="http://www.vecsys.fr/">Vecsys</a>
+        </li>
+        <li>
+            <a href="http://www.microsoft.com/speech/">Microsoft speech technologies</a>
+        </li>
+    </ul>
+</li>
+</ul>
+        </body>
+        </html>
