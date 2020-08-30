@@ -20,17 +20,42 @@
         </ul>
 
         <h2>Organization and location</h2>
-        <p>The first lab session will take place on</p>
-        <ul>
-            <li>Group 1: Tuesday, September 10 from 10:15 to 12:00 in the Alpha room</li>
-            <li>Group 2: Tuesday, September 10 from 13:15 to 15:00 in the Alpha room</li>
-            <li>Group 3: Wednesday, September 11 from 13:15 to 15:00 in the Val room</li>
-            <li>Group 4: Wednesday, September 11 from 13:15 to 15:00 in the Falk room</li>
-            <li>Group 5: Wednesday, September 11 from 15:15 to 15:00 in the Val room</li>
-            <li>Group 6: Wednesday, September 11 from 15:15 to 17:00 in the Falk room</li>
-        </ul>
+        <p>The second lab session (lab 1) will take place on</p>
+        <ol>
+            <li>Group 1, September 8, 2020, 10:15 to 12:00, in the Alpha room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 2, September 8, 2020, 13:15 to 15:00, in the Alpha room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 3, September 9, 2020, 13:15 to 15:00, in the Val room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 4, September 9, 2020, 13:15 to 15:00, in the Falk rooms,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 5, September 9, 2020, 15:15 to 17:00, in the Val room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 6, September 9, 2020, 15:15 to 17:00, in the Falk room.
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+        </ol>
         <p>There can be last minute changes. Please always check the official times here:
-            <a href="https://cloud.timeedit.net/lu/web/lth1/ri14566340000YQQ45Z5577007y5Y3713gQ5g5X6Y55ZQ076.html">
+            <a
+                    href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ5560YfQQ15Z5772Y0Zy7007335Y67Q565.html">
                 https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
             </a>
         </p>
@@ -40,7 +65,14 @@
             <li>Write a Python program.</li>
             <li>Check the results and comment them briefly</li>
         </ul>
-        <h2>Preparation</h2>
+        <h2>Content of the lab</h2>
+        <p>
+            The text of the lab is in the indexer notebook available here
+                <a href="https://github.com/pnugues/edan20/tree/master/notebooks">
+                    https://github.com/pnugues/edan20/tree/master/notebooks
+                </a>
+        </p>
+        <!--<h2>Preparation</h2>
         <ol>
             <li>Download the <a href="https://github.com/pnugues/ilppp/raw/master/programs/corpus/Selma.zip">Selma
                 folder</a> and uncompress it. It contains novels by <a href="https://sv.wikipedia.org/wiki/Selma_Lagerl%C3%B6f">
@@ -229,6 +261,6 @@ gosta.txt
             In your report, tell how your index encoding is related to what Google did.
             You must identify the slide where you have the most similar indexing technique and write the
             slide number in your report.
-        </p>
+        </p>-->
     </body>
 </html>

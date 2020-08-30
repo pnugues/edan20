@@ -126,8 +126,8 @@
         <p>In the lab session, your instructors will walk you through Python, Unix, and scikit-learn. You will:</p>
         <ol>
             <li>run all the code in the chapter: A Tour of Python available here
-                <a href="https://github.com/pnugues/ilppp/tree/master/programs/appB/python">
-                    https://github.com/pnugues/ilppp/tree/master/programs/appB/python
+                <a href="https://github.com/pnugues/edan20/tree/master/notebooks">
+                    https://github.com/pnugues/edan20/tree/master/notebooks
                 </a>
             </li>
             <li>count the words of a text with Unix tools</li>
