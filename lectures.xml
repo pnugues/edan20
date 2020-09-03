@@ -140,7 +140,7 @@
                         <a href="http://www.wikipedia.org/">Wikipedia</a>
                     </li>
                     <li>
-                        <a href="https://aclanthology.coli.uni-saarland.de/">ACL anthology</a>
+                        <a href="https://www.aclweb.org/anthology/">ACL anthology</a>
                     </li>
                     <!--<li><a href="http://clair.si.umich.edu/clair/anthology/index.cgi">ACL anthology network</a>, a site to assess research trends from ACL-related conferences. For instance: impact of papers published in
                         <a href="http://clair.si.umich.edu/clair/anthology/rank.cgi?release_year=2009&amp;type=Paper&amp;stat=Incoming+Citations&amp;limit=1000&amp;year=1978">1978</a>,
@@ -148,9 +148,6 @@
                         <a href="http://clair.si.umich.edu/clair/anthology/rank.cgi?release_year=2009&amp;type=Paper&amp;stat=Incoming+Citations&amp;limit=1000&amp;year=1998">1998</a>, and
                         <a href="http://clair.si.umich.edu/clair/anthology/rank.cgi?release_year=2009&amp;type=Paper&amp;stat=Incoming+Citations&amp;limit=1000&amp;year=2008">2008</a>.
                     </li>-->
-                    <li>
-                        <a href="http://registry.dfki.de/">Natural language software registry</a>
-                    </li>
                 </ul>
             </li>
             <li>Research opportunities:
@@ -160,7 +157,6 @@
                         <a href="http://research.google.com/">Research at Google</a>,
                         <a href="http://www.research.ibm.com/">IBM research</a>,
                         <a href="http://research.yahoo.com/">Yahoo Research</a>,
-                        <a href="http://www.xrce.xerox.com/">Xerox research center</a>.
                     </li>
                     <li>Lists: <a href="http://www.hit.uib.no/corpora/">Corpora</a>, <a href="http://www.elsnet.org/">
                         ELSNET</a>,
@@ -194,28 +190,44 @@
             <li>Lecture slides [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch02.pdf">pdf</a>].
             </li>
             <li>Programs:
-                <ul>
-                    <li>An elementary automaton in Prolog [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch02/automaton.pl">1</a>]
+                <ol>
+                    <li>Python
+                        <ul>
+                            <li>Short programs to illustrate regular expressions and pattern matching [<a
+                                    href="https://github.com/pnugues/ilppp/tree/master/programs/ch02/python">2</a>]. They
+                                include a Jupyter notebook, where you can run regular expressions interactively.
+                            </li>
+                            <li>Concordances [<a
+                                    href="https://github.com/pnugues/ilppp/blob/master/programs/ch02/python/concord.py">
+                                10</a>]
+                            </li>
+                            <li>Minimum edit distance [<a
+                                    href="https://github.com/pnugues/ilppp/blob/master/programs/ch02/python/min_edit.py">
+                                11</a>]
+                            </li>
+                            <li>A concise and elegant <a href="http://norvig.com/spell-correct.html">spelling
+                                corrector
+                            </a> in
+                                Python by <a href="http://norvig.com/">Peter Norvig</a> and a variation of it in Prolog: <a
+                                        href="https://github.com/pnugues/Spelling-Corrector-in-Prolog">Spelling
+                                    corrector in
+                                    Prolog</a>.
+                            </li>
+                        </ul>
                     </li>
-                    <li>Short programs in Python to illustrate regular expressions and pattern matching [<a
-                            href="https://github.com/pnugues/ilppp/tree/master/programs/ch02/python">2</a>]
+                    <li>Prolog
+                        <ul>
+                            <li>An elementary automaton in Prolog [<a
+                                    href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch02/automaton.pl">
+                                1</a>]
+                            </li>
+                            <li>Searching edits in Prolog [<a
+                                    href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch02/min_edit.pl">
+                                12</a>]
+                            </li>
+                        </ul>
                     </li>
-                    <li>Concordances in Python [<a
-                            href="https://github.com/pnugues/ilppp/blob/master/programs/ch02/python/concord.py">10</a>]
-                    </li>
-                    <li>Minimum edit distance in Python [<a
-                            href="https://github.com/pnugues/ilppp/blob/master/programs/ch02/python/min_edit.py">11</a>]
-                    </li>
-                    <li>Searching edits in Prolog [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch02/min_edit.pl">12</a>]
-                    </li>
-                    <li>A concise and elegant <a href="http://norvig.com/spell-correct.html">spelling corrector</a> in
-                        Python by <a href="http://norvig.com/">Peter Norvig</a> and a variation of it in Prolog: <a
-                                href="https://github.com/pnugues/Spelling-Corrector-in-Prolog">Spelling corrector in
-                            Prolog</a>.
-                    </li>
-                </ul>
+                </ol>
             </li>
             <li>Corpora:
                 <ul>
@@ -267,10 +279,10 @@
             </li>
             <li>Software:
                 <ul>
-                    <li><a href="http://www.let.rug.nl/vannoord/Fsa/">FSA</a>, finite state automata utilities in Prolog
-                    </li>
                     <li><a href="http://www.openfst.org/">OpenFst</a>, a library for constructing weighted finite-state
-                        transducers in C++
+                        transducers in C++ with bindings in Python
+                    </li>
+                    <li><a href="http://www.let.rug.nl/vannoord/Fsa/">FSA</a>, finite state automata utilities in Prolog
                     </li>
                 </ul>
             </li>
