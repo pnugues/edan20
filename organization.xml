@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC
+        "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>News and Organization</title>
+    </head>
+    <body>
+        <!--<h1>News and Organization</h1>-->
+        <h2>Latest News</h2>
+        <table cellspacing="5">
+            <!--<tr>
+                <td valign="top">2013-09-02</td>
+                <td valign="top">We have now one <i>kursombud</i>: Henrik Lindelöf Bilski.
+                </td>
+            </tr>-->
+            <tr>
+                <td valign="top">2021-08-17</td>
+                <td valign="top">Registration
+                    <br/>
+                    You need to attend the first lecture to be sure to keep your seat (or email the course leader before
+                    the course starts). You should formally register in the LADOK system, preferably before the course
+                    starts.
+                    You have the instructions here in <a
+                            href="https://www.student.lth.se/kurs-och-programinformation/kursanmaelan-och-registrering/kursregistrering/">
+                        Swedish
+                    </a> and
+                    in <a href="https://www.student.lth.se/english/masters-students/register-for-courses/">
+                        English</a>. If you fail to register, the department might register you
+                    anyway, if you attended the first lecture and if you meet the prerequisites.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">2021-08-17</td>
+                <td valign="top">Please register to a laboratory group here: <a
+                        href="https://sam.cs.lth.se/LabsSelectSession?occasionId=712">
+                    https://sam.cs.lth.se/LabsSelectSession?occasionId=712</a>.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">2021-08-17</td>
+                <td valign="top">The first lecture will be streamed on Monday, August 30, via Zoom, 13:15 to
+                    15:00. Link: https://lu-se.zoom.us/j/67450590401?pwd=K2hmMXpIMG1Zb0ZWUE96Mzd5Mnp1UT09 Enter the
+                    password: 75012
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">2021-08-17</td>
+                <td valign="top">There can be last minute changes in the timetable that do not show on the course web
+                    pages. Please always check the official times here:
+                    <a
+                            href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ6560YfQQ15Z5771Y0Zy7007335Y67Q565.html">
+                        https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
+                    </a>
+                </td>
+            </tr>
+            <!--<tr>
+                <td valign="top">2021-08-17</td>
+                <td valign="top">I will use the new edition (2014) of the textbook <i>Language Processing with Perl and
+                    Prolog</i>. It is available online in a PDF version
+                    <a href="http://www.springer.com/computer/ai/book/978-3-642-41463-3">
+                        http://www.springer.com/computer/ai/book/978-3-642-41463-3
+                    </a>
+                    (60 euros). A print copy costs 75 euros.
+                </td>
+            </tr>-->
+            <!--<tr>
+                <td valign="top">2019-08-21</td>
+                <td valign="top">Students can also use the first edition of the textbook (2006). It is available online
+                    for free in a PDF format to users connected from a Lund University computer. You can download it
+                    from this location
+                    <a href="http://dx.doi.org/10.1007/3-540-34336-9">http://dx.doi.org/10.1007/3-540-34336-9</a>. You
+                    can buy a print copy for 25 euros.
+                </td>
+            </tr>-->
+            <tr>
+                <td valign="top">2020-08-24</td>
+                <td valign="top">The course pages are provisional. They will be updated regularly.
+                </td>
+            </tr>
+        </table>
+        <h2>Course Description</h2>
+        <p>
+            The course introduces theories and techniques of language technology and natural language processing. It
+            attempts to cover the whole field from speech recognition and synthesis to semantics and dialogue.
+        </p>
+        <p>It focuses on industrial or laboratory applications, such as document retrieval on the internet, information
+            extraction, conversational agents, and verbal interaction in virtual worlds. Fundamental algorithms will be
+            described using Python or Perl's regular expressions.
+        </p>
+        <h2>Schedule</h2>
+        <p>The course extends over the LP1 "<a href="http://www.student.lth.se/schema/">study period</a>".
+        </p>
+        <p>Read the course schedule here:
+            <a
+                    href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ6560YfQQ15Z5771Y0Zy7007335Y67Q565.html">
+                https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
+            </a>
+        </p>
+        <!--
+        <h3>Läsperiod 1: August 31 -- November 30, 2015</h3>
+        <table border="1" cellpadding="3" cellspacing="0">
+            <tr>
+                <td valign="top"></td>
+                <td valign="top">
+                    <strong>V1</strong>
+                </td>
+                <td valign="top">
+                    <strong>V2</strong>
+                </td>
+                <td valign="top">
+                    <strong>V3</strong>
+                </td>
+                <td valign="top">
+                    <strong>V4</strong>
+                </td>
+                <td valign="top">
+                    <strong>V5</strong>
+                </td>
+                <td valign="top">
+                    <strong>V6</strong>
+                </td>
+                <td valign="top">
+                    <strong>V7</strong>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Lectures</b></td>
+            </tr>
+            <tr>
+                <td valign="top">Monday 15:15-17:00</td>
+                <td valign="top">Lect. 1</td>
+                <td valign="top">Lect. 3</td>
+                <td valign="top">Lect. 5</td>
+                <td valign="top">Lect. 7</td>
+                <td valign="top">Lect. 8</td>
+                <td valign="top">Lect. 9</td>
+                <td valign="top">Lect. 10</td>
+            </tr>
+            <tr>
+                <td valign="top"></td>
+                <td valign="top">E:1406</td>
+                <td valign="top">E:1406</td>
+                <td valign="top">E:1406</td>
+                <td valign="top">E:1406</td>
+                <td valign="top">E:1406</td>
+                <td valign="top">E:1406</td>
+                <td valign="top">E:1406</td>
+            </tr>
+            <tr>
+                <td valign="top">Thursday 8:15-10:00</td>
+                <td valign="top">Lect. 2</td>
+                <td valign="top">Lect. 4</td>
+                <td valign="top">Lect. 6</td>
+                <td valign="top"></td>
+                <td valign="top"></td>
+                <td valign="top"></td>
+                <td valign="top"></td>
+            </tr>
+            <tr>
+                <td valign="top"></td>
+                <td valign="top">E:C</td>
+                <td valign="top">E:C</td>
+                <td valign="top">E:C</td>
+                <td valign="top"></td>
+                <td valign="top"></td>
+                <td valign="top"></td>
+                <td valign="top"></td>
+            </tr>
+            <tr>
+                <td><b>Labs</b></td>
+            </tr>
+            <tr>
+                <td valign="top"></td>
+                <td valign="top">Lab. 0</td>
+                <td valign="top">Lab. 1</td>
+                <td valign="top">Lab. 2</td>
+                <td valign="top">Lab. 3</td>
+                <td valign="top">Lab. 4</td>
+                <td valign="top">Lab. 5</td>
+                <td valign="top">Lab. 6</td>
+            </tr>
+            <tr>
+                <td valign="top">Wed. 10:15-12:00</td>
+                <td valign="top">Group 1 and 2</td>
+                <td valign="top">Group 1</td>
+                <td valign="top">Group 1</td>
+                <td valign="top">Group 1</td>
+                <td valign="top">Group 1</td>
+                <td valign="top">Group 1</td>
+                <td valign="top">Group 1</td>
+            </tr>
+            <tr>
+                <td valign="top"></td>
+                <td valign="top">E:Alpha</td>
+                <td valign="top">E:Alpha</td>
+                <td valign="top">E:Alpha</td>
+                <td valign="top">E:Alpha</td>
+                <td valign="top">E:Alpha</td>
+                <td valign="top">E:Alpha</td>
+                <td valign="top">E:Alpha</td>
+            </tr>
+            <tr>
+                <td valign="top">Wed. 10:15-12:00</td>
+                <td valign="top"></td>
+                <td valign="top">Group 2</td>
+                <td valign="top">Group 2</td>
+                <td valign="top">Group 2</td>
+                <td valign="top">Group 2</td>
+                <td valign="top">Group 2</td>
+                <td valign="top">Group 2</td>
+            </tr>
+            <tr>
+                <td valign="top"></td>
+                <td valign="top"></td>
+                <td valign="top">E:Beta</td>
+                <td valign="top">E:Beta</td>
+                <td valign="top">E:Beta</td>
+                <td valign="top">E:Beta</td>
+                <td valign="top">E:Beta</td>
+                <td valign="top">E:Beta</td>
+            </tr>
+            <tr>
+                <td valign="top">Wed. 13:15-15:00</td>
+                <td valign="top">Group 3</td>
+                <td valign="top">Group 3</td>
+                <td valign="top">Group 3</td>
+                <td valign="top">Group 3</td>
+                <td valign="top">Group 3</td>
+                <td valign="top">Group 3</td>
+                <td valign="top">Group 3</td>
+            </tr>
+            <tr>
+                <td valign="top"></td>
+                <td valign="top">E:Beta</td>
+                <td valign="top">E:Beta</td>
+                <td valign="top">E:Beta</td>
+                <td valign="top">E:Beta</td>
+                <td valign="top">E:Beta</td>
+                <td valign="top">E:Beta</td>
+                <td valign="top">E:Beta</td>
+            </tr>
+
+        </table>
+        -->
+        <h2>Personnel</h2>
+        <ul>
+            <li><a href="mailto:Pierre.Nugues@cs.lth.se">Pierre Nugues</a>, course responsible, tfn: 046-222 96 40, rum:
+                <a href="http://fileadmin.cs.lth.se/cs/Bilder/Rum/E4134A.gif">E:4134a</a>,<a
+                        href="http://cs.lth.se/pierre_nugues/">web page</a>.
+            </li>
+            <li><a href="mailto:Marcus.Klang@cs.lth.se">Marcus Klang</a>, laboratory instructor, rum:
+                <a href="http://fileadmin.cs.lth.se/cs/Bilder/Rum/E4132B.gif">4132b</a>
+            </li>
+            <li><a href="mailto:Dennis.Medved@med.lth.se">Dennis Medved</a>, laboratory instructor, rum:
+                <a href="http://fileadmin.cs.lth.se/cs/Bilder/Rum/E4132B.gif">4132b</a>
+            </li>
+            <li><a href="mailto:erik.gartner@math.lth.se">Erik Gärtner</a>, laboratory instructor, rum: Matematik 352.
+            </li>
+            <li><a href="mailto:hampus.astrom@cs.lth.se">Hampus Åström</a>, laboratory instructor, rum: E:4133C.
+            </li>
+            <li><a href="mailto:expedition@cs.lth.se">Ulrika Templing</a>, sekreterare (LTH), tfn: 046-222 80 40,
+                rum: <a
+                        href="http://fileadmin.cs.lth.se/cs/Bilder/Rum/E2179.gif">E:2179</a>.
+            </li>
+        </ul>
+        <h2>Passing the Course</h2>
+        <p>To pass the course, you must carry out and validate all the programming assignments and hand in all the
+            individual lab reports. You will then obtain a mark of 3. You can sit the optional examination to improve
+            your mark to a 4 or a 5.
+        </p>
+        <table cellspacing="5">
+            <tbody>
+                <tr>
+                    <td valign="top">
+                        <strong>Type</strong>
+                    </td>
+                    <td valign="top">
+                        <strong>Number</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">Report on Python programming</td>
+                    <td valign="top">1</td>
+                    <td valign="top">Obligatory</td>
+                </tr>
+                <tr>
+                    <td valign="top">Programming assignments</td>
+                    <td valign="top">6</td>
+                    <td valign="top">Obligatory</td>
+                </tr>
+                <tr>
+                    <td valign="top">Individual lab reports</td>
+                    <td valign="top">6</td>
+                    <td valign="top">Obligatory</td>
+                </tr>
+                <tr>
+                    <td valign="top">Examination</td>
+                    <td valign="top">1</td>
+                    <td valign="top">Optional</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Course Literature</h2>
+        <p>The book of the course is
+            <em>Language Processing with Perl and Prolog</em>
+            by Pierre Nugues. This book is
+            <a href="http://www.springer.com/computer/ai/book/978-3-642-41463-3">published by Springer</a>
+            and has a companion <a href="http://ilppp.cs.lth.se/">web site</a>.
+        </p>
+        <p>I started to write a 3rd edition with Python instead of Perl. Unfortunately, on August 15, 2016,
+            I had a work accident at LTH: Workers demolished the window of my office
+            while I was working and without warning me.
+            Since then, I have a very debilitating tinnitus (ringing hears).
+            This new edition will be considerably delayed (if I can ever publish it).
+            I will nonetheless hand out a draft of the chapters I have written.
+        </p>
+        <p>The first edition is available online for free in PDF format to students and staff at Lund University. You
+            can download it from this location
+            <a href="http://dx.doi.org/10.1007/3-540-34336-9">http://dx.doi.org/10.1007/3-540-34336-9</a>
+            or buy a paper copy for €25.
+        </p>
+        <p>Other references of interest include:</p>
+        <ul>
+            <li>Steven Bird, Ewan Klein, and Edward Loper, <em>Natural Language Processing with Python---Analyzing Text
+                with the Natural Language Toolkit</em>, O'Reilly, 2009. An on-line version of this book as well as many
+                programs and corpora are available from the
+                <a href="http://www.nltk.org/">http://www.nltk.org/</a>
+                site.
+            </li>
+            <li>Christopher D. Manning and Hinrich Schütze, <em>Foundations of Statistical Natural Language
+                Processing</em>, MIT Press, 1999.
+            </li>
+            <li>Daniel Jurafsky and James H. Martin, <em>Speech and Language Processing</em>, 2nd ed., Prentice Hall,
+                2008.
+            </li>
+        </ul>
+    </body>
+</html>

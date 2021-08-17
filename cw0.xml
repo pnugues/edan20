@@ -17,7 +17,7 @@
             <li>Know of a few Unix tools to derive word statistics</li>
             <li>Know of the main functions of scikit-learn</li>
         </ul>
-        <p>The student's presence in the computer room through Zoom is not compulsory for this initial session.
+        <p>The student's presence in the computer room through Discord is not compulsory for this initial session.
             Its goal
             is to be sure that all the students have the elementary Python programming skills they need for the course.
             This means that if you know Python and scikit-learn (well enough), you can skip the lab.
@@ -27,32 +27,37 @@
         <h2>Organization and location</h2>
         <p>The initial lab session will take place on</p>
         <ol>
-            <li>Group 1, September 1, 2020, 10:15 to 12:00, in the Alpha room,
+            <li>Group 1, August 31, 2021, 13:15 to 15:00, in the Beta room,
                 <br/>
                 Discord link: https://discord.gg/83wWpF7
                 <br/>
             </li>
-            <li>group 2, September 1, 2020, 13:15 to 15:00, in the Alpha room,
+            <li>group 2, August 31, 2021, 13:15 to 15:00, in the Gamma room,
                 <br/>
                 Discord link: https://discord.gg/83wWpF7
                 <br/>
             </li>
-            <li>group 3, September 2, 2020, 13:15 to 15:00, in the Val room,
+            <li>group 3, August 31, 2021, 15:15 to 17:00, in the Gamma room,
                 <br/>
                 Discord link: https://discord.gg/83wWpF7
                 <br/>
             </li>
-            <li>group 4, September 2, 2020, 13:15 to 15:00, in the Falk rooms,
+            <li>group 4, September 1, 2021, 13:15 to 15:00, in the Alpha room,
                 <br/>
                 Discord link: https://discord.gg/83wWpF7
                 <br/>
             </li>
-            <li>group 5, September 2, 2020, 15:15 to 17:00, in the Val room,
+            <li>group 5, September 1, 2021, 13:15 to 15:00, in the Varg room,
                 <br/>
                 Discord link: https://discord.gg/83wWpF7
                 <br/>
             </li>
-            <li>group 6, September 2, 2020, 15:15 to 17:00, in the Falk room.
+            <li>group 6, September 1, 2021, 15:15 to 17:00, in the Alpha room.
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 7, September 1, 2021, 15:15 to 17:00, in the Varg room.
                 <br/>
                 Discord link: https://discord.gg/83wWpF7
                 <br/>
@@ -60,7 +65,7 @@
         </ol>
         <p>There can be last minute changes. Please always check the official times here:
             <a
-                    href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ5560YfQQ15Z5772Y0Zy7007335Y67Q565.html">
+                    href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ6560YfQQ15Z5771Y0Zy7007335Y67Q565.html">
                 https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
             </a>
         </p>
@@ -130,7 +135,12 @@
                     https://github.com/pnugues/edan20/tree/master/notebooks
                 </a>
             </li>
-            <li>count the words of a text with Unix tools</li>
+            <li>count the words of a text with Unix tools. You will use the Unix command:
+                <pre>
+$ tr -cs 'A-Za-z' '\n' < text_file | sort | uniq -c | sort -nr | more
+                </pre>
+                Be sure to understand all the elements of this command.
+            </li>
             <li>run the quick introduction to scikit-learn:
                 <a href="https://scikit-learn.org/stable/tutorial/basic/tutorial.html">
                     https://scikit-learn.org/stable/tutorial/basic/tutorial.html
@@ -147,9 +157,10 @@
             <li>Hand in an individual comment of this program on one to two pages (not more). To
                 write this report, please use the overleaf site (<a href="https://www.overleaf.com/">
                     www.overleaf.com</a>)
-                and Latex. Once you are done, please send the overleaf link to it (not the PDF) to the EDAN20 course
-                address.
-                Please check your document with a spell checker before you send it.
+                and Latex. Once you are done, upload the PDF document assignment repository of the Canvas site
+                (https://canvas.education.lu.se/).
+                Please check your document with a spell checker before you send it. The deadline to hand in your report
+                is September 9.
             </li>
         </ol>
     </body>

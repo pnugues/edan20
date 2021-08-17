@@ -12,7 +12,8 @@
             <b>This page is provisional. It will be updated in due time.</b>
             <b>There can be last minute changes in the timetable that do not show on this page. Please always check the
                 official times here:
-                <a href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ5560YfQQ15Z5772Y0Zy7007335Y67Q565.html">
+                <a
+                        href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ6560YfQQ15Z5771Y0Zy7007335Y67Q565.html">
                     https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
                 </a>
             </b>
@@ -22,12 +23,13 @@
             <li>Typically, each assignment is done by a group of two students. The programming results of it are shown
                 to the instructor who validates it during a laboratory session. You can register to a laboratory group
                 here: <a
-                        href="https://sam.cs.lth.se/LabsSelectSession?occasionId=656">
-                    https://sam.cs.lth.se/LabsSelectSession?occasionId=656</a>.
+                        href="https://sam.cs.lth.se/LabsSelectSession?occasionId=712">
+                    https://sam.cs.lth.se/LabsSelectSession?occasionId=712
+                </a>.
             </li>
             <li>After the lab, each and every student writes a report of one to two pages to describe how s/he carried
                 out the assignment, her/his results, and gives a conclusion. You need both to validate your program and
-                hand in a short report to complete your assignment. You must use <a href="https://overleaf.com">
+                hand in a short report to complete your assignment. You should use <a href="https://overleaf.com">
                     overleaf
                 </a> to write this report.
             </li>
@@ -38,23 +40,40 @@
                 intended to review some basic features of Python as well as scikit-learn.
                 <br/>
                 <ol>
-                    <li>Group 1, September 1, 2020, 10:15 to 12:00, in the Alpha room,<br/>
-                        Discord link: https://discord.gg/83wWpF7<br/>
+                    <li>Group 1, August 31, 2021, 13:15 to 15:00, in the Beta room,
+                        <br/>
+                        Discord link: https://discord.gg/83wWpF7
+                        <br/>
                     </li>
-                    <li>group 2, September 1, 2020, 13:15 to 15:00, in the Alpha room,<br/>
-                        Discord link: https://discord.gg/83wWpF7<br/>
+                    <li>group 2, August 31, 2021, 13:15 to 15:00, in the Gamma room,
+                        <br/>
+                        Discord link: https://discord.gg/83wWpF7
+                        <br/>
                     </li>
-                    <li>group 3, September 2, 2020, 13:15 to 15:00, in the Val room,<br/>
-                        Discord link: https://discord.gg/83wWpF7<br/>
+                    <li>group 3, August 31, 2021, 15:15 to 17:00, in the Gamma room,
+                        <br/>
+                        Discord link: https://discord.gg/83wWpF7
+                        <br/>
                     </li>
-                    <li>group 4, September 2, 2020, 13:15 to 15:00, in the Falk rooms,<br/>
-                        Discord link: https://discord.gg/83wWpF7<br/>
+                    <li>group 4, September 1, 2021, 13:15 to 15:00, in the Alpha room,
+                        <br/>
+                        Discord link: https://discord.gg/83wWpF7
+                        <br/>
                     </li>
-                    <li>group 5, September 2, 2020, 15:15 to 17:00, in the Val room,<br/>
-                        Discord link: https://discord.gg/83wWpF7<br/>
+                    <li>group 5, September 1, 2021, 13:15 to 15:00, in the Varg room,
+                        <br/>
+                        Discord link: https://discord.gg/83wWpF7
+                        <br/>
                     </li>
-                    <li>group 6, September 2, 2020, 15:15 to 17:00, in the Falk room.<br/>
-                        Discord link: https://discord.gg/83wWpF7<br/>
+                    <li>group 6, September 1, 2021, 15:15 to 17:00, in the Alpha room.
+                        <br/>
+                        Discord link: https://discord.gg/83wWpF7
+                        <br/>
+                    </li>
+                    <li>group 7, September 1, 2021, 15:15 to 17:00, in the Varg room.
+                        <br/>
+                        Discord link: https://discord.gg/83wWpF7
+                        <br/>
                     </li>
                 </ol>
                 <!--<ol>
@@ -101,22 +120,23 @@
             </li>
             <li>First assignment:
                 <a href="http://cs.lth.se/edan20/coursework/assignment-1/">Building an inverted index</a>
-                <br/>September 10 and 11, 2019.
+                <br/>September 8 and 9, 2020.
             </li>
             <li>Second assignment:
                 <a href="http://cs.lth.se/edan20/coursework/assignment-2/">Language models</a>
-                <br/>September 17 and 18, 2019.
+                <br/>September 15 and 16, 2020.
             </li>
-            <li>Third assignment: <a href="http://cs.lth.se/edan20/coursework/assignment-3/">Extracting noun groups
+            <li>Third assignment:
+                <a href="http://cs.lth.se/edan20/coursework/assignment-3/">Language detection</a>
+                <br/>September 22 and 23, 2020.
+            </li>
+            <li>Fourth assignment: <a href="http://cs.lth.se/edan20/coursework/assignment-4/">Extracting noun groups
                 using machine learning techniques
             </a> (statistical chunking)
-                <br/>September 24 and 25, 2019.
-            </li>
-            <li>Fourth assignment:
-                <a href="http://cs.lth.se/edan20/coursework/assignment-4/">Extraction of subject—verb—object triples</a>
-                <br/>October 1st and 2nd, 2019.
+                <br/>September 29 and 30, 2020.
             </li>
             <li>Fifth assignment:
+                <!--<a href="http://cs.lth.se/edan20/coursework/assignment-4/">Extraction of subject—verb—object triples</a>-->
                 <a href="http://cs.lth.se/edan20/coursework/assignment-5/">Dependency parsing</a>
                 <br/>October 8 and 9, 2019.
             </li>

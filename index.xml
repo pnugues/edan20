@@ -8,41 +8,46 @@
     </head>
     <body>
         <!--<h1>EDAN20 – Language Technology</h1>-->
-        <p><b>This page is provisional is is being constantly updated</b></p>
-        <p>This year, we will have no physical lecture classes or labs. We will be using Zoom
-            for the whole course.</p>
-        <p>The schedule for August/September/October 2020 is available here: <a
-                href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ5560YfQQ15Z5772Y0Zy7007335Y67Q565.html">
+        <p>
+            <b>This page is provisional is is being constantly updated</b>
+        </p>
+        <p>The first lecture will be held on August 30, 2021, 13-15.
+        </p>
+        <p>The complete schedule for August/September/October 2021 is available here: <a
+                href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ6560YfQQ15Z5771Y0Zy7007335Y67Q565.html">
             https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html</a>. Use the
             <i>course schedule</i>
             or <i>lässchema</i> links and enter EDAN20 to view the course schedule.
         </p>
+        <h2>Course Delivery</h2>
+        <p>This year, we will have no physical lecture classes or labs. We will be using Zoom
+            for the whole course. Please install it before the
+            the lecture starts.
+        </p>
+        <h2>Course Registration</h2>
         <p>
-            Registration
-            <br/>
             You need to attend the first lecture to be sure to keep your seat (or email the course leader before
             the course starts). You should formally register in the LADOK system, preferably before the course starts.
             You have the instructions here in <a
-                href="http://www.student.lth.se/studieinformation/registreringar/">Swedish
+                href="https://www.student.lth.se/kurs-och-programinformation/kursanmaelan-och-registrering/kursregistrering/">
+            Swedish
         </a> and
             in <a
-                href="https://www.lth.se/english/education/master/information-for-current-students/course-registration/">
+                href="https://www.student.lth.se/english/masters-students/register-for-courses/">
             English</a>. If you fail to register, the department might register you
             anyway, if you attended the first lecture.
         </p>
         <!--		<p>Due to a meeting in Gothenburg on September 13, 2011, the class is cancelled for this date (13/09/2011). It will be replaced by a lecture on September 23, room E:B.
                 </p>-->
-        <p>The first lecture will be held on August 31, 2019, 15-17. We will use Zoom. Please install it before the
-            the lecture starts.
-        </p>
-        <p>The course takes place in the HT1 “study period.”
-        </p>
+        <h2>Lab Registration</h2>
         <p>
-            You can register to a laboratory group here:
+            You have to register to a laboratory group. Please do it here:
             <a
-                    href="https://sam.cs.lth.se/LabsSelectSession?occasionId=656">
-                https://sam.cs.lth.se/LabsSelectSession?occasionId=656
+                    href="https://sam.cs.lth.se/LabsSelectSession?occasionId=712">
+                https://sam.cs.lth.se/LabsSelectSession?occasionId=712
             </a>
+        </p>
+        <p>These computer rooms are virtual as we will use Discord for the lab sessions.
         </p>
         <h2>Objectives</h2>
         <p>The course introduces theories and techniques of natural language processing and language technology. It
