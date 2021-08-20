@@ -136,10 +136,8 @@
                 </a>
             </li>
             <li>count the words of a text with Unix tools. You will use the Unix command:
-                <pre>
-$ tr -cs 'A-Za-z' '\n' < text_file | sort | uniq -c | sort -nr | more
-                </pre>
-                Be sure to understand all the elements of this command.
+                <pre>$ tr -cs 'A-Za-z' '\n' < text_file | sort | uniq -c | sort -nr | more</pre>
+                Be sure to understand all the parts of this command.
             </li>
             <li>run the quick introduction to scikit-learn:
                 <a href="https://scikit-learn.org/stable/tutorial/basic/tutorial.html">
@@ -154,13 +152,21 @@ $ tr -cs 'A-Za-z' '\n' < text_file | sort | uniq -c | sort -nr | more
                 http://norvig.com/spell-correct.html</a>. Use Python 3 and make sure you understand all the code and
                 Python syntax;
             </li>
-            <li>Hand in an individual comment of this program on one to two pages (not more). To
-                write this report, please use the overleaf site (<a href="https://www.overleaf.com/">
-                    www.overleaf.com</a>)
-                and Latex. Once you are done, upload the PDF document assignment repository of the Canvas site
-                (https://canvas.education.lu.se/).
-                Please check your document with a spell checker before you send it. The deadline to hand in your report
-                is September 9.
+            <li>Write an individual comment of this program on one to two pages (not more) and submit it to the Canvas
+                site (<a href="https://canvas.education.lu.se/">https://canvas.education.lu.se</a> )
+            </li>
+            <li>To write your report, you can either
+                <ol>
+                    <li>Write directly your text in Canvas, or</li>
+                    <li>Use Latex and Overleaf (<a href="https://www.overleaf.com/">
+                        www.overleaf.com</a>). This will probably help you structure your text. You will then upload a
+                        PDF file in Canvas)
+                    </li>
+                </ol>
+                Please check your document with a spell checker before you send it.
+            </li>
+            <li>
+                The deadline to hand in your report is <b>September 9, 2021</b>.
             </li>
         </ol>
     </body>
