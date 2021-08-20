@@ -15,165 +15,251 @@
             </li>
             <li>Compute the probability of a sentence</li>
             <li>Know what a language model is</li>
+            <li>Experiment with word completion and prediction and sentence segmentation</li>
             <li>Write a short report of 1 to 2 pages on the assignment</li>
-            <li>Optionally read a short article on the importance of corpora</li>
         </ul>
         <h2>Organization and location</h2>
-        <p>The second lab session will take place on</p>
-        <ul>
-            <li>Group 1: Tuesday, September 17 from 10:15 to 12:00 in the Alpha room</li>
-            <li>Group 2: Tuesday, September 17 from 13:15 to 15:00 in the Alpha room</li>
-            <li>Group 3: Wednesday, September 18 from 13:15 to 15:00 in the Val room</li>
-            <li>Group 4: Wednesday, September 18 from 13:15 to 15:00 in the Falk room</li>
-            <li>Group 5: Wednesday, September 18 from 15:15 to 15:00 in the Val room</li>
-            <li>Group 6: Wednesday, September 18 from 15:15 to 17:00 in the Falk room</li>
-        </ul>
+        <p>The third lab session (lab 2) will take place on</p>
+        <ol>
+            <li>Group 1, September 14, 2021, 13:15 to 15:00, in the Beta room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 2, September 14, 2021, 13:15 to 15:00, in the Gamma room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 3, September 14, 2021, 15:15 to 17:00, in the Gamma room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 4, September 15, 2021, 13:15 to 15:00, in the Alpha room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 5, September 15, 2021, 13:15 to 15:00, in the Varg room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 6, September 15, 2021, 15:15 to 17:00, in the Alpha room.
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 7, SSeptember 15, 2021, 15:15 to 17:00, in the Varg room.
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+        </ol>
         <p>There can be last minute changes. Please always check the official times here:
-            <a href="https://cloud.timeedit.net/lu/web/lth1/ri14566340000YQQ45Z5577007y5Y3713gQ5g5X6Y55ZQ076.html">
+            <a
+                    href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ6560YfQQ15Z5771Y0Zy7007335Y67Q565.html">
                 https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
             </a>
         </p>
-        <p>You can work alone or collaborate with another student:</p>
+        <p>You can work alone or collaborate with another student.</p>
+        <p>Each group will have to:</p>
         <ul>
-            <li>Each group will have to write Python programs to count unigrams, bigrams, and trigrams in a corpus of
-                approximately one million words and to determine the probability of a sentence.
-            </li>
-            <li>You can test you regular expression using the <a href="https://regex101.com/">regex101.com</a> site
-            </li>
-            <li>Each student will have to write a short report of one to two pages and comment briefly the results. In
-                your report, you must produce the tabulated results of your analysis as described below.
-            </li>
+            <li>Write a Python program.</li>
+            <li>Check the results and comment them briefly</li>
         </ul>
-        <h2>Programming</h2>
-        <h3>Collecting a corpus</h3>
+        <h2>Content of the lab</h2>
+        <p>
+            The text of the lab is in the language models notebook available here
+            <a href="https://github.com/pnugues/edan20/tree/master/notebooks">
+                https://github.com/pnugues/edan20/tree/master/notebooks
+            </a>
+        </p>
+        <h2>Turning in the assignment</h2>
+        <p>Now your are done with the program. To complete this assignment, you will:</p>
         <ol>
-            <li>Retrieve a corpus of novels by Selma Lagerl&ouml;f from this URL:
-                <a href="https://github.com/pnugues/ilppp/blob/master/programs/corpus/Selma.txt">
-                    <tt>https://github.com/pnugues/ilppp/blob/master/programs/corpus/Selma.txt</tt>
-                </a>. The text of these novels was extracted
-                from <a href="https://litteraturbanken.se/forfattare/LagerlofS/titlar">Lagerlöf arkivet</a> at
-                <a href="https://litteraturbanken.se/">Litteraturbanken</a>.
+            <li>Write a short individual report on your program,</li>
+            <li>Execute the Jupyter notebook by Peter Norvig here: <a
+                    href="http://nbviewer.jupyter.org/url/norvig.com/ipython/How%20to%20Do%20Things%20with%20Words.ipynb">
+                https://nbviewer.jupyter.org/url/norvig.com/ipython/How to Do Things with Words.ipynb</a>. Just run all
+                the cells and be sure that you understand the code. You will find the data here: <a
+                        href="http://norvig.com/ngrams/">http://norvig.com/ngrams/</a>.
             </li>
-            <li>Alternatively, you can collect a corpus of at least 750,000 words. You will check the number of words using the Unix
-                command <tt>wc -w</tt>.
-            </li>
-            <li>Run the <a href="https://github.com/pnugues/ilppp/tree/master/programs/ch02/python">concordance
-                program
-            </a> to print the lines containing a specific word, for instance <i>Nils</i>.
-            </li>
-            <li>Run the <a href="https://github.com/pnugues/ilppp/tree/master/programs/ch05/python">tokenization
-                program
-            </a> on your corpus and count the words using the Unix <tt>sort</tt> and <tt>uniq</tt> commands.
+            <li>In your report, after the description of your program, you will describe one experiment with Norvig's
+                notebook and a long string of words your will create yourself or copy from a text you like. You will
+                remove all the punctuation and white spaces from this string. You will set this string in lowercase
+                letters. You will just add a cell at the end of Sect. 7 in Norvig's notebook, where you will use your
+                string and run the notebook cell with the <tt>segment()</tt> and <tt>segment2()</tt> functions. You will
+                comment the segmentation results you obtain with the unigram and bigram models.
             </li>
         </ol>
-        <h3>Normalizing a corpus</h3>
+        <p>You will submit your report as well as your notebook (for archiving purposes) to Canvas:
+            <a href="https://canvas.education.lu.se/">https://canvas.education.lu.se/</a>. To write your report, you can
+            either:
+        </p>
         <ol>
-            <li>Write a program to insert <tt>&lt;s&gt;</tt> and <tt>&lt;/s&gt;</tt> tags to delimit sentences. You can
-                start from the tokenization and modify it. Use a simple heuristics such as: a sentence starts with a
-                capital letter and ends with a period. Estimate roughly the accuracy of your program.
-            </li>
-            <li>Modify your program to remove the punctuation signs and set all the text in lower case letters.</li>
-            <li>The result should be a normalized text without punctuation signs where all the sentences are delimited
-                with <tt>&lt;s&gt;</tt> and <tt>&lt;/s&gt;</tt> tags.
-            </li>
-            <li>The five last lines of the text should look like this:
-                <pre>
-&lt;s&gt; hon hade fått större kärlek av sina föräldrar än någon annan han visste och sådan kärlek måste vändas i välsignelse &lt;/s&gt;
-&lt;s&gt; då prästen sade detta kom alla människor att se bort mot klara gulla och de förundrade sig över vad de såg &lt;/s&gt;
-&lt;s&gt; prästens ord tycktes redan ha gått i uppfyllelse &lt;/s&gt;
-&lt;s&gt; där stod klara fina gulleborg ifrån skrolycka hon som var uppkallad efter själva solen vid sina föräldrars grav och lyste som en förklarad &lt;/s&gt;
-&lt;s&gt; hon var likaså vacker som den söndagen då hon gick till kyrkan i den röda klänningen om inte vackrare &lt;/s&gt;
-                </pre>
+            <li>Write directly your text in Canvas, or</li>
+            <li>Use Latex and Overleaf (<a href="https://www.overleaf.com">https://www.overleaf.com</a>). This will
+                probably help you structure your text. You will
+                then upload a PDF file in Canvas.
             </li>
         </ol>
-        <h3>Counting unigrams and bigrams</h3>
-        <ol>
-            <!--
-                    <li>Divide your corpus into a training set (80% of the text) and a test set (20%)</li>
-            -->
-            <li>Read and try programs to compute the frequency of unigrams and bigrams of the training set: [<a
-                    href="https://github.com/pnugues/ilppp/tree/master/programs/ch05/python">Program folder</a>].
-            </li>
-            <li>What is the possible number of bigrams and their real number? Explain why such a difference. What would
-                be the possible number of 4-grams.
-            </li>
-            <li>Propose a solution to cope with bigrams unseen in the corpus. This topic will be discussed during the
-                lab session.
-            </li>
-        </ol>
-        <h3>Computing the likelihood of a sentence</h3>
-        <ol>
-            <li>Write a program to compute a sentence's probability using unigrams.
-                You may find useful the dictionaries that we saw in the mutual information program: [<a
-                        href="https://github.com/pnugues/ilppp/tree/master/programs/ch05/python">Program
-                    folder</a>].
-            </li>
-            <li>Write a program to compute the sentence probability using bigrams.</li>
-            <li>Select five sentences in your test set and run your programs on them.</li>
-            <li>Tabulate your results as in the examples below with the sentence <i>Det var en gång en katt som hette
-                Nils</i>:
-<pre>
-Unigram model
-=====================================================
-wi 	 C(wi) 	 #words 	 P(wi)
-=====================================================
-det 	 21108 	 1041631 	 0.0202643738521607
-var 	 12090 	 1041631 	 0.01160679741674355
-en 	 13514 	 1041631 	 0.01297388422579589
-gång 	 1332 	 1041631 	 0.001278763784871994
-en 	 13514 	 1041631 	 0.01297388422579589
-katt 	 16 	 1041631 	 1.5360525944408337e-05
-som 	 16288 	 1041631 	 0.015637015411407686
-hette 	 97 	 1041631 	 9.312318853797554e-05
-nils 	 87 	 1041631 	 8.352285982272032e-05
-&lt;/s&gt; 	 59047 	 1041631 	 0.056687060964967444
-=====================================================
-Prob. unigrams:	 5.361459667285409e-27
-Geometric mean prob.: 0.0023600885848765307
-Entropy rate:	 8.726943273141258
-Perplexity:	 423.71290908655254
+        <p>The submission deadline is September 24, 2021.</p>
+        <!--
+                <h2>Organization and location</h2>
+                <p>The second lab session will take place on</p>
+                <ul>
+                    <li>Group 1: Tuesday, September 17 from 10:15 to 12:00 in the Alpha room</li>
+                    <li>Group 2: Tuesday, September 17 from 13:15 to 15:00 in the Alpha room</li>
+                    <li>Group 3: Wednesday, September 18 from 13:15 to 15:00 in the Val room</li>
+                    <li>Group 4: Wednesday, September 18 from 13:15 to 15:00 in the Falk room</li>
+                    <li>Group 5: Wednesday, September 18 from 15:15 to 15:00 in the Val room</li>
+                    <li>Group 6: Wednesday, September 18 from 15:15 to 17:00 in the Falk room</li>
+                </ul>
+                <p>There can be last minute changes. Please always check the official times here:
+                    <a href="https://cloud.timeedit.net/lu/web/lth1/ri14566340000YQQ45Z5577007y5Y3713gQ5g5X6Y55ZQ076.html">
+                        https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
+                    </a>
+                </p>
+                <p>You can work alone or collaborate with another student:</p>
+                <ul>
+                    <li>Each group will have to write Python programs to count unigrams, bigrams, and trigrams in a corpus of
+                        approximately one million words and to determine the probability of a sentence.
+                    </li>
+                    <li>You can test you regular expression using the <a href="https://regex101.com/">regex101.com</a> site
+                    </li>
+                    <li>Each student will have to write a short report of one to two pages and comment briefly the results. In
+                        your report, you must produce the tabulated results of your analysis as described below.
+                    </li>
+                </ul>
+                <h2>Programming</h2>
+                <h3>Collecting a corpus</h3>
+                <ol>
+                    <li>Retrieve a corpus of novels by Selma Lagerl&ouml;f from this URL:
+                        <a href="https://github.com/pnugues/ilppp/blob/master/programs/corpus/Selma.txt">
+                            <tt>https://github.com/pnugues/ilppp/blob/master/programs/corpus/Selma.txt</tt>
+                        </a>. The text of these novels was extracted
+                        from <a href="https://litteraturbanken.se/forfattare/LagerlofS/titlar">Lagerlöf arkivet</a> at
+                        <a href="https://litteraturbanken.se/">Litteraturbanken</a>.
+                    </li>
+                    <li>Alternatively, you can collect a corpus of at least 750,000 words. You will check the number of words using the Unix
+                        command <tt>wc -w</tt>.
+                    </li>
+                    <li>Run the <a href="https://github.com/pnugues/ilppp/tree/master/programs/ch02/python">concordance
+                        program
+                    </a> to print the lines containing a specific word, for instance <i>Nils</i>.
+                    </li>
+                    <li>Run the <a href="https://github.com/pnugues/ilppp/tree/master/programs/ch05/python">tokenization
+                        program
+                    </a> on your corpus and count the words using the Unix <tt>sort</tt> and <tt>uniq</tt> commands.
+                    </li>
+                </ol>
+                <h3>Normalizing a corpus</h3>
+                <ol>
+                    <li>Write a program to insert <tt>&lt;s&gt;</tt> and <tt>&lt;/s&gt;</tt> tags to delimit sentences. You can
+                        start from the tokenization and modify it. Use a simple heuristics such as: a sentence starts with a
+                        capital letter and ends with a period. Estimate roughly the accuracy of your program.
+                    </li>
+                    <li>Modify your program to remove the punctuation signs and set all the text in lower case letters.</li>
+                    <li>The result should be a normalized text without punctuation signs where all the sentences are delimited
+                        with <tt>&lt;s&gt;</tt> and <tt>&lt;/s&gt;</tt> tags.
+                    </li>
+                    <li>The five last lines of the text should look like this:
+                        <pre>
+        &lt;s&gt; hon hade fått större kärlek av sina föräldrar än någon annan han visste och sådan kärlek måste vändas i välsignelse &lt;/s&gt;
+        &lt;s&gt; då prästen sade detta kom alla människor att se bort mot klara gulla och de förundrade sig över vad de såg &lt;/s&gt;
+        &lt;s&gt; prästens ord tycktes redan ha gått i uppfyllelse &lt;/s&gt;
+        &lt;s&gt; där stod klara fina gulleborg ifrån skrolycka hon som var uppkallad efter själva solen vid sina föräldrars grav och lyste som en förklarad &lt;/s&gt;
+        &lt;s&gt; hon var likaså vacker som den söndagen då hon gick till kyrkan i den röda klänningen om inte vackrare &lt;/s&gt;
+                        </pre>
+                    </li>
+                </ol>
+                <h3>Counting unigrams and bigrams</h3>
+                <ol>
+                    <li>Read and try programs to compute the frequency of unigrams and bigrams of the training set: [<a
+                            href="https://github.com/pnugues/ilppp/tree/master/programs/ch05/python">Program folder</a>].
+                    </li>
+                    <li>What is the possible number of bigrams and their real number? Explain why such a difference. What would
+                        be the possible number of 4-grams.
+                    </li>
+                    <li>Propose a solution to cope with bigrams unseen in the corpus. This topic will be discussed during the
+                        lab session.
+                    </li>
+                </ol>
+                <h3>Computing the likelihood of a sentence</h3>
+                <ol>
+                    <li>Write a program to compute a sentence's probability using unigrams.
+                        You may find useful the dictionaries that we saw in the mutual information program: [<a
+                                href="https://github.com/pnugues/ilppp/tree/master/programs/ch05/python">Program
+                            folder</a>].
+                    </li>
+                    <li>Write a program to compute the sentence probability using bigrams.</li>
+                    <li>Select five sentences in your test set and run your programs on them.</li>
+                    <li>Tabulate your results as in the examples below with the sentence <i>Det var en gång en katt som hette
+                        Nils</i>:
+        <pre>
+        Unigram model
+        =====================================================
+        wi 	 C(wi) 	 #words 	 P(wi)
+        =====================================================
+        det 	 21108 	 1041631 	 0.0202643738521607
+        var 	 12090 	 1041631 	 0.01160679741674355
+        en 	 13514 	 1041631 	 0.01297388422579589
+        gång 	 1332 	 1041631 	 0.001278763784871994
+        en 	 13514 	 1041631 	 0.01297388422579589
+        katt 	 16 	 1041631 	 1.5360525944408337e-05
+        som 	 16288 	 1041631 	 0.015637015411407686
+        hette 	 97 	 1041631 	 9.312318853797554e-05
+        nils 	 87 	 1041631 	 8.352285982272032e-05
+        &lt;/s&gt; 	 59047 	 1041631 	 0.056687060964967444
+        =====================================================
+        Prob. unigrams:	 5.361459667285409e-27
+        Geometric mean prob.: 0.0023600885848765307
+        Entropy rate:	 8.726943273141258
+        Perplexity:	 423.71290908655254
 
-Bigram model
-=====================================================
-wi 	 wi+1 	 Ci,i+1 	 C(i) 	 P(wi+1|wi)
-=====================================================
-&lt;s&gt;	 det 	 5672 	 59047 	 0.09605907158704083
-det 	 var 	 3839 	 21108 	 0.1818741709304529
-var 	 en 	 712 	 12090 	 0.058891645988420185
-en 	 gång 	 706 	 13514 	 0.052242119283705785
-gång 	 en 	 20 	 1332 	 0.015015015015015015
-en 	 katt 	 6 	 13514 	 0.0004439840165754033
-katt 	 som 	 2 	 16 	 0.125
-som 	 hette 	 45 	 16288 	 0.002762770137524558
-hette 	 nils 	 0 	 97 	 0.0 	 *backoff: 	 8.352285982272032e-05
-nils 	 &lt;/s&gt; 	 2 	 87 	 0.022988505747126436
-=====================================================
-Prob. bigrams:	 2.376007803503683e-19
-Geometric mean prob.: 0.013727289294133601
-Entropy rate:	 6.186809422848149
-Perplexity:	 72.84759420254609
-                </pre>
-            </li>
-        </ol>
-        <h2>Reading</h2>
-        <p>As an application of n-grams, execute the Jupyter notebook by Peter Norvig <a
-                href="http://nbviewer.jupyter.org/url/norvig.com/ipython/How%20to%20Do%20Things%20with%20Words.ipynb">
-            here</a>. Just run all the cells and be sure that you understand the code.
-            You will find the data <a href="http://norvig.com/ngrams/">here</a>.</p>
-        <p>In your report, you will also describe one experiment with a long string of words
-            your will create yourself or copy from a text you like. You will remove all the punctuation and
-            white spaces from this string. Set this string in lowercase letters.</p>
-        <p>You will just add a cell at the end of Sect. 7 in Norvig's notebook, where you will use your string and
-            run the notebook cell with the <tt>segment()</tt> and <tt>segment2()</tt> functions. </p>
-        <p>You will comment the segmentation results you obtain with unigram and bigram models.
-        </p>
-        <h2>Complement</h2>
-        <p>As a complement, you can read a paper by <a
-                href="http://researcher.watson.ibm.com/researcher/view.php?person=us-kwchurch">Church
-        </a> and Hanks, <a href="http://www.aclweb.org/anthology/J/J90/J90-1003.pdf">Word Association Norms, Mutual
-            Information, and Lexicography</a>, Computational Linguistics, 16(1):22-29, 1990, as well as another one on
-            backoff by Brants et al. (2007) <a href="http://www.aclweb.org/anthology/D07-1090.pdf">Large language models
-                in machine translation</a>.
-        </p>
+        Bigram model
+        =====================================================
+        wi 	 wi+1 	 Ci,i+1 	 C(i) 	 P(wi+1|wi)
+        =====================================================
+        &lt;s&gt;	 det 	 5672 	 59047 	 0.09605907158704083
+        det 	 var 	 3839 	 21108 	 0.1818741709304529
+        var 	 en 	 712 	 12090 	 0.058891645988420185
+        en 	 gång 	 706 	 13514 	 0.052242119283705785
+        gång 	 en 	 20 	 1332 	 0.015015015015015015
+        en 	 katt 	 6 	 13514 	 0.0004439840165754033
+        katt 	 som 	 2 	 16 	 0.125
+        som 	 hette 	 45 	 16288 	 0.002762770137524558
+        hette 	 nils 	 0 	 97 	 0.0 	 *backoff: 	 8.352285982272032e-05
+        nils 	 &lt;/s&gt; 	 2 	 87 	 0.022988505747126436
+        =====================================================
+        Prob. bigrams:	 2.376007803503683e-19
+        Geometric mean prob.: 0.013727289294133601
+        Entropy rate:	 6.186809422848149
+        Perplexity:	 72.84759420254609
+                        </pre>
+                    </li>
+                </ol>
+                <h2>Reading</h2>
+                <p>As an application of n-grams, execute the Jupyter notebook by Peter Norvig <a
+                        href="http://nbviewer.jupyter.org/url/norvig.com/ipython/How%20to%20Do%20Things%20with%20Words.ipynb">
+                    here</a>. Just run all the cells and be sure that you understand the code.
+                    You will find the data <a href="http://norvig.com/ngrams/">here</a>.</p>
+                <p>In your report, you will also describe one experiment with a long string of words
+                    your will create yourself or copy from a text you like. You will remove all the punctuation and
+                    white spaces from this string. Set this string in lowercase letters.</p>
+                <p>You will just add a cell at the end of Sect. 7 in Norvig's notebook, where you will use your string and
+                    run the notebook cell with the <tt>segment()</tt> and <tt>segment2()</tt> functions. </p>
+                <p>You will comment the segmentation results you obtain with unigram and bigram models.
+                </p>
+                <h2>Complement</h2>
+                <p>As a complement, you can read a paper by <a
+                        href="http://researcher.watson.ibm.com/researcher/view.php?person=us-kwchurch">Church
+                </a> and Hanks, <a href="http://www.aclweb.org/anthology/J/J90/J90-1003.pdf">Word Association Norms, Mutual
+                    Information, and Lexicography</a>, Computational Linguistics, 16(1):22-29, 1990, as well as another one on
+                    backoff by Brants et al. (2007) <a href="http://www.aclweb.org/anthology/D07-1090.pdf">Large language models
+                        in machine translation</a>.
+                </p>-->
     </body>
 </html>
