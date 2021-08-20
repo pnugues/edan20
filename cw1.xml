@@ -68,10 +68,41 @@
         <h2>Content of the lab</h2>
         <p>
             The text of the lab is in the indexer notebook available here
-                <a href="https://github.com/pnugues/edan20/tree/master/notebooks">
-                    https://github.com/pnugues/edan20/tree/master/notebooks
-                </a>
+            <a href="https://github.com/pnugues/edan20/tree/master/notebooks">
+                https://github.com/pnugues/edan20/tree/master/notebooks
+            </a>
         </p>
+        <h2>Turning in your assignment</h2>
+        <p>When your are done with the program, you will:</p>
+        <ol>
+            <li>Write a short individual report on your program,</li>
+            <li>
+                Read the text <i>Challenges in Building Large-Scale Information Retrieval Systems</i> about the history
+                of <a href="https://research.google.com/people/jeff/WSDM09-keynote.pdf">Google indexing</a> by <a
+                    href="https://research.google.com/pubs/jeff.html">Jeff Dean
+            </a> and write a short comment on it. See the details below.
+            </li>
+        </ol>
+        <p>You will submit your report as well as your notebook (for archiving purposes) to Canvas: <a href="https://canvas.education.lu.se/">https://canvas.education.lu.se/</a>.
+            To write your report, you can either
+        </p>
+        <ol>
+            <li>Write directly your text in Canvas, or</li>
+            <li>Use Latex and Overleaf (<a href="https://www.overleaf.com/">
+                www.overleaf.com</a>). This will probably help you structure your text. You will then upload a PDF file
+                in Canvas.
+            </li>
+        </ol>
+        <p>In your report of about two pages:</p>
+        <ol>
+            <li>You will describe your indexer and comment your results;</li>
+            <li>You will tell how your index encoding is related to what Google did;
+            </li>
+            <li>You will identify the slide where you have the most similar indexing
+                technique and write the slide title and the slide number in your report.
+            </li>
+        </ol>
+        <p>The submission deadline is September 17, 2021.</p>
         <!--<h2>Preparation</h2>
         <ol>
             <li>Download the <a href="https://github.com/pnugues/ilppp/raw/master/programs/corpus/Selma.zip">Selma
