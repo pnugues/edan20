@@ -4,308 +4,104 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>Assignment #3: Extracting noun groups using machine learning techniques</title>
+        <title>Assignment #3: Language detection</title>
     </head>
     <body>
         <!--<h1>Assignment #3: Extracting noun groups using machine learning techniques</h1>-->
+        <p>In this assignment, you will implement a language detector inspired from Google's <i>Compact language
+            detector</i>, version 3 (CLD3): https://github.com/google/cld3.
+            CLD3 is written in C++ and its code is available from GitHub.
+        </p>
         <h2>Objectives</h2>
-        <p>The objectives of this assignment are to:</p>
+        <p>The objectives of the assignment are to:</p>
         <ul>
-            <li>Write a program to detect partial syntactic structures</li>
-            <li>Understand the principles of supervised machine learning techniques applied to language processing</li>
-            <li>Use a popular machine learning toolkit: scikit-learn</li>
-            <li>Write a short report of 1 to 2 pages on the assignment</li>
+            <li>Write a program to classify languages</li>
+            <li>Use neural networks</li>
+            <li>Know what a classifier is</li>
+            <li>Write a short report of 1 to 2 pages to describe your program. You will notably comment the performance
+                you obtained and how you could improve it.
+            </li>
         </ul>
         <h2>Organization and location</h2>
-        <p>The third lab session will take place on</p>
-        <ul>
-            <li>Group 1: Tuesday, September 24 from 10:15 to 12:00 in the Alpha room</li>
-            <li>Group 2: Tuesday, September 24 from 13:15 to 15:00 in the Alpha room</li>
-            <li>Group 3: Wednesday, September 25 from 13:15 to 15:00 in the Val room</li>
-            <li>Group 4: Wednesday, September 25 from 13:15 to 15:00 in the Falk room</li>
-            <li>Group 5: Wednesday, September 25 from 15:15 to 15:00 in the Val room</li>
-            <li>Group 6: Wednesday, September 25 from 15:15 to 17:00 in the Falk room</li>
-        </ul>
+        <p>The third lab session (lab 2) will take place on</p>
+        <ol>
+            <li>Group 1, September 21, 2021, 13:15 to 15:00, in the Beta room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 2, September 21, 2021, 13:15 to 15:00, in the Gamma room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 3, September 21, 2021, 15:15 to 17:00, in the Gamma room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 4, September 22, 2021, 13:15 to 15:00, in the Alpha room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 5, September 22, 2021, 13:15 to 15:00, in the Varg room,
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 6, September 22, 2021, 15:15 to 17:00, in the Alpha room.
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+            <li>group 7, SSeptember 22, 2021, 15:15 to 17:00, in the Varg room.
+                <br/>
+                Discord link: https://discord.gg/83wWpF7
+                <br/>
+            </li>
+        </ol>
         <p>There can be last minute changes. Please always check the official times here:
-            <a href="https://cloud.timeedit.net/lu/web/lth1/ri14566340000YQQ45Z5577007y5Y3713gQ5g5X6Y55ZQ076.html">
+            <a
+                    href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ6560YfQQ15Z5771Y0Zy7007335Y67Q565.html">
                 https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
             </a>
         </p>
         <p>You can work alone or collaborate with another student.</p>
         <p>Each group will have to:</p>
         <ul>
-            <li>Write and train a machine-learning program to detect noun groups.</li>
-            <li>Evaluate the results and comment them briefly.</li>
+            <li>Write a Python program.</li>
+            <li>Check the results and comment them briefly</li>
         </ul>
-        <h2>Programming</h2>
-        <h3>Choosing a training and a test sets</h3>
-        <ol>
-            <li>As annotated data and annotation scheme, you will use the data available from <a
-                    href="https://www.clips.uantwerpen.be/conll2000/chunking/">CoNLL 2000</a>.
-            </li>
-            <li>Download both the training and test sets (the same as in
-                the previous assignment) and decompress them.
-                <br/>
-                (Local copies available here: [<a
-                        href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conll2000/train.txt">train.txt</a>]
-                [<a href="http://fileadmin.cs.lth.se/cs/Education/EDAN20/corpus/conll2000/test.txt">test.txt</a>].)
-            </li>
-            <li>Be sure that you have the
-                <a href="http://scikit-learn.org">scikit-learn</a>
-                package:
-                Start it by typing <tt>import sklearn</tt> in Python.
-            </li>
-        </ol>
-        <h3>Baseline</h3>
-        <p>Most statistical algorithms for language processing start with a so-called baseline. The baseline figure
-            corresponds to the application of a minimal technique that is used to assess the difficulty of a task and
-            for comparison with further programs.
-        </p>
-        <ol>
-            <li>Read the baseline proposed by the organizers of the
-                <a href="https://www.clips.uantwerpen.be/conll2000/chunking/">CoNLL 2000 shared task</a>
-                (In the <i>Results</i> Sect.). What do you think of it?
-            </li>
-            <li>Implement this baseline program. You may either create a completely new program or start from an
-                existing program that you will modify [<a
-                        href="https://github.com/pnugues/ilppp/tree/master/programs/labs/chunking/chunker_python/">
-                    Program folder
-                </a>].
-                <ul>
-                    <li>Complete the <tt>train</tt> function so that it computes the chunk
-                        distribution for each part of speech. You will use the train file to derive your distribution
-                        and
-                        you will store the results in a dictionary. Below, you have an excerpt of the expected results:
-                        <pre>
-{'JJR':
-{'I-ADVP': 17, 'I-ADJP': 45, 'I-NP': 204, 'B-ADVP': 63,
-'B-PP': 2, 'B-ADJP': 111, 'B-NP': 382, 'B-VP': 2,
-'I-VP': 11, 'O': 16},
-'CC':
-{'B-ADVP': 3, 'O': 3676, 'I-VP': 104, 'B-CONJP': 6,
-'I-ADVP': 30, 'I-UCP': 2, 'I-PP': 24, 'I-ADJP': 26,
-'I-NP': 1409, 'B-ADJP': 2, 'B-NP': 18, 'B-PP': 70,
-'I-PRT': 1, 'B-VP': 1},
-'NN':
-{'B-LST': 2, 'I-INTJ': 2, 'B-ADVP': 38, 'O': 37,
-'I-ADVP': 11, 'B-INTJ': 1, 'I-UCP': 2, 'B-UCP': 2,
-'I-VP': 77, 'B-PRT': 2, 'I-ADJP': 41, 'I-NP': 24456,
-'B-ADJP': 44, 'B-NP': 5160, 'B-PP': 15, 'B-VP': 257},
-...
-                        </pre>
-                    </li>
-                    <li>For each part of speech, select the most frequent chunk. In the example above, you will
-                        have (NN, I-NP)
-                    </li>
-                    <li>Using the resulting associations, apply your chunker to the test file.</li>
-                    <li>You will store your results in an output file that has four columns. The
-                        three first columns will be the input columns from the test file: word, part of speech,
-                        and gold-standard chunk. You
-                        will append the predicted chunk as the 4th column. Your output file should look like
-                        the excerpt below:
-                        <pre>
-Rockwell NNP B-NP I-NP
-International NNP I-NP I-NP
-Corp. NNP I-NP I-NP
-'s POS B-NP B-NP
-Tulsa NNP I-NP I-NP
-unit NN I-NP I-NP
-said VBD B-VP B-VP
-it PRP B-NP B-NP
-                        </pre>
-                        The CoNLL 2000 evaluation script
-                        will use these
-                        two last columns, chunk and predicted chunk, to compute the performance.
-                    </li>
-                </ul>
-            </li>
-
-            <li>Measure the performance of the system. Use the
-                <!--               <a href="https://github.com/pnugues/ilppp/tree/master/programs/corpus/conll2000">
-                                   <tt>eval.sh</tt>
-                               </a>
-                               script or the-->
-                <a href="https://www.clips.uantwerpen.be/conll2000/chunking/">
-                    <tt>conlleval.txt</tt>
-                </a>
-                evaluation program used by the CoNLL 2000 shared task.
-                <ul>
-                    <li>
-                        <tt>conlleval.txt</tt>
-                        is the official
-                        CoNLL Perl script. It expects the two last columns of the test set to be the manually
-                        assigned chunk (gold standard) and the predicted chunk.
-                    </li>
-                    <li>
-                        Start it like this:
-                        <pre>
-$ conlleval.txt &lt;out
-                        </pre>
-                        where the <tt>out</tt> file contains both the gold and predicted chunk tags. <tt>conlleval.txt
-                    </tt> is
-                        a Perl script.
-                    </li>
-                    <li>Perl is installed on most Unix distributions. If it is not installed on your machine, you need
-                        to install it.
-                        Make also sure that
-                        you have the execution rights. Otherwise change them with:
-                        <pre>
-$ chmod +x conlleval.txt
-                        </pre>
-                    </li>
-                    <li>The <tt>conlleval.txt</tt> script expects the new lines to be <tt>\n</tt> as in Unix.
-                        If you run your Python program on Windows, your new lines will be <tt>\r\n</tt>.
-                        To have the correct new lines, add this parameter to <tt>open()</tt>:
-                        <tt>newline='\n’</tt>
-                        like this:
-                        <pre>
-f_out = open('out', ‘w’, newline='\n’)
-                        </pre>
-                    </li>
-                    <li>The complete description of the CoNLL 2000 evaluation script is available here:
-                        <a href="https://www.clips.uantwerpen.be/conll2000/chunking/output.html">
-                            https://www.clips.uantwerpen.be/conll2000/chunking/output.html</a>.
-                    </li>
-                    <!--<li><tt>eval.sh</tt> is a convenience script 
-                        that takes two test files as input, the gold and the prediction, and appends the last column of the predication
-                        to the gold file. The output can then be passed to <tt>conlleval.txt</tt>. You run it this way:
-                        <pre>
-$ eval.sh test.txt out
-                        </pre>
-                        where <tt>test.txt</tt> is the gold test file, i.e. the test file with the answers, and the <tt>out</tt> file is your system's output.
-                    </li>-->
-                </ul>
-            </li>
-        </ol>
-        <h3>Using Machine Learning</h3>
-
-        <p>In this exercise, you will apply and explore the
-            <tt>ml_chunker.py</tt>
-            program. You will start from the original
-            program you downloaded and modify it so that you understand
-            how to improve the performance of your chunker. You will not add new features to the feature vector.
-        </p>
-        <p>The program that won the CoNLL 2000 shared task (Kudoh and Matsumoto, 2000) used a window of five words
-            around the chunk tag to identify,
-            <i>c
-                <sub>i</sub>
-            </i>
-            . They built a feature vector consisting of:
-        </p>
-        <ul>
-            <li>The values of the five words in this window:
-                <i>w
-                    <sub>i-2</sub>
-                </i>
-                ,
-                <i>w
-                    <sub>i-1</sub>
-                </i>
-                ,
-                <i>w
-                    <sub>i</sub>
-                </i>
-                ,
-                <i>w
-                    <sub>i+1</sub>
-                </i>
-                ,
-                <i>w
-                    <sub>i+2</sub>
-                </i>
-            </li>
-            <li>The values of the five parts of speech in this window:
-                <i>t
-                    <sub>i-2</sub>
-                </i>
-                ,
-                <i>t
-                    <sub>i-1</sub>
-                </i>
-                ,
-                <i>t
-                    <sub>i</sub>
-                </i>
-                ,
-                <i>t
-                    <sub>i+1</sub>
-                </i>
-                ,
-                <i>t
-                    <sub>i+2</sub>
-                </i>
-            </li>
-            <li>The values of the two previous chunk tags in the first part of the window:
-                <i>c
-                    <sub>i-2</sub>
-                </i>
-                ,
-                <i>c
-                    <sub>i-1</sub>
-                </i>
-            </li>
-        </ul>
-        <p>The two last parameters are said to be dynamic because the program computes them at run-time. Kudoh and
-            Matsumoto trained a classifier based on support vector machines. Read
-            <a href="http://www.clips.uantwerpen.be/conll2000/pdf/14244kud.pdf">Kudoh and Matsumoto's paper</a>
-            and the
-            <a href="http://www.chasen.org/~taku/software/yamcha/">Yamcha</a>
-            software site.
-        </p>
-        <ol>
-            <li>What is the feature vector that corresponds to the <tt>ml_chunker.py</tt> program? Is it the same Kudoh
-                and Matsumoto used in their experiment?
-            </li>
-            <li>What is the performance of the chunker?</li>
-            <li>Remove the lexical features (the words) from the feature vector and measure the performance. You should
-                observe a decrease.
-            </li>
-            <li>What is the classifier used in the program? Try two other classifiers and measure their performance:
-                decision trees, perceptron, support vector machines, etc..
-                Be aware that support vector machines take a long time to train: up to one hour.
-            </li>
-        </ol>
-        <h3>Improving the Chunker</h3>
-        <p>Implement one of these two options, the first one being easier.</p>
-        <ol>
-            <li>Complement the feature vector used in the previous section with the two dynamic features,
-                <i>c
-                    <sub>i-2</sub>
-                </i>
-                ,
-                <i>c
-                    <sub>i-1</sub>
-                </i>
-                , and train a new model. You will need to modify the
-                <tt>extract_features_sent</tt>
-                and <tt>predict</tt> functions.
-                <br/>
-                In his experiments, your teacher obtained a F1 score of
-                92.65 with logistic regression and a lbfgs solver and automatic multiclass;
-            </li>
-            <li>
-                If you know what beam search is, apply it using the probability output of logistic
-                regression or
-                the score if you use support vector machines.
-                <br/>
-                With the same classifier and a beam diameter of 5, your teacher obtained 92.87.
-            </li>
-        </ol>
+        <h2>Content of the lab</h2>
         <p>
-            <b>A frequent mistake in the labs</b>
-            is to use the gold-standard chunks from the test set. Be aware that
-            when you predict the test set, you do not know the dynamic features in advance and you must
-            not use the ones from the test file.
-            You will use the two previous chunk tags that you have predicted.
+            The text of the lab is in the language detector notebook available here
+            <a href="https://github.com/pnugues/edan20/tree/master/notebooks">
+                https://github.com/pnugues/edan20/tree/master/notebooks
+            </a>
         </p>
-        <p>You need to reach a global F1 score of 92 to pass this laboratory.
+        <h2>Turning in the assignment</h2>
+        <p>When are done with the program and to complete the assignment, you will:</p>
+        <ol>
+            <li>Write a short individual report on your program. Do not forget to:
+                <ul>
+                    <li>Summarize CLD3 and outline its architecture</li>
+                    <li>Identify the features used by CLD3</li>
+                    <li>Include the feature matrix you computed manually</li>
+                </ul>
+            </li>
+        </ol>
+        <p>You will submit your report as well as your notebook (for archiving purposes) to Canvas:
+            <a href="https://canvas.education.lu.se/">https://canvas.education.lu.se/</a>. To write your report, you can
+            either:
         </p>
-        <h3>Reading</h3>
-        <p>You will read the article, <a href="https://www.aclweb.org/anthology/C18-1139"><i>Contextual String
-            Embeddings for Sequence Labeling</i></a> by Akbik et al. (2018)
-            and you will outline the main differences between their system and yours. A LSTM is a type of
-            recurrent neural network, while CRF is a sort of beam search. You will tell the performance
-            they reach on the corpus you used in this laboratory.
-        </p>
+        <ol>
+            <li>Write directly your text in Canvas, or</li>
+            <li>Use Latex and Overleaf (<a href="https://www.overleaf.com">https://www.overleaf.com</a>). This will
+                probably help you structure your text. You will
+                then upload a PDF file in Canvas.
+            </li>
+        </ol>
+        <p>The submission deadline is October 1st, 2021.</p>
     </body>
 </html>
