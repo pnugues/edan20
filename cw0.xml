@@ -136,7 +136,7 @@
                 </a>
             </li>
             <li>count the words of a text with Unix tools. You will use the Unix command:
-                <pre>$ tr -cs 'A-Za-z' '\n' < text_file | sort | uniq -c | sort -nr | more</pre>
+                <pre>$ tr -cs 'A-Za-z' '\n' &lt; text_file | sort | uniq -c | sort -nr | more</pre>
                 Be sure to understand all the parts of this command.
             </li>
             <li>run the quick introduction to scikit-learn:
