@@ -9,19 +9,7 @@
         <p>
             <b>This page is provisional. It will be updated in due time.</b>
         </p>
-        <p>
-            I will live stream the lectures. The Zoom link is:
-            <br/>
-            https://lu-se.zoom.us/j/67450590401?pwd=K2hmMXpIMG1Zb0ZWUE96Mzd5Mnp1UT09
-            <br/>Enter the password: 75012
-        </p>
-        <p>I opened a chat room so that students can discuss topics regarding the course and the labs.
-            The link is:
-            <br/>
-            https://lu-se.zoom.us/j/64335139506?pwd=WDJaeUtBcnJsQ2c2K2tMVG9jcUJ1UT09
-            <br/>Enter the password: 75019
-            <br/>It is only open to Lund University registered students
-        </p>
+        
         <h2><a name="content"></a>Contents
         </h2>
         <table>
@@ -32,13 +20,19 @@
                             <a href="./#ch01">Ch. 1: An overview of language processing</a>
                         </li>
                         <li>
-                            <a href="./#ch02">Ch. 2: Corpus processing tools</a>
+                            <a href="./#ch02">Ch. 2: A tour of Python</a>
                         </li>
                         <li>
-                            <a href="#ch03">Ch. 3: Encoding and annotation schemes</a>
+                            <a href="#ch03">Ch. 3: Corpus processing tools</a>
                         </li>
                         <li>
-                            <a href="#ch04">Ch. 4: Topics in information theory and machine learning</a>
+                            <a href="#ch04">Ch. 4: Encoding and annotation schemes</a>
+                        </li>
+                        <li>
+                            <a href="#ch05">Ch. 5: Python for numerical computations</a>
+                        </li>
+                        <li>
+                            <a href="#ch06">Ch. 6: Topics in information theory and machine learning</a>
                         </li>
                         <li>
                             <a href="#ch05">Ch. 5: Counting words</a>
@@ -95,99 +89,28 @@
         </table>
         <h2>
             <a href="#content">^</a>
-            <a name="ch01"></a>Chapter 1: An overview of language processing (30/08/2021) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_1.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_1.pdf">pdf</a>]
+            <a name="./ch01"></a>Chapter 1: An overview of language processing (02/09/2024) [<a
+                href="https://link.springer.com/chapter/10.1007/978-3-031-57549-5_1">Springer Link</a>]
         </h2>
         <!--F 1 Cours 1-->
         <ul>
             <li>Contents: Presentation of language processing, applications, disciplines of linguistics</li>
-            <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch01.pdf">pdf</a>].
-            </li>
-            <li>Application examples:
-                <ul>
-                    <li>
-                        <a href="http://ieeexplore.ieee.org/xpl/tocresult.jsp?reload=true&amp;isnumber=6177717">Watson
-                        </a>
-                        from IBM: Question answering on <i>Jeopardy!</i>, a <a
-                            href="https://www.youtube.com/watch?v=WFR3lOm_xhE">footage
-                    </a> from the show, and an <a href="http://www.youtube.com/watch?v=3G2H3DZ8rNc">overview</a>.
-                    </li>
-                    <li>
-                        <a href="http://nlp.cs.lth.se/">Carsim</a>
-                        from LTH
-                    </li>
-                    <li>
-                        <a href="http://project.sol.lu.se/DirektProfil/">Direkt Profil</a>
-                        from Lund university
-                    </li>
-                    <li>The
-                        <a href="http://research.microsoft.com/research/pubs/view.aspx?pubid=439">Persona project</a>
-                        from
-                        <a href="http://research.microsoft.com/">Microsoft Research</a>
-                    </li>
-                    <li>A video of
-                        <a href="http://www.speech.kth.se/higgins/">Higgins</a>
-                    </li>
-                    <li>a video of
-                        <a href="http://fileadmin.cs.lth.se/cs/Personal/Pierre_Nugues/Video/ulysse.avi">Ulysse</a>.
-                    </li>
-                </ul>
-            </li>
-            <li>General resources:
-                <ul>
-                    <li>
-                        <a href="http://www.wikipedia.org/">Wikipedia</a>
-                    </li>
-                    <li>
-                        <a href="https://www.aclweb.org/anthology/">ACL anthology</a>
-                    </li>
-                    <!--<li><a href="http://clair.si.umich.edu/clair/anthology/index.cgi">ACL anthology network</a>, a site to assess research trends from ACL-related conferences. For instance: impact of papers published in
-                        <a href="http://clair.si.umich.edu/clair/anthology/rank.cgi?release_year=2009&amp;type=Paper&amp;stat=Incoming+Citations&amp;limit=1000&amp;year=1978">1978</a>,
-                        <a href="http://clair.si.umich.edu/clair/anthology/rank.cgi?release_year=2009&amp;type=Paper&amp;stat=Incoming+Citations&amp;limit=1000&amp;year=1988">1988</a>,
-                        <a href="http://clair.si.umich.edu/clair/anthology/rank.cgi?release_year=2009&amp;type=Paper&amp;stat=Incoming+Citations&amp;limit=1000&amp;year=1998">1998</a>, and
-                        <a href="http://clair.si.umich.edu/clair/anthology/rank.cgi?release_year=2009&amp;type=Paper&amp;stat=Incoming+Citations&amp;limit=1000&amp;year=2008">2008</a>.
-                    </li>-->
-                </ul>
-            </li>
-            <li>Research opportunities:
-                <ul>
-                    <li>Companies:
-                        <a href="http://research.microsoft.com/">Microsoft research</a>,
-                        <a href="http://research.google.com/">Research at Google</a>,
-                        <a href="http://www.research.ibm.com/">IBM research</a>,
-                        <a href="http://research.yahoo.com/">Yahoo Research</a>,
-                    </li>
-                    <li>Lists: <a href="http://www.hit.uib.no/corpora/">Corpora</a>, <a href="http://www.elsnet.org/">
-                        ELSNET</a>,
-                        <a href="http://listes.cines.fr/arc/ln">LN</a>
-                    </li>
-                </ul>
-            </li>
-            <li>Associations:
-                <a href="http://www.aclweb.org/">ACL</a>,
-                <a href="http://www.atala.org/">ATALA</a>,
-                <a href="http://www.gscl.org/">GSCL</a>.
+            <li>Lecture slides: [<a href="https://github.com/pnugues/edan20/blob/master/slides_2024/EDAN20_ch01.pdf">pdf</a>].
             </li>
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch02"></a>Chapter 2: Corpus processing tools (30/08/2021 and 2/09/2021) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_2.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_2.pdf">pdf</a>]
+            <a name="./ch02"></a>Chapter 2: A tour of Python (self-study) [<a
+                href="https://link.springer.com/chapter/10.1007/978-3-031-57549-5_2">Springer Link</a>]
+        </h2>
+        <h2>
+            <a href="#content">^</a>
+            <a name="./ch03"></a>Chapter 3: Corpus processing tools (02 and 05/09/2024) [<a
+                href="https://link.springer.com/chapter/10.1007/978-3-031-57549-5_2">Springer Link</a>]
         </h2>
         <!--F 1 2 Cours 1 Cours 2-->
         <ul>
-            <li>Contents:
-                <ul>
-                    <li>Regular expressions</li>
-                    <li>Automata</li>
-                    <li>An introduction to Python</li>
-                    <li>Concordances</li>
-                    <li>Approximate string matching</li>
-                </ul>
-            </li>
-            <li>Lecture slides [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch02.pdf">pdf</a>].
+            <li>Lecture slides [<a href="https://github.com/pnugues/edan20/blob/master/slides_2024/EDAN20_ch02.pdf">pdf</a>].
             </li>
             <li>Programs:
                 <ol>
@@ -213,18 +136,6 @@
                                         href="https://github.com/pnugues/Spelling-Corrector-in-Prolog">Spelling
                                     corrector in
                                     Prolog</a>.
-                            </li>
-                        </ul>
-                    </li>
-                    <li>Prolog
-                        <ul>
-                            <li>An elementary automaton in Prolog [<a
-                                    href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch02/automaton.pl">
-                                1</a>]
-                            </li>
-                            <li>Searching edits in Prolog [<a
-                                    href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch02/min_edit.pl">
-                                12</a>]
                             </li>
                         </ul>
                     </li>
@@ -302,9 +213,8 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch03"></a>Chapter 3: Encoding and annotation schemes (3/09/2020) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_3.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_3.pdf">pdf</a>]
+            <a name="./ch04"></a>Chapter 4: Encoding and annotation schemes (05/09/2025) [<a
+                href="https://link.springer.com/chapter/10.1007/978-3-031-57549-5_4">Springer Link</a>] 
         </h2>
         <!--F 2 Cours 2-->
         <ul>
@@ -343,9 +253,13 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch04"></a>Chapter 4: Topics in information theory and machine learning (7/09/2020) [<a
-                href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_4.pdf">pdf</a>] [first ed. <a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_3.pdf">pdf</a>]
+            <a name="ch05"></a>Chapter 5: Python for numerical computation (self-study) [<a
+                href="https://link.springer.com/chapter/10.1007/978-3-031-57549-5_5">Springer Link</a>] 
+        </h2>
+        <h2>
+            <a href="#content">^</a>
+            <a name="ch04"></a>Chapter 6: Topics in information theory and machine learning (1/09/2022) [<a
+                href="https://link.springer.com/chapter/10.1007/978-3-031-57549-5_6">Springer Link</a>]
         </h2>
         <!--F 2 Cours 2-->
         <ul>
@@ -396,7 +310,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch05"></a>Chapter 5: Counting words (7, 10, and 14/09/2020) [<a
+            <a name="ch05"></a>Chapter 5: Counting words (5/09/2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_5.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_4.pdf">pdf</a>]
         </h2>
@@ -505,7 +419,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch06"></a>Chapter 6: Words, parts of speech, and morphology (14/09/2020) [<a
+            <a name="ch06"></a>Chapter 6: Words, parts of speech, and morphology (8 and 15/09/2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_6.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_5.pdf">pdf</a>]
         </h2>
@@ -591,7 +505,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch07"></a>Chapter 7: Part-of-speech tagging using rules (17/09/2020) [<a
+            <a name="ch07"></a>Chapter 7: Part-of-speech tagging using rules (not taught in 2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_7.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_6.pdf">pdf</a>]
         </h2>
@@ -643,7 +557,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch08"></a>Chapter 8: Part-of-speech tagging using stochastic techniques (17/09/2020) [<a
+            <a name="ch08"></a>Chapter 8: Part-of-speech tagging using machine-learning techniques (15/09/2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_8.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_7.pdf">pdf</a>]
         </h2>
@@ -704,7 +618,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch09"></a>Chapter 9: Phrase-structure grammars in Prolog (not taught in 2020) [<a
+            <a name="ch09"></a>Chapter 9: Phrase-structure grammars in Prolog (not taught in 2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_9.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_8.pdf">pdf</a>]
         </h2>
@@ -749,7 +663,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch10"></a>Chapter 10: Partial parsing (17 and 24/09/2020) [<a
+            <a name="ch10"></a>Chapter 10: Techniques for sequence predictions (22/09/2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_10.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_9.pdf">pdf</a>]
         </h2>
@@ -760,7 +674,6 @@
                     <li>ELIZA: word spotting and pattern matching</li>
                     <li>Multiwords and named entities</li>
                     <li>Noun groups and verb groups</li>
-                    <li>Partial parsing: multiword and group detection in Prolog</li>
                     <li>Partial parsing: statistical techniques</li>
                     <li>Information extraction</li>
                     <li>Precision, recall, and
@@ -867,7 +780,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch11"></a>Chapter 11: Syntactic formalisms (24/09 and 01/10/2020) [<a
+            <a name="ch11"></a>Chapter 11: Syntactic formalisms (not taught in 2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_11.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_10.pdf">pdf</a>]
         </h2>
@@ -965,7 +878,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch12"></a>Chapter 12: Constituent parsing (not taught in 2020) [<a
+            <a name="ch12"></a>Chapter 12: Transformers (22/09/2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_12.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_11.pdf">pdf</a>]
         </h2>
@@ -973,61 +886,17 @@
         <ul>
             <li>Contents:
                 <ul>
-                    <li>Top-down and bottom-up strategies</li>
-                    <li>The shift-reduce algorithm</li>
-                    <li>Earley's algorithm</li>
-                    <li>Statistical parsing and PCFG</li>
+                    <li>Contextual embeddings</li>
+                    <li>Attention</li>
+                    <li>Masked language models</li>
                 </ul>
             </li>
             <li>Lecture slides: [<a href="https://github.com/pnugues/ilppp/blob/master/slides/EDAN20_ch12.pdf">pdf</a>]
             </li>
-            <li>Prolog programs:
-                <ul>
-                    <li>A shift-reduce parser [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/shift-reduce.pl">1</a>]
-                    </li>
-                    <li>Earley's parser [<a
-                            href="http://fileadmin.cs.lth.se/cs/Education/EDA171/Programs/ch11/earley.pl">2</a>]
-                    </li>
-                </ul>
-            </li>
-            <li>Corpus resources:
-                <ul>
-                    <li>The
-                        <a href="http://www.grsampson.net/Resources.html">Susanne corpus</a>, a free treebank for
-                        English
-                    </li>
-                    <li>A
-                        <a href="http://www.llf.cnrs.fr/fr/Gens/Abeille/French-Treebank-fr.php">French treebank</a>
-                        from Universit&eacute; Paris VII (Available with a license)
-                    </li>
-                </ul>
-            </li>
-            <li>Parsers resources:
-                <ul>
-                    <li>The Charniak parser (From
-                        <a href="http://www.cs.brown.edu/%7Eec/#software">Eugene Charniak</a>'s web page)
-                    </li>
-                    <li>The Collins parser (<a href="http://www.cs.columbia.edu/~mcollins/">Michael Collins</a>' web
-                        page)
-                    </li>
-
-                </ul>
-            </li>
-            <li>On-line parsers:
-                <ul>
-                    <li>The
-                        <a href="http://nlp.cs.berkeley.edu/software.shtml">Berkeley parser</a>
-                    </li>
-                    <li>
-                        <a href="http://nlp.stanford.edu:8080/parser/">Stanford parser</a>
-                    </li>
-                </ul>
-            </li>
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch13"></a>Chapter 13: Dependency parsing (01/10/2020) [<a
+            <a name="ch13"></a>Chapter 13: Dependency parsing (22 and 29/09/2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_13.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_11.pdf">pdf</a>]
         </h2>
@@ -1132,7 +1001,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch14"></a>Chapter 14: Semantics and predicate logic (08/10/2020) [<a
+            <a name="ch14"></a>Chapter 14: Semantics and predicate logic (29/09/2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_14.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_12.pdf">pdf</a>]
         </h2>
@@ -1201,7 +1070,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch15"></a>Chapter 15: Lexical semantics (08/10/2020) [<a
+            <a name="ch15"></a>Chapter 15: Lexical semantics (6/10/2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_15.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_13.pdf">pdf</a>]
         </h2>
@@ -1319,7 +1188,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch16"></a>Chapter 16: Discourse (15/10/2020) [<a
+            <a name="ch16"></a>Chapter 16: Discourse (6/10/2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_16.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_14.pdf">pdf</a>]
         </h2>
@@ -1406,7 +1275,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch17"></a>Chapter 17: Dialogue (15/10/2020) [<a
+            <a name="ch17"></a>Chapter 17: Dialogue (13/10/2022) [<a
                 href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0_17.pdf">pdf</a>] [first ed. <a
                 href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9_15.pdf">pdf</a>]
         </h2>
@@ -1473,7 +1342,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch_speech_synth"></a>Complement: Speech synthesis (15/10/2020)
+            <a name="ch_speech_synth"></a>Complement: Speech synthesis (13/10/2022)
         </h2>
         <!-- F 14 Cours 10-->
         <ul>
@@ -1520,7 +1389,7 @@
         </ul>
         <h2>
             <a href="#content">^</a>
-            <a name="ch_speech_rec"></a>Complement: Speech recognition (15/10/2020)
+            <a name="ch_speech_rec"></a>Complement: Speech recognition (13/10/2022)
         </h2>
         <!-- F 14 Cours 10-->
         <ul>
