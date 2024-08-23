@@ -5,7 +5,6 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>News and Organization</title>
-<title>EDAN20 – Language Technology</title>
     </head>
     <body>
         <!--<h1>News and Organization</h1>-->
@@ -80,63 +79,21 @@
             </tr>
         </table>
         <h2>Course Description</h2>
-<!--<h1>EDAN20 – Language Technology</h1>-->
         <p>
-            The course introduces theories <b>This page is provisional and techniques of language technology and natural language processing. It
+            The course introduces theories and techniques of language technology and natural language processing. It
             attempts to cover the whole field from speech recognition and synthesis to semantics and dialogue.
-is being constantly updated</b>
         </p>
         <p>It focuses on industrial or laboratory applications, such as document retrieval on the internet, information
-            extraction, conversational agents, and verbal interaction in virtual worlds. Fundamental algorithms <p>The first lecture will be
+            extraction, conversational agents, and verbal interaction in virtual worlds. Fundamental algorithms  will be
             described using Python or Perl's regular expressions.
-be held on September 2nd, 2024, 13-15.
         </p>
         <h2>Schedule</h2>
-        <p>The course extends over the LP1 "<a href="http://www.student.has three pages:</p>
-        <ol>
-            <li>The official course page,
-                <a href="https://cs.lth.se/schema/">study period</a>".
-se/edan20/">https://cs.lth.se/edan20/</a>;
-            </li>
-            <li>Canvas, used mainly to hand in assignments and manage communication with the participants;</li>
-            <li>GitHub, where I store the labs descriptions <a href="https://github.com/pnugues/edan20">
-                https://github.com/pnugues/edan20
-            </a> and
-                the programs used in the course
-                <a href="https://github.com/pnugues/pnlp">https://github.com/pnugues/pnlp</a>.
-            </li>
-        </ol>
-        <p>The complete schedule for September/October 2024 is available here: <a
-                href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ9560YfQQ15Z5774Y0Zy7007335Y67Q565.html">
-            https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html</a>. Use the
-            <i>course schedule</i>
-            or <i>lässchema</i> links and enter EDAN20 to view the course schedule.
+        <p>The course extends over the LP1 "<a href="http://www.student.se/schema/">study period</a>".
         </p>
-        <p>Read <h2>Course Delivery</h2>
-        <p>This year, all the lecture classes or labs will be physical. We will not use Zoom (normaly).
-        </p>
-        <h2>Course Registration</h2>
-        <p>
-            You should formally register in the LADOK system, preferably before the course schedule starts.
-            You have the instructions here in <a
-                href="https://www.student.lth.se/kurs-och-programinformation/kursanmaelan-och-registrering/kursregistrering/">
-            Swedish
-        </a> and
-            in <a
-                href="https://www.student.lth.se/english/masters-students/register-for-courses/">
-            English</a>. If you fail to register, the department might register you
-            anyway, if you attended the first lecture and meet all the requirements.
-        </p>
-        <!--    <p>Due to a meeting in Gothenburg on September 13, 2011, the class is cancelled for this date (13/09/2011). It will be replaced by a lecture on September 23, room E:B.
-                </p>-->
-        <h2>Lab Registration</h2>
-        <p>
-            You have to register to a laboratory group. Please do it here:
+        <p>Read here:
             <a
                     href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ6560YfQQ15Z5771Y0Zy7007335Y67Q565.html">
                 https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html
-href="https://sam.cs.lth.se/LabsSelectSession?occasionId=884">
-                https://sam.cs.lth.se/LabsSelectSession?occasionId=884
             </a>
         </p>
         <!--
@@ -224,10 +181,7 @@ href="https://sam.cs.lth.se/LabsSelectSession?occasionId=884">
             </tr>
             <tr>
                 <td valign="top">Wed. 10:15-12:00</td>
-                <td valign="top">Group 1 <p>We will also use Discord for the lab sessions.
-        </p>
-        <h2>Objectives</h2>
-        <p>The course introduces theories and 2</td>
+                <td valign="top">Group 1 and 2</td>
                 <td valign="top">Group 1</td>
                 <td valign="top">Group 1</td>
                 <td valign="top">Group 1</td>
@@ -289,12 +243,6 @@ href="https://sam.cs.lth.se/LabsSelectSession?occasionId=884">
         </table>
         -->
         <h2>Personnel</h2>
-techniques of natural language processing and language technology. 
-        It focuses on industrial or laboratory applications, such as document retrieval on the Internet, information
-            extraction, or conversational agents. Fundamental algorithms will be
-            described using Python.
-        </p>
-        <h2>Course contents</h2>
         <ul>
             <li><a href="mailto:Pierre.Nugues@cs.lth.se">Pierre Nugues</a>, course responsible, tfn: 046-222 96 40, rum:
                 <a href="http://fileadmin.cs.lth.se/cs/Bilder/Rum/E4134A.gif">E:4134a</a>,<a
@@ -314,28 +262,11 @@ techniques of natural language processing and language technology.
                 rum: <a
                         href="http://fileadmin.cs.lth.se/cs/Bilder/Rum/E2179.gif">E:2179</a>.
             </li>
-        <li>An Overview of Language Processing</li>
-<li>Corpus Processing Tools</li>
-<li>Encoding and Annotation Schemes</li>
-<li>Topics in Information Theory and Machine Learning</li>
-<li>Logistic Regression and Neural Networks</li>
-<li>Counting and Indexing Words</li>
-<li>Word Sequences</li>
-<li>Dense Vector Representations</li>
-<li>Words, Parts of Speech, and Morphology</li>
-<li>Subword Segmentation</li>
-<li>Part-of-Speech and Sequence Annotation</li>
-<li>Self-Attention and Transformers</li>
-<li>Pretraining an Encoder: The BERT Language Model</li>
-<li>Sequence-to-Sequence Architectures: Encoder-Decoders and Decoders</li>
         </ul>
         <h2>Passing the Course</h2>
         <p>To pass the course, you must carry out and validate all the programming assignments and hand in all the
-            individual lab reports. You <h2>Textbook</h2>
-        <p>As textbook, I will then obtain a mark of 3. You can sit the optional examination to improve
+            individual lab reports. You  will then obtain a mark of 3. You can sit the optional examination to improve
             your mark to a 4 or a 5.
-use:<i>Python for Natural Language Processing</i>, 2024, Springer. It is
-            available from Springer link: <a href="https://link.springer.com/book/10.1007/978-3-031-57549-5">https://link.springer.com/book/10.1007/978-3-031-57549-5</a>].
         </p>
         <table cellspacing="5">
             <tbody>
@@ -370,12 +301,10 @@ use:<i>Python for Natural Language Processing</i>, 2024, Springer. It is
             </tbody>
         </table>
         <h2>Course Literature</h2>
-        <p>The book of <p>You can download the course is
+        <p>The book of the course is
             <em>Language Processing with Perl and Prolog</em>
-            by Pierre Nugues. This book is
-            PDF or read the on-line chapters from the catalogue of Lund University Libraries: <a href="http://www.springer.com/computer/ai/book/978-3-642-41463-3">published by Springer</a>
+            by Pierre Nugues. This book is <a href="http://www.springer.com/computer/ai/book/978-3-642-41463-3">published by Springer</a>
             and has a companion <a href="http://ilppp.cs.lth.se/">web site</a>.
-href="https://lubcat.lub.lu.se">https://lubcat.lub.lu.se/</a>
         </p>
         <p>I started to write a 3rd edition with Python instead of Perl. Unfortunately, on August 15, 2016,
             I had a work accident at LTH: Workers demolished the window of my office
@@ -383,26 +312,18 @@ href="https://lubcat.lub.lu.se">https://lubcat.lub.lu.se/</a>
             Since then, I have a very debilitating tinnitus (ringing hears).
             This new edition will be considerably delayed (if I can ever publish it).
             I will nonetheless hand out a draft of the chapters I have written.
-<p>
-            <strong>Ges:</strong>
-            Läsperiod HT1
         </p>
         <p>The first edition is available online for free in PDF format to students and staff at Lund University. You
             can download it from this location
             <a href="http://dx.doi.org/10.1007/3-540-34336-9">http://dx.doi.org/10.1007/3-540-34336-9</a>
             or buy a paper copy for €25.
-<p>
-            <strong>Kontaktperson:</strong>
-            Pierre Nugues
         </p>
         <p>Other references of interest include:</p>
         <ul>
             <li>Steven Bird, Ewan Klein, and Edward Loper, <em>Natural Language Processing with Python---Analyzing Text
                 with the Natural Language Toolkit</em>, O'Reilly, 2009. An on-line version of this book as well as many
                 programs and corpora are available from the
-                <p>
-            <strong>Förkunskapskrav:</strong>
-            Se <a href="http://www.nltk.org/">http://www.nltk.org/</a>
+                <a href="http://www.nltk.org/">http://www.nltk.org/</a>
                 site.
             </li>
             <li>Christopher D. Manning and Hinrich Schütze, <em>Foundations of Statistical Natural Language
@@ -412,14 +333,5 @@ href="https://lubcat.lub.lu.se">https://lubcat.lub.lu.se/</a>
                 2008.
             </li>
         </ul>
-href="https://kurser.lth.se/kursplaner/19_20/EDAN20.html">kursplanen</a>.
-        </p>
-        <p>
-            <strong>OBS! Kursen ges på engelska</strong>
-        </p>
-        <p>
-            <strong>Kurswebb:</strong>
-            <a href="http://cs.lth.se/edan20">http://cs.lth.se/edan20</a>
-        </p>
     </body>
 </html>
