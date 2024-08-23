@@ -3,122 +3,112 @@
         "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>EDAN20 – Language Technology</title>
-    </head>
-    <body>
-        <!--<h1>EDAN20 – Language Technology</h1>-->
-        <p>
-            <b>This page is provisional is is being constantly updated</b>
-        </p>
-        <p>The first lecture will be held on August 30, 2021, 13-15.
-        </p>
-        <p>The complete schedule for August/September/October 2021 is available here: <a
-                href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ6560YfQQ15Z5771Y0Zy7007335Y67Q565.html">
-            https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html</a>. Use the
-            <i>course schedule</i>
-            or <i>lässchema</i> links and enter EDAN20 to view the course schedule.
-        </p>
-        <h2>Course Delivery</h2>
-        <p>This year, we will have no physical lecture classes or labs. We will be using Zoom
-            for the whole course. Please install it before the
-            the lecture starts.
-        </p>
-        <h2>Course Registration</h2>
-        <p>
-            You need to attend the first lecture to be sure to keep your seat (or email the course leader before
-            the course starts). You should formally register in the LADOK system, preferably before the course starts.
-            You have the instructions here in <a
-                href="https://www.student.lth.se/kurs-och-programinformation/kursanmaelan-och-registrering/kursregistrering/">
-            Swedish
-        </a> and
-            in <a
-                href="https://www.student.lth.se/english/masters-students/register-for-courses/">
-            English</a>. If you fail to register, the department might register you
-            anyway, if you attended the first lecture.
-        </p>
-        <!--		<p>Due to a meeting in Gothenburg on September 13, 2011, the class is cancelled for this date (13/09/2011). It will be replaced by a lecture on September 23, room E:B.
-                </p>-->
-        <h2>Lab Registration</h2>
-        <p>
-            You have to register to a laboratory group. Please do it here:
-            <a
-                    href="https://sam.cs.lth.se/LabsSelectSession?occasionId=712">
-                https://sam.cs.lth.se/LabsSelectSession?occasionId=712
-            </a>
-        </p>
-        <p>These computer rooms are virtual as we will use Discord for the lab sessions.
-        </p>
-        <h2>Objectives</h2>
-        <p>The course introduces theories and techniques of natural language processing and language technology. It
-            attempts to cover the whole field from speech recognition and synthesis to semantics and dialogue.
-        </p>
-        <p>It focuses on industrial or laboratory applications, such as document retrieval on the Internet, information
-            extraction, conversational agents, and verbal interaction in virtual worlds. Fundamental algorithms will be
-            described using Python.
-        </p>
-        <h2>Course contents</h2>
-        <ul>
-            <li>An overview of language processing: presentation of language processing, applications, disciplines of
-                linguistic, examples
-            </li>
-            <li>Corpus and word processing: regular expressions, automata, an introduction to Python, concordances,
-                tokenization, counting words, collocations
-            </li>
-            <li>Morphology and part-of-speech tagging: morphology, transducers, part-of-speech tagging,</li>
-            <li>Prolog to write phrase-structure grammars: constituents, trees, using Prolog to do natural language
-                analysis, DCG rules, variables, getting the syntactic structure, compositional analysis to get the
-                semantic structure.
-            </li>
-            <li>Syntactic formalisms: constituency and dependency, chart parsing, statistical parsing, functions,
-                dependency parsing.
-            </li>
-            <li>Semantics: formal semantics, lambda-calculus, compositionality: nouns, verbs, determiners, words and
-                meaning, lexical semantics, case grammars, semantic grammars
-            </li>
-            <li>Discourse and dialogue: discourse and rhetoric, anaphora, structure, RST, dialogue: automata, pairs,
-                speech acts, multimodality.
-            </li>
-            <li>Overview of speech synthesis and speech recognition</li>
-        </ul>
-        <h2>Textbook</h2>
-        <p>As textbook, I will use:<i>Language processing with Perl and Prolog</i>, 2nd edition, 2014, Springer. It is
-            available from Springer link: [<a href="http://link.springer.com/book/10.1007/978-3-642-41464-0">html</a>] [<a
-                    href="http://link.springer.com/content/pdf/10.1007/978-3-642-41464-0.pdf">pdf</a>], or in a paper
-            version
-            [<a href="http://www.springer.com/computer/ai/book/978-3-642-41463-3">html</a>].
-        </p>
-        <p>I started to write a 3rd edition with Python instead of Perl. Unfortunately, on August 15, 2016,
-            I had a work accident at LTH: Workers demolished the window of my office
-            while I was working and without warning me.
-            Since then, I have a very debilitating tinnitus (ringing hears).
-            This new edition will be considerably delayed (if I can ever publish it).
-            I will nonetheless hand out a draft of the chapters I have written.
-        </p>
-        <p>Students can also use the first edition from 2006,<i>An Introduction to Language Processing with Perl and
-            Prolog</i>. The electronic version is available for free: [<a
-                href="http://link.springer.com/content/pdf/10.1007/3-540-34336-9.pdf">pdf</a>]. You need to be logged
-            from Lund University accounts to have a free copy. The paper version of the first edition costs 25 euros:
-            [<a href="http://link.springer.com/book/10.1007/3-540-34336-9">html</a>].
-        </p>
-        <p>
-            <strong>Ges:</strong>
-            Läsperiod HT1
-        </p>
-        <p>
-            <strong>Kontaktperson:</strong>
-            Pierre Nugues
-        </p>
-        <p>
-            <strong>Förkunskapskrav:</strong>
-            Se <a href="https://kurser.lth.se/kursplaner/19_20/EDAN20.html">kursplanen</a>.
-        </p>
-        <p>
-            <strong>OBS! Kursen ges på engelska</strong>
-        </p>
-        <p>
-            <strong>Kurswebb:</strong>
-            <a href="http://cs.lth.se/edan20">http://cs.lth.se/edan20</a>
-        </p>
-    </body>
+<head>
+    <title>EDAN20 – Language Technology</title>
+</head>
+<body>
+<!--<h1>EDAN20 – Language Technology</h1>-->
+<p>
+    <b>This page is provisional and is being constantly updated</b>
+</p>
+<p>The first lecture will be held on September 2nd, 2024, 13-15.
+</p>
+<p>The course has three pages:</p>
+<ol>
+    <li>The official course page,
+        <a href="https://cs.lth.se/edan20/">https://cs.lth.se/edan20/</a>;
+    </li>
+    <li>Canvas, used mainly to hand in assignments and manage communication with the participants;</li>
+    <li>GitHub, where I store the labs descriptions <a href="https://github.com/pnugues/edan20">
+        https://github.com/pnugues/edan20
+    </a> and
+        the programs used in the course
+        <a href="https://github.com/pnugues/pnlp">https://github.com/pnugues/pnlp</a>.
+    </li>
+</ol>
+<p>The complete schedule for September/October 2024 is available here: <a
+        href="https://cloud.timeedit.net/lu/web/lth1/ri1X50gQ9560YfQQ15Z5774Y0Zy7007335Y67Q565.html">
+    https://cloud.timeedit.net/lu/web/lth1/ri1Q5006.html</a>. Use the
+    <i>course schedule</i>
+    or <i>lässchema</i> links and enter EDAN20 to view the course schedule.
+</p>
+<h2>Course Delivery</h2>
+<p>This year, all the lecture classes or labs will be physical. We will not use Zoom (normaly).
+</p>
+<h2>Course Registration</h2>
+<p>
+    You should formally register in the LADOK system, preferably before the course starts.
+    You have the instructions here in <a
+        href="https://www.student.lth.se/kurs-och-programinformation/kursanmaelan-och-registrering/kursregistrering/">
+    Swedish
+</a> and
+    in <a
+        href="https://www.student.lth.se/english/masters-students/register-for-courses/">
+    English</a>. If you fail to register, the department might register you
+    anyway, if you attended the first lecture and meet all the requirements.
+</p>
+<!--    <p>Due to a meeting in Gothenburg on September 13, 2011, the class is cancelled for this date (13/09/2011). It will be replaced by a lecture on September 23, room E:B.
+        </p>-->
+<h2>Lab Registration</h2>
+<p>
+    You have to register to a laboratory group. Please do it here:
+    <a
+            href="https://sam.cs.lth.se/LabsSelectSession?occasionId=884">
+        https://sam.cs.lth.se/LabsSelectSession?occasionId=884
+    </a>
+</p>
+<p>We will also use Discord for the lab sessions.
+</p>
+<h2>Objectives</h2>
+<p>The course introduces theories and techniques of natural language processing and language technology.
+    It focuses on industrial or laboratory applications, such as document retrieval on the Internet, information
+    extraction, or conversational agents. Fundamental algorithms will be
+    described using Python.
+</p>
+<h2>Course contents</h2>
+<ul>
+    <li>An Overview of Language Processing</li>
+    <li>Corpus Processing Tools</li>
+    <li>Encoding and Annotation Schemes</li>
+    <li>Topics in Information Theory and Machine Learning</li>
+    <li>Logistic Regression and Neural Networks</li>
+    <li>Counting and Indexing Words</li>
+    <li>Word Sequences</li>
+    <li>Dense Vector Representations</li>
+    <li>Words, Parts of Speech, and Morphology</li>
+    <li>Subword Segmentation</li>
+    <li>Part-of-Speech and Sequence Annotation</li>
+    <li>Self-Attention and Transformers</li>
+    <li>Pretraining an Encoder: The BERT Language Model</li>
+    <li>Sequence-to-Sequence Architectures: Encoder-Decoders and Decoders</li>
+</ul>
+<h2>Textbook</h2>
+<p>As textbook, I will use: <i>Python for Natural Language Processing</i>, 2024, Springer. It is
+    available from Springer Link: <a href="https://link.springer.com/book/10.1007/978-3-031-57549-5">https://link.springer.com/book/10.1007/978-3-031-57549-5</a>.
+</p>
+<p>You can access the book from the catalogue of Lund University Libraries: <a
+        href="https://lubcat.lub.lu.se">https://lubcat.lub.lu.se/</a>. Once connected, you can download the PDF or read
+    the chapters online.
+</p>
+<h2>Administrative details</h2>
+<p>
+    <strong>Ges:</strong>
+    Läsperiod HT1
+</p>
+<p>
+    <strong>Kontaktperson:</strong>
+    Pierre Nugues
+</p>
+<p>
+    <strong>Förkunskapskrav:</strong>
+    Se <a href="https://kurser.lth.se/kursplaner/19_20/EDAN20.html">kursplanen</a>.
+</p>
+<p>
+    <strong>OBS! Kursen ges på engelska</strong>
+</p>
+<p>
+    <strong>Kurswebb:</strong>
+    <a href="http://cs.lth.se/edan20">http://cs.lth.se/edan20</a>
+</p>
+</body>
 </html>
