@@ -1,0 +1,1 @@
+For the 6th lab, please use the notebook from the textbook: https://github.com/pnugues/pnlp/blob/main/notebooks/17_02_translation_transformer_shared_embs.ipynb
